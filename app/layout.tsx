@@ -4,6 +4,8 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import DisclaimerBanner from '@/components/DisclaimerBanner';
 import StickyMobileActionBar from '@/components/StickyMobileActionBar';
+import { getDictionary } from '@/lib/i18n/dictionaries';
+import { DictionaryProvider } from '@/lib/i18n/DictionaryContext';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://chinamedscheck.com'),
@@ -54,15 +56,20 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const enDict = getDictionary('en');
+
   return (
     <html lang="en" className="scroll-smooth">
       <body className="min-h-screen flex flex-col bg-white text-slate-900 antialiased selection:bg-slate-900 selection:text-white pb-16 md:pb-0">
-        <DisclaimerBanner variant="top" />
-        <Navbar />
-        <main className="flex-1">{children}</main>
-        <Footer />
-        <StickyMobileActionBar />
+        <DictionaryProvider locale="en" dict={enDict}>
+          <DisclaimerBanner variant="top" />
+          <Navbar />
+          <main className="flex-1">{children}</main>
+          <Footer />
+          <StickyMobileActionBar />
+        </DictionaryProvider>
       </body>
     </html>
   );
 }
+

@@ -13,35 +13,165 @@
         "stepTitle": "Deplane & Health Quarantine Screening",
         "instruction": "Follow international arrival signs down the skybridge. Pass through automated thermal imaging fever scanners and body temperature gates. No special drug check occurs at this first gate.",
         "locationNote": "2F International Arrival Concourse",
-        "customsOfficerTip": "Keep your passport and boarding pass easily accessible."
+        "customsOfficerTip": "Keep your passport and boarding pass easily accessible.",
+        "i18n": {
+          "ja": {
+            "stepTitle": "降機および検疫体温スクリーニング",
+            "instruction": "案内表示に従ってボーディングブリッジを進みます。自動熱画像サーモグラフィーゲートを通過します。この第一ゲートでは特別な薬品検査は行われません。",
+            "locationNote": "2階 国際線到着コンコース",
+            "customsOfficerTip": "パスポートと搭乗券をすぐ取り出せるようお手元にご用意ください。"
+          },
+          "ko": {
+            "stepTitle": "항공기 하기 및 검역 체온 스크리닝",
+            "instruction": "국제선 입국 표지판을 따라 이동합니다. 자동 열화상 체온 측정 게이트를 통과합니다. 첫 게이트에서는 별도의 약품 검사가 진행되지 않습니다.",
+            "locationNote": "2층 국제선 입국 콩코스",
+            "customsOfficerTip": "여권과 탑승권을 쉽게 꺼낼 수 있도록 손에 소지하세요."
+          },
+          "ru": {
+            "stepTitle": "Выход из самолета и санитарно-карантинный контроль",
+            "instruction": "Следуйте по указателям международного прибытия. Пройдите через рамки тепловизионного контроля температуры. На этом этапе проверка лекарств не проводится.",
+            "locationNote": "2-й этаж, зал прилета международных рейсов",
+            "customsOfficerTip": "Держите паспорт и посадочный талон наготове."
+          },
+          "vi": {
+            "stepTitle": "Rời máy bay và kiểm dịch y tế",
+            "instruction": "Đi theo biển chỉ dẫn ga đến quốc tế. Đi qua cổng quét thân nhiệt tự động bằng hình ảnh hồng ngoại. Chưa có kiểm tra thuốc tại cửa này.",
+            "locationNote": "Tầng 2, sảnh đón khách quốc tế",
+            "customsOfficerTip": "Chuẩn bị sẵn hộ chiếu và thẻ lên máy bay trên tay."
+          }
+        }
       },
       {
         "stepNumber": 2,
         "stepTitle": "Immigration & Border Inspection (NIA)",
         "instruction": "Clear National Immigration Administration (国家移民管理局) passport control. Foreign travelers scan fingerprints at automated biometric kiosks before queued border officer booths.",
         "locationNote": "Immigration Inspection Hall",
-        "customsOfficerTip": "Immigration checks legal entry visas; they do NOT inspect medications. Do not show medications here."
+        "customsOfficerTip": "Immigration checks legal entry visas; they do NOT inspect medications. Do not show medications here.",
+        "i18n": {
+          "ja": {
+            "stepTitle": "出入国審査・入国審査（NIA）",
+            "instruction": "国家移民管理局のパスポートコントロールを通過します。外国籍旅客は審査官ブースの前に設置された自動生体認証キオスクで指紋採取を行います。",
+            "locationNote": "入国審査ホール",
+            "customsOfficerTip": "入国審査官はビザと滞在資格を確認する機関です。医薬品の提示はここでは不要です。"
+          },
+          "ko": {
+            "stepTitle": "출입국 심사 및 입국 심사(NIA)",
+            "instruction": "국가이민관리국(NIA) 여권 심사를 통과합니다. 외국인 여행객은 유인 심사대 앞 자동 키오스크에서 지문을 먼저 등록해야 합니다.",
+            "locationNote": "입국 심사 홀",
+            "customsOfficerTip": "입국심사는 비자 유효성을 확인하는 곳이며 약품을 검사하지 않습니다. 여기서는 약을 꺼내지 마세요."
+          },
+          "ru": {
+            "stepTitle": "Паспортный контроль и иммиграционная служба",
+            "instruction": "Пройдите контроль Государственного управления по делам иммиграции КНР. Иностранцы сканируют отпечатки пальцев в автоматических киосках перед кабинками офицеров.",
+            "locationNote": "Зал иммиграционного контроля",
+            "customsOfficerTip": "Здесь проверяют только визы, лекарства здесь предъявлять не требуется."
+          },
+          "vi": {
+            "stepTitle": "Kiểm tra xuất nhập cảnh (NIA)",
+            "instruction": "Làm thủ tục tại quầy của Cục Quản lý Nhập cư Quốc gia (NIA). Hành khách nước ngoài quét vân tay tại quầy sinh trắc học tự động trước khi vào bốt kiểm tra.",
+            "locationNote": "Hội trường kiểm tra nhập cảnh",
+            "customsOfficerTip": "Cán bộ nhập cảnh chỉ kiểm tra thị thực, không kiểm tra thuốc. Không xuất trình thuốc tại đây."
+          }
+        }
       },
       {
         "stepNumber": 3,
         "stepTitle": "Baggage Claim & Pre-Screen Seal Inspection",
         "instruction": "Proceed downstairs to the baggage carousels. When retrieving checked luggage, inspect your suitcase handles. If your bag has a yellow electronic Customs Lock (海关电子锁) or yellow warning tape, it has been flagged by CT scanner for mandatory physical inspection.",
         "locationNote": "1F Baggage Reclaim Hall (Carousels 21-36)",
-        "customsOfficerTip": "NEVER attempt to cut, damage, or remove the yellow Customs electronic seal. Damaging a customs seal constitutes a separate administrative and criminal offense."
+        "customsOfficerTip": "NEVER attempt to cut, damage, or remove the yellow Customs electronic seal. Damaging a customs seal constitutes a separate administrative and criminal offense.",
+        "i18n": {
+          "ja": {
+            "stepTitle": "手荷物受取と黄色い電子税関ロックの確認",
+            "instruction": "1階のターンテーブルへ進み預け入れ手荷物を回収します。荷物の持ち手を確認し、黄色い「海关电子锁（税関電子ロック）」や警告テープが付いている場合、CT検査で指定された精密検査対象です。",
+            "locationNote": "1階 手荷物受取場（ターンテーブル 21-36）",
+            "customsOfficerTip": "黄色い税関ロックを絶対に自力で切断・破損・取り外さないでください。封印破損は重大な違法行為となります。"
+          },
+          "ko": {
+            "stepTitle": "수하물 수취 및 황색 전자 자물쇠 확인",
+            "instruction": "1층 수하물 컨베이어 벨트로 내려가 짐을 찾습니다. 가방 손잡이에 황색 '세관 전자 자물쇠(海关电子锁)' 또는 경고 테이프가 부착되어 있다면 정밀 검사 대상입니다.",
+            "locationNote": "1층 수하물 수취장 (캐러셀 21-36)",
+            "customsOfficerTip": "황색 세관 자물쇠를 강제로 절단, 훼손하거나 제거하지 마십시오. 봉인 훼손은 별도의 형사·행정 처벌 대상입니다."
+          },
+          "ru": {
+            "stepTitle": "Получение багажа и проверка желтых электронных пломб",
+            "instruction": "Спуститесь к багажным лентам. Осмотрите ручки чемоданов: если на них висит желтый электронный замок или контрольная лента, багаж отобран для обязательного физического досмотра.",
+            "locationNote": "1-й этаж, зал выдачи багажа (ленты 21-36)",
+            "customsOfficerTip": "Никогда не пытайтесь срезать или сломать желтый замок — это является отдельным правонарушением."
+          },
+          "vi": {
+            "stepTitle": "Nhận hành lý và kiểm tra khóa niêm phong hải quan",
+            "instruction": "Xuống tầng 1 nhận hành lý. Kiểm tra tay cầm vali: nếu thấy gắn 'Khóa điện tử hải quan màu vàng' (海关电子锁), hành lý đã bị quét CT đánh dấu kiểm tra trực tiếp.",
+            "locationNote": "Tầng 1, sảnh nhận hành lý (băng chuyền 21-36)",
+            "customsOfficerTip": "TUYỆT ĐỐI không cắt, phá hoặc gỡ khóa niêm phong màu vàng. Hành vi phá niêm phong hải quan bị xử lý hình sự."
+          }
+        }
       },
       {
         "stepNumber": 4,
         "stepTitle": "Dual-Channel Customs Inspection (Red vs Green)",
         "instruction": "Walk towards the exit. The corridor splits clearly: Right lane is Red Channel (申报通道 - Goods to Declare); Center/Left lanes are Green Channel (无申报通道 - Nothing to Declare).",
         "locationNote": "Customs Exit Portal, 1F International Arrival",
-        "customsOfficerTip": "If carrying Category 1 or 2 Psychotropics (Concerta, Xanax), Precursors (Sudafed >2 packs), or if your bag received a yellow seal, walk directly into the Red Channel desk."
+        "customsOfficerTip": "If carrying Category 1 or 2 Psychotropics (Concerta, Xanax), Precursors (Sudafed >2 packs), or if your bag received a yellow seal, walk directly into the Red Channel desk.",
+        "i18n": {
+          "ja": {
+            "stepTitle": "二色税関通路の選択（赤色申告 vs 緑色無申告）",
+            "instruction": "出口へ進むと通路が左右に分かれます。右側は赤色通路（申报通道 / Goods to Declare）、中央および左側は緑色通路（无申报通道 / Nothing to Declare）です。",
+            "locationNote": "1階 国際線到着ロビー手前 税関出口ゲート",
+            "customsOfficerTip": "第1類・第2類向精神薬（コンサータ、ソラナックス等）をお持ちの場合、または黄色ロックが付いている場合は、必ず右側の赤色通路へ進んでください。"
+          },
+          "ko": {
+            "stepTitle": "세관 통로 선택 (적색 신고 vs 녹색 통과)",
+            "instruction": "출구 방향으로 이동하면 통로가 분기됩니다. 우측은 적색 통로(申报通道), 중앙 및 좌측은 녹색 통로(无申报通道)입니다.",
+            "locationNote": "1층 국제선 입국 세관 출구 포털",
+            "customsOfficerTip": "향정 1/2류(콘서타, 자낙스 등)를 소지하거나 가방에 황색 자물쇠가 부착된 경우 반드시 우측 적색 통로 창구로 직행하세요."
+          },
+          "ru": {
+            "stepTitle": "Выбор таможенного коридора (Красный или Зеленый)",
+            "instruction": "Идите к выходу. Проход разделяется: справа — Красный коридор (товары, подлежащие декларированию), по центру и слева — Зеленый коридор.",
+            "locationNote": "Выходная зона таможни, 1-й этаж прибытия",
+            "customsOfficerTip": "Если вы везете психотропные вещества (Концерта, Ксанакс) или чемодан опломбирован, идите строго в Красный коридор."
+          },
+          "vi": {
+            "stepTitle": "Lựa chọn luồng hải quan (Luồng Đỏ vs Luồng Xanh)",
+            "instruction": "Đi về phía cửa ra. Lối đi phân chia rõ ràng: Bên phải là Luồng Đỏ (申报通道 - Hàng hóa phải khai báo); ở giữa và bên trái là Luồng Xanh (无申报通道 - Không có hàng khai báo).",
+            "locationNote": "Cổng kiểm soát hải quan, tầng 1 đến quốc tế",
+            "customsOfficerTip": "Nếu mang thuốc tâm thần loại 1 hoặc 2 (Concerta, Xanax) hoặc vali bị khóa vàng, hãy đi thẳng vào quầy Luồng Đỏ."
+          }
+        }
       },
       {
         "stepNumber": 5,
         "stepTitle": "Red Channel Declaration Desk Procedure",
         "instruction": "Approach the manned customs desk. Hand over your passport, physical doctor prescription, and your completed bilingual declaration form. Place bags on the inspection conveyor when directed.",
         "locationNote": "Customs Duty Officer Station (Manned 24/7)",
-        "customsOfficerTip": "State politely: 'I am voluntarily declaring personal prescription medication under 15 days supply, complying with GACC Decree 43.' Officers will verify the patient name against your passport and record the entry."
+        "customsOfficerTip": "State politely: 'I am voluntarily declaring personal prescription medication under 15 days supply, complying with GACC Decree 43.' Officers will verify the patient name against your passport and record the entry.",
+        "i18n": {
+          "ja": {
+            "stepTitle": "赤色申告カウンターでの検査と手続き",
+            "instruction": "有人の税関カウンターへ進み、パスポート、医師の原本処方箋、当サイトで出力した二言語申告票を提示します。指示に従い手荷物をX線コンベアに乗せます。",
+            "locationNote": "税关当直オフィサーデスク（24時間365日常駐）",
+            "customsOfficerTip": "「個人自用として15日以内の処方薬を正規申告します」と伝えてください。税関官がパスポートと処方箋の名義を照合し通関を記録します。"
+          },
+          "ko": {
+            "stepTitle": "적색 통로 세관 데스크 정식 신고 절차",
+            "instruction": "세관원 창구로 이동하여 여권, 의사 처방전 원본, 당 사이트에서 생성한 이중언어 신고서를 제출합니다. 안내에 따라 짐을 검사대에 올립니다.",
+            "locationNote": "세관 당직 심사대 (연중무휴 24시간 근무)",
+            "customsOfficerTip": "'개인 치료 목적의 15일 이내 처방약을 규정에 따라 자진 신고합니다'라고 정중히 말씀하세요. 이름과 수량을 대조 확인 후 통과 처리합니다."
+          },
+          "ru": {
+            "stepTitle": "Процедура на стойке Красного коридора",
+            "instruction": "Подойдите к стойке инспектора. Предъявите паспорт, оригинал рецепта врача и распечатанную двуязычную декларацию. Поставьте багаж на ленту интроскопа.",
+            "locationNote": "Стойка дежурного инспектора таможни (работает 24/7)",
+            "customsOfficerTip": "Спокойно скажите: «Я добровольно декларирую личные медикаменты на срок до 15 дней». Инспектор сверит имя в паспорте и зарегистрирует ввоз."
+          },
+          "vi": {
+            "stepTitle": "Quy trình làm thủ tục tại quầy Luồng Đỏ",
+            "instruction": "Đến quầy hải quan có cán bộ trực. Xuất trình hộ chiếu, đơn thuốc gốc của bác sĩ và phiếu khai báo song ngữ. Đặt hành lý lên băng chuyền quét khi có yêu cầu.",
+            "locationNote": "Bàn trực cán bộ hải quan (trực 24/7)",
+            "customsOfficerTip": "Nói rõ: 'Tôi tự nguyện khai báo thuốc kê đơn điều trị cá nhân dưới 15 ngày'. Cán bộ sẽ đối chiếu tên trên đơn thuốc với hộ chiếu và xác nhận thông quan."
+          }
+        }
       }
     ],
     "redChannelDesk": {
@@ -53,7 +183,25 @@
       "coldChainBioSecurity": "Insulin and GLP-1 pens with gel ice packs in carry-on are cleared quickly upon showing physician certificate. If packed in checked baggage, ensure packaging is insulated.",
       "luggageScreeningTech": "PVG utilizes AI-assisted dual-energy CT scanners capable of 3D molecular density reconstruction of organic compounds."
     },
-    "handlingOfExcessMedication": "If you voluntarily declare medication exceeding the 7-15 day threshold, customs will generally offer an official Customs Temporary Custody Slip (海关暂存凭单). Excess medication is held securely at the airport depot for up to 90 days and can be retrieved when exiting the country, or returned via air freight. No criminal penalty applies to bona fide voluntary declarations of non-banned substances."
+    "handlingOfExcessMedication": "If you voluntarily declare medication exceeding the 7-15 day threshold, customs will generally offer an official Customs Temporary Custody Slip (海关暂存凭单). Excess medication is held securely at the airport depot for up to 90 days and can be retrieved when exiting the country, or returned via air freight. No criminal penalty applies to bona fide voluntary declarations of non-banned substances.",
+    "i18n": {
+      "ja": {
+        "inspectionCharacteristics": "「先期機検（到着前手荷物検査）」を導入。預け入れ手荷物はターンテーブルに到着する前に高速CTスキャンで全量自動検査されます。不審な粉末、錠剤の大量所持、未申告の生物製剤が検知された場合、手荷物に黄色の税関電子ロック（施封バンド）が自動装着されます。",
+        "handlingOfExcessMedication": "7〜15日分の規定上限を超える医薬品を自主申告した場合、税関より「海关暂存凭单（税関一時保管証）」が交付されます。超過分は空港税関の専用倉庫で最長90日間安全に保管され、出国時に受け取るか航空貨物で返送可能です。禁止薬物以外の正規医薬品を自主申告した場合、刑事処罰が科されることはありません。"
+      },
+      "ko": {
+        "inspectionCharacteristics": "최첨단 '사전 기계 검사(先期机检)' 시스템을 운용합니다. 위탁 수하물은 컨베이어 벨트에 도착하기 전 고속 CT로 전량 자동 검사됩니다. 의심 분말, 대량 정제, 미신고 생물제제가 감지되면 황색 세관 전자 자물쇠 및 경고 밴드가 부착됩니다.",
+        "handlingOfExcessMedication": "7~15일 규정을 초과하는 의약품을 자진 신고할 경우 세관에서 '세관 임시보관증(海关暂存凭单)'을 발급합니다. 초과 약품은 공항 세관 창고에 최대 90일간 안전하게 보관되며 출국 시 회수하거나 항공 화물로 반송할 수 있습니다. 금지 성분이 아닌 합법 처방약을 자진 신고한 경우 형사 처벌을 받지 않습니다."
+      },
+      "ru": {
+        "inspectionCharacteristics": "Применяется автоматизированная система предварительного досмотра («Сяньци Цзицзянь»). Багаж проходит высокоскоростное КТ-сканирование до попадания на ленту. При обнаружении подозрительных порошков или таблеток багаж пломбируется желтым электронным замком.",
+        "handlingOfExcessMedication": "При добровольном декларировании медикаментов сверх лимита 7–15 дней таможня выдает официальную квитанцию временного хранения («Хайгуань Цзаньцунь Пиндо»). Излишки надежно хранятся на складе аэропорта до 90 дней и выдаются при выезде из страны. Добровольное декларирование исключает уголовную ответственность."
+      },
+      "vi": {
+        "inspectionCharacteristics": "Áp dụng công nghệ 'Kiểm tra máy trước khi đến' (先期机检). Toàn bộ hành lý ký gửi được quét CT tốc độ cao trước khi ra băng chuyền. Hành lý chứa bột khả nghi hoặc lượng lớn thuốc sẽ bị gắn khóa niêm phong điện tử màu vàng.",
+        "handlingOfExcessMedication": "Nếu quý khách tự giác khai báo số thuốc vượt hạn mức 7-15 ngày, hải quan sẽ cấp 'Biên lai tạm giữ hải quan' (海关暂存凭单). Thuốc vượt định mức được lưu giữ an toàn tối đa 90 ngày và hoàn trả khi xuất cảnh. Khai báo trung thực thuốc hợp pháp không bị xử phạt hình sự."
+      }
+    }
   },
   {
     "id": "pek-t3",
@@ -69,28 +217,132 @@
         "stepTitle": "T3-E Disembarkation & APM Train Ride",
         "instruction": "Exit gate at Concourse E. Follow signs to the Terminal 3 APM people mover train. The automated shuttle transports all international travelers to Terminal 3-C in approximately 4 minutes.",
         "locationNote": "T3-E Transit Platform to T3-C",
-        "customsOfficerTip": "Do not leave carry-on medical kits on the train."
+        "customsOfficerTip": "Do not leave carry-on medical kits on the train.",
+        "i18n": {
+          "ja": {
+            "stepTitle": "T3-E降機とAPMシャトル電車への乗車",
+            "instruction": "Eコンコースの搭乗口を出て、T3 APM（自動シャトル電車）の乗り場へ進みます。全旅客を乗せて約4分で本館T3-Cへ移動します。",
+            "locationNote": "T3-E シャトル乗り場 〜 T3-C",
+            "customsOfficerTip": "手荷物や常備薬の入ったバッグを電車内に置き忘れないようご注意ください。"
+          },
+          "ko": {
+            "stepTitle": "T3-E 하기 및 무인 셔틀열차(APM) 탑승",
+            "instruction": "E구역 게이트를 나와 안내 표지를 따라 터미널 3 무인 경전철 승강장으로 이동합니다. 전 승객이 4분간 T3-C로 이동합니다.",
+            "locationNote": "T3-E 경전철 승강장 ~ T3-C",
+            "customsOfficerTip": "기내용 약품 가방을 열차 안에 두고 내리지 않도록 유의하세요."
+          },
+          "ru": {
+            "stepTitle": "Высадка в терминале T3-E и поездка на поезде APM",
+            "instruction": "Выйдите из гейта в зоне E. Следуйте по указателям к автоматическому поезду APM, который за 4 минуты доставит вас в терминал T3-C.",
+            "locationNote": "Платформа поезда T3-E — T3-C",
+            "customsOfficerTip": "Не оставляйте личные аптечки в вагоне поезда."
+          },
+          "vi": {
+            "stepTitle": "Rời máy bay tại T3-E và lên tàu điện APM",
+            "instruction": "Rời cửa ra nhà ga E. Đi theo biển báo đến tàu điện tự động APM để di chuyển sang nhà ga T3-C trong khoảng 4 phút.",
+            "locationNote": "Ga tàu điện chuyển tiếp T3-E sang T3-C",
+            "customsOfficerTip": "Không bỏ quên túi thuốc xách tay trên tàu điện."
+          }
+        }
       },
       {
         "stepNumber": 2,
         "stepTitle": "Health & Quarantine Gate",
         "instruction": "Exit the APM and proceed to the health inspection gate. Infrared temperature check.",
         "locationNote": "T3-C International Arrival Concourse",
-        "customsOfficerTip": "Routine health check."
+        "customsOfficerTip": "Routine health check.",
+        "i18n": {
+          "ja": {
+            "stepTitle": "検疫および健康スクリーニング",
+            "instruction": "APM電車を下車後、健康検疫ゲートへ進みます。赤外線自動体温測定を受けます。",
+            "locationNote": "T3-C 国際線到着コンコース",
+            "customsOfficerTip": "通常の健康診断ゲートです。"
+          },
+          "ko": {
+            "stepTitle": "보건 검역 게이트 통과",
+            "instruction": "APM에서 하차 후 검역 구역으로 이동하여 적외선 체온 측정을 통과합니다.",
+            "locationNote": "T3-C 국제선 도착 콩코스",
+            "customsOfficerTip": "정기 보건 검사 단계입니다."
+          },
+          "ru": {
+            "stepTitle": "Санитарно-карантинный контроль",
+            "instruction": "Выйдите из поезда и пройдите через зону карантинного бесконтактного контроля температуры.",
+            "locationNote": "Зона международных прилетов T3-C",
+            "customsOfficerTip": "Стандартная процедура контроля здоровья."
+          },
+          "vi": {
+            "stepTitle": "Cổng kiểm dịch y tế",
+            "instruction": "Xuống tàu APM và đến khu vực kiểm dịch y tế. Đo thân nhiệt tự động bằng hồng ngoại.",
+            "locationNote": "Sảnh đón quốc tế T3-C",
+            "customsOfficerTip": "Kiểm tra thân nhiệt định kỳ."
+          }
+        }
       },
       {
         "stepNumber": 3,
         "stepTitle": "Passport Control & Baggage Reclaim",
         "instruction": "Clear Immigration checkpoints. Descend escalators to baggage carousels 37-48.",
         "locationNote": "T3-C Baggage Claim Level",
-        "customsOfficerTip": "Inspect your luggage tags and ensure all medication bags are intact."
+        "customsOfficerTip": "Inspect your luggage tags and ensure all medication bags are intact.",
+        "i18n": {
+          "ja": {
+            "stepTitle": "出入国審査と手荷物受取",
+            "instruction": "入国審査ブースを通過後、エスカレーターで手荷物受取場（ターンテーブル 37-48）へ降ります。",
+            "locationNote": "T3-C 1階 手荷物受取階",
+            "customsOfficerTip": "手荷物タグを確認し、医薬品が入ったスーツケースを回収してください。"
+          },
+          "ko": {
+            "stepTitle": "여권 입국 심사 및 수하물 수취",
+            "instruction": "입국 심사를 통과한 뒤 에스컬레이터를 타고 37-48번 수하물 벨트로 내려갑니다.",
+            "locationNote": "T3-C 1층 수하물 수취층",
+            "customsOfficerTip": "수하물 태그를 확인하고 약품 가방이 안전한지 살피세요."
+          },
+          "ru": {
+            "stepTitle": "Паспортный контроль и получение багажа",
+            "instruction": "Пройдите паспортный контроль и спуститесь на эскалаторе к багажным каруселям 37–48.",
+            "locationNote": "Уровень выдачи багажа терминала T3-C",
+            "customsOfficerTip": "Проверьте багажные бирки и целостность сумок с медикаментами."
+          },
+          "vi": {
+            "stepTitle": "Kiểm tra hộ chiếu và nhận hành lý",
+            "instruction": "Qua cửa kiểm tra nhập cảnh và đi thang cuốn xuống băng chuyền nhận hành lý 37-48.",
+            "locationNote": "Tầng nhận hành lý T3-C",
+            "customsOfficerTip": "Kiểm tra thẻ hành lý và đảm bảo túi thuốc còn nguyên vẹn."
+          }
+        }
       },
       {
         "stepNumber": 4,
         "stepTitle": "Customs Clearance & Red Channel Counter",
         "instruction": "Approach the customs barrier. Beijing Customs features wide inspection portals with high-throughput X-ray scanners. Manned Red Channel declaration podiums are situated prominently with bilingual signage.",
         "locationNote": "T3-C Customs Clearance Area",
-        "customsOfficerTip": "In Beijing, narcotic and psychotropic declarations are handled with extreme procedural rigor. Have your official doctor diagnosis, prescription, and passport ready in your hand."
+        "customsOfficerTip": "In Beijing, narcotic and psychotropic declarations are handled with extreme procedural rigor. Have your official doctor diagnosis, prescription, and passport ready in your hand.",
+        "i18n": {
+          "ja": {
+            "stepTitle": "税関検査と赤色申告カウンター",
+            "instruction": "税関ゲートへ進みます。北京税関は高精度大型X線スキャナーを備えています。二言語標識のある中央の赤色通路カウンターへ進みます。",
+            "locationNote": "T3-C 税関通関検査場",
+            "customsOfficerTip": "北京では精神薬・麻酔薬の申告が極めて厳格に運用されます。医師の診断書・処方箋原本・パスポートを必ず手元に提示してください。"
+          },
+          "ko": {
+            "stepTitle": "세관 통관 및 적색 신고 데스크",
+            "instruction": "세관 검사 구역으로 이동합니다. 베이징 세관은 고성능 엑스레이 검사대를 갖추고 있습니다. 붉은 조명의 적색 신고 데스크로 이동합니다.",
+            "locationNote": "T3-C 세관 통관 구역",
+            "customsOfficerTip": "베이징 공항은 향정신성 물질 관리가 엄격합니다. 의사 진단서, 처방전 원본, 여권을 미리 손에 준비하세요."
+          },
+          "ru": {
+            "stepTitle": "Таможенный контроль и стойка Красного коридора",
+            "instruction": "Подойдите к зоне таможни. Столичная таможня оснащена передовыми интроскопами. Стойки Красного коридора расположены по центру с четкими вывесками.",
+            "locationNote": "Зона таможенного оформления T3-C",
+            "customsOfficerTip": "В Пекине правила ввоза контролируемых препаратов соблюдаются максимально строго. Держите рецепт и паспорт в руках."
+          },
+          "vi": {
+            "stepTitle": "Kiểm tra hải quan và quầy Luồng Đỏ",
+            "instruction": "Tiến đến khu vực hải quan. Hải quan Bắc Kinh trang bị hệ thống máy quét tia X công suất cao. Quầy Luồng Đỏ có biển báo song ngữ rõ ràng.",
+            "locationNote": "Khu vực làm thủ tục hải quan T3-C",
+            "customsOfficerTip": "Tại Bắc Kinh, thủ tục khai báo thuốc hướng thần cực kỳ nghiêm ngặt. Hãy cầm sẵn đơn thuốc gốc và hộ chiếu trên tay."
+          }
+        }
       }
     ],
     "redChannelDesk": {
@@ -102,7 +354,25 @@
       "coldChainBioSecurity": "Special inspection counter available for travelers carrying biological pharmaceuticals.",
       "luggageScreeningTech": "Millimeter-wave and high-resolution baggage X-ray systems."
     },
-    "handlingOfExcessMedication": "Voluntary declaration allows formal entry assessment or bonded storage retention under Beijing Customs Form No. 2."
+    "handlingOfExcessMedication": "Voluntary declaration allows formal entry assessment or bonded storage retention under Beijing Customs Form No. 2.",
+    "i18n": {
+      "ja": {
+        "inspectionCharacteristics": "2段階の移動動線：飛行機はサテライトT3-Eに到着し、全旅客がAPM（無人自動シャトル電車）で約4分移動してT3-Cの手荷物受取ホールへ向かいます。首都機能警備基準に基づき厳格な化学品・薬物検査体制が敷かれています。",
+        "handlingOfExcessMedication": "自主申告を行った場合、北京税関様式第2号による公的保管手続き（暂存）が認められ、出国時に返還されます。"
+      },
+      "ko": {
+        "inspectionCharacteristics": "2단계 환승 구조: 항공기는 T3-E 위성동에 착륙하며, 무인 경전철(APM)을 타고 4분간 이동하여 T3-C 수하물 수취장으로 갑니다. 수도 공항 특성상 가장 엄격한 보안과 마약류 정밀 검사를 시행합니다.",
+        "handlingOfExcessMedication": "자진 신고 시 베이징 세관 공식 양식에 따라 공항 보관소에 정식 보관(暂存) 후 출국 시 안전하게 반환받을 수 있습니다."
+      },
+      "ru": {
+        "inspectionCharacteristics": "Двухэтапная логистика: самолеты прибывают в сателлит T3-E, затем пассажиры едут на поезде APM около 4 минут в терминал T3-C. Из-за столичного статуса контроль медикаментов здесь предельно строгий.",
+        "handlingOfExcessMedication": "Добровольное декларирование позволяет оформить официальное таможенное хранение по форме №2 до момента вылета."
+      },
+      "vi": {
+        "inspectionCharacteristics": "Quy trình chuyển tiếp 2 chặng: Hạ cánh tại nhà ga vệ tinh T3-E, đi tàu điện tự động APM khoảng 4 phút đến sảnh hành lý T3-C. Hải quan sân bay thủ đô áp dụng tiêu chuẩn kiểm tra chất kích thích và tiền chất nghiêm ngặt nhất.",
+        "handlingOfExcessMedication": "Khai báo tự nguyện cho phép lưu kho hải quan theo Mẫu số 2 của Hải quan Bắc Kinh và nhận lại khi xuất cảnh."
+      }
+    }
   },
   {
     "id": "can-t2",
@@ -118,21 +388,99 @@
         "stepTitle": "Arrival Hall & Quarantine",
         "instruction": "Walk along the international arrival finger corridor to immigration and health screening.",
         "locationNote": "T2 2F International Pier",
-        "customsOfficerTip": "Standard arrival transit."
+        "customsOfficerTip": "Standard arrival transit.",
+        "i18n": {
+          "ja": {
+            "stepTitle": "到着コンコースと検疫",
+            "instruction": "国際線到着コリドーを進み、検疫・体温測定を通過します。",
+            "locationNote": "T2 2階 国際線フィンガー通路",
+            "customsOfficerTip": "通常の到着動線です。"
+          },
+          "ko": {
+            "stepTitle": "입국장 이동 및 검역",
+            "instruction": "국제선 통로를 따라 걸어 이동하며 입국 검역을 통과합니다.",
+            "locationNote": "T2 2층 국제선 탑승교 복도",
+            "customsOfficerTip": "표준 입국 동선입니다."
+          },
+          "ru": {
+            "stepTitle": "Зал прилета и санитарный контроль",
+            "instruction": "Пройдите по коридору международного прибытия на контроль здоровья.",
+            "locationNote": "2-й этаж терминала T2, международный пирс",
+            "customsOfficerTip": "Стандартный транзитный коридор."
+          },
+          "vi": {
+            "stepTitle": "Sảnh đến và kiểm dịch",
+            "instruction": "Đi dọc theo hành lang đến quốc tế để qua khu vực kiểm dịch y tế.",
+            "locationNote": "Tầng 2 nhà ga T2, hành lang quốc tế",
+            "customsOfficerTip": "Quy trình đón tiếp tiêu chuẩn."
+          }
+        }
       },
       {
         "stepNumber": 2,
         "stepTitle": "Baggage Claim Hall",
         "instruction": "Collect bags from carousels. Pre-screening scanners flag suspicious luggage with tamper tags.",
         "locationNote": "T2 1F Baggage Hall",
-        "customsOfficerTip": "Keep carry-on cold bags with you."
+        "customsOfficerTip": "Keep carry-on cold bags with you.",
+        "i18n": {
+          "ja": {
+            "stepTitle": "手荷物受取ホール",
+            "instruction": "ターンテーブルから荷物を回収します。事前の機械検査で疑わしい手荷物にはタグが付けられています。",
+            "locationNote": "T2 1階 手荷物受取ホール",
+            "customsOfficerTip": "保冷バッグやインスリンなどの薬品は手荷物として携行してください。"
+          },
+          "ko": {
+            "stepTitle": "수하물 수취장",
+            "instruction": "벨트에서 짐을 찾습니다. 사전 스캔에서 감지된 짐에는 검사 표식이 붙어 있을 수 있습니다.",
+            "locationNote": "T2 1층 수하물 수취홀",
+            "customsOfficerTip": "냉장 약품은 위탁하지 말고 기내용 가방에 소지하세요."
+          },
+          "ru": {
+            "stepTitle": "Зал получения багажа",
+            "instruction": "Заберите багаж с карусели. Предварительный досмотр помечает подозрительные чемоданы контрольными бирками.",
+            "locationNote": "1-й этаж терминала T2, зал выдачи багажа",
+            "customsOfficerTip": "Держите термосумки с термолабильными лекарствами при себе."
+          },
+          "vi": {
+            "stepTitle": "Sảnh nhận hành lý",
+            "instruction": "Nhận hành lý từ băng chuyền. Hệ thống quét trước gắn thẻ đánh dấu với hành lý nghi vấn.",
+            "locationNote": "Tầng 1 nhà ga T2, sảnh nhận hành lý",
+            "customsOfficerTip": "Giữ túi giữ nhiệt và thuốc cá nhân bên mình."
+          }
+        }
       },
       {
         "stepNumber": 3,
         "stepTitle": "Customs Channel Selection",
         "instruction": "Choose between Red Channel (Goods to Declare) and Green Channel (Nothing to Declare).",
         "locationNote": "T2 Customs Exit Gate",
-        "customsOfficerTip": "Travelers from Southeast Asia are subject to strict scrutiny for pseudoephedrine and codeine products."
+        "customsOfficerTip": "Travelers from Southeast Asia are subject to strict scrutiny for pseudoephedrine and codeine products.",
+        "i18n": {
+          "ja": {
+            "stepTitle": "税関通路の選択",
+            "instruction": "赤色通路（申告あり）と緑色通路（申告なし）を選択します。",
+            "locationNote": "T2 税関出口ゲート",
+            "customsOfficerTip": "東南アジア方面からの渡航者は風邪薬中のプソイドエフェドリンやコデイン成分に対して厳格な確認が行われます。"
+          },
+          "ko": {
+            "stepTitle": "세관 통로 선택",
+            "instruction": "적색 통로(신고 대상)와 녹색 통로(무신고) 중 선택하여 통과합니다.",
+            "locationNote": "T2 세관 출구 게이트",
+            "customsOfficerTip": "동남아발 항공편 승객은 감기약 내 슈도에페드린 및 코데인 성분에 대한 검사가 엄격합니다."
+          },
+          "ru": {
+            "stepTitle": "Выбор таможенного коридора",
+            "instruction": "Выберите Красный коридор (при наличии декларируемых лекарств) или Зеленый коридор.",
+            "locationNote": "Выходной таможенный пост терминала T2",
+            "customsOfficerTip": "Пассажиры из стран ЮВА подвергаются тщательному контролю на содержание кодеина и псевдоэфедрина."
+          },
+          "vi": {
+            "stepTitle": "Lựa chọn luồng hải quan",
+            "instruction": "Chọn giữa Luồng Đỏ (Có hàng khai báo) và Luồng Xanh (Không có hàng khai báo).",
+            "locationNote": "Cổng ra hải quan nhà ga T2",
+            "customsOfficerTip": "Hành khách từ Đông Nam Á được kiểm tra nghiêm ngặt với các sản phẩm chứa pseudoephedrine và codein."
+          }
+        }
       }
     ],
     "redChannelDesk": {
@@ -144,7 +492,25 @@
       "coldChainBioSecurity": "Biological temperature-sensitive products must be declared with physician verification.",
       "luggageScreeningTech": "Smart passenger inspection lanes with automated facial and baggage tag tracking."
     },
-    "handlingOfExcessMedication": "Excess items can be held in customs bonded custody (海关暂扣保管) for release upon passenger return departure."
+    "handlingOfExcessMedication": "Excess items can be held in customs bonded custody (海关暂扣保管) for release upon passenger return departure.",
+    "i18n": {
+      "ja": {
+        "inspectionCharacteristics": "東南アジア・中東・豪州を結ぶ南部最大級のハブ空港。白雲税関では覚醒刺激薬成分および麻黄アルカロイド（プソイドエフェドリン等の風邪薬成分）の不正持ち込みに厳重な警戒態勢を敷いています。",
+        "handlingOfExcessMedication": "基準超過分は「海关暂扣保管（税関預かり保管）」手続きにより、復路出国時に返還受領が可能です。"
+      },
+      "ko": {
+        "inspectionCharacteristics": "동남아, 중동, 호주를 연결하는 남부 최대 허브입니다. 바이윈 세관은 마약성 자극제 및 감기약 원료 물질(슈도에페드린) 밀반입에 대한 단속 강도가 매우 높습니다.",
+        "handlingOfExcessMedication": "초과 물품은 '세관 임시보관(海关暂扣保管)' 절차를 통해 귀국 출국 시 반환받을 수 있습니다."
+      },
+      "ru": {
+        "inspectionCharacteristics": "Крупнейший южный хаб, связывающий Китай с Юго-Восточной Азией и Ближним Востоком. Таможня уделяет особое внимание контролю стимуляторов и прекурсоров (псевдоэфедрин в простудных средствах).",
+        "handlingOfExcessMedication": "Избыточные лекарства передаются на ответственное хранение («Хайгуань Цзанькоу Баогуань») и выдаются при обратном вылете."
+      },
+      "vi": {
+        "inspectionCharacteristics": "Trung tâm hàng không phía Nam kết nối Đông Nam Á và Trung Đông. Hải quan Bạch Vân đặc biệt cảnh giác với các chất kích thích và tiền chất ma túy (pseudoephedrine trong thuốc cảm cúm).",
+        "handlingOfExcessMedication": "Số thuốc vượt hạn mức có thể làm thủ tục 'Tạm giữ bảo quản hải quan' (海关暂扣保管) để nhận lại khi xuất cảnh."
+      }
+    }
   },
   {
     "id": "pkx",
@@ -160,21 +526,99 @@
         "stepTitle": "Radial Concourse Arrival",
         "instruction": "Disembark from one of the 5 radial concourses. Walk to the central atrium for quarantine and border control.",
         "locationNote": "Central Atrium Level 2",
-        "customsOfficerTip": "Follow international transfer/arrival signage."
+        "customsOfficerTip": "Follow international transfer/arrival signage.",
+        "i18n": {
+          "ja": {
+            "stepTitle": "放射状コンコースからの到着",
+            "instruction": "5本の放射状コンコースのいずれかから降機し、中央アトリウムの検疫・入国審査へ進みます。",
+            "locationNote": "2階 中央アトリウム",
+            "customsOfficerTip": "国際線乗り継ぎ・到着の標識に従って進んでください。"
+          },
+          "ko": {
+            "stepTitle": "방사형 탑승동 도착 및 이동",
+            "instruction": "5개 방사형 콩코스 중 한 곳에서 내려 중앙 아트리움의 검역 및 심사대로 이동합니다.",
+            "locationNote": "2층 중앙 아트리움",
+            "customsOfficerTip": "국제선 환승/도착 표지를 확인하세요."
+          },
+          "ru": {
+            "stepTitle": "Прибытие по радиальному пирсу",
+            "instruction": "Выйдите из самолета в одном из радиальных пирсов и пройдите в центральный атриум на контроль.",
+            "locationNote": "2-й этаж, центральный атриум",
+            "customsOfficerTip": "Следуйте указателям международного прибытия."
+          },
+          "vi": {
+            "stepTitle": "Hạ cánh tại cánh ga hình sao",
+            "instruction": "Rời máy bay từ một trong 5 cánh ga hướng tâm. Đi bộ về giếng trời trung tâm để kiểm dịch và nhập cảnh.",
+            "locationNote": "Tầng 2, sảnh thông tầng trung tâm",
+            "customsOfficerTip": "Đi theo bảng chỉ dẫn chuyển tiếp hoặc nhập cảnh quốc tế."
+          }
+        }
       },
       {
         "stepNumber": 2,
         "stepTitle": "Smart Baggage Carousel",
         "instruction": "Retrieve baggage. Daxing uses high-speed AI tracking to monitor luggage risk tags.",
         "locationNote": "Level 1 Baggage Reclaim",
-        "customsOfficerTip": "Any flagged bag must be presented at the inspection desk."
+        "customsOfficerTip": "Any flagged bag must be presented at the inspection desk.",
+        "i18n": {
+          "ja": {
+            "stepTitle": "スマート手荷物受取",
+            "instruction": "手荷物を回収します。大興空港ではAI画像認識技術で高リスク荷物を追跡管理しています。",
+            "locationNote": "1階 手荷物受取場",
+            "customsOfficerTip": "アラート対象となった荷物は必ず検査カウンターへお持ちください。"
+          },
+          "ko": {
+            "stepTitle": "스마트 수하물 수취대",
+            "instruction": "수하물을 찾습니다. 다싱공항은 AI 위험 감지 시스템으로 짐을 정밀 추적합니다.",
+            "locationNote": "1층 수하물 수취홀",
+            "customsOfficerTip": "태그가 지정된 가방은 세관 데스크에 제시해야 합니다."
+          },
+          "ru": {
+            "stepTitle": "Получение багажа с AI-контролем",
+            "instruction": "Заберите багаж. В Дасине работает интеллектуальная система отслеживания чемоданов.",
+            "locationNote": "1-й этаж, зал выдачи багажа",
+            "customsOfficerTip": "Любой отмеченный багаж необходимо предъявить на стойку досмотра."
+          },
+          "vi": {
+            "stepTitle": "Băng chuyền hành lý thông minh",
+            "instruction": "Nhận hành lý. Sân bay Đại Hưng sử dụng hệ thống AI theo dõi thẻ hành lý có nguy cơ.",
+            "locationNote": "Tầng 1, sảnh nhận hành lý",
+            "customsOfficerTip": "Bất kỳ kiện hành lý nào bị gắn cờ đều phải đưa đến quầy kiểm tra."
+          }
+        }
       },
       {
         "stepNumber": 3,
         "stepTitle": "Smart Customs Inspection Gate",
         "instruction": "Walk through the smart barrier. Red Channel desks are equipped with digital touchscreens and bilingual officers.",
         "locationNote": "Arrival Level 1 Customs Exit",
-        "customsOfficerTip": "Present your bilingual declaration letter and doctor prescription for rapid verification."
+        "customsOfficerTip": "Present your bilingual declaration letter and doctor prescription for rapid verification.",
+        "i18n": {
+          "ja": {
+            "stepTitle": "スマート税関検査ゲート",
+            "instruction": "スマートゲートを通過します。赤色通路には大型タッチパネルと英語対応の税関官が配置されています。",
+            "locationNote": "1階 到着税関出口",
+            "customsOfficerTip": "二言語申告票と処方箋を提示することで、最短時間でスムーズに通関できます。"
+          },
+          "ko": {
+            "stepTitle": "스마트 세관 심사 게이트",
+            "instruction": "스마트 게이트를 통과합니다. 적색 통로 데스크에는 디지털 터치스크린과 이중언어 담당관이 있습니다.",
+            "locationNote": "1층 입국 세관 출구",
+            "customsOfficerTip": "이중언어 신고서와 처방전을 제시하면 가장 신속하게 확인을 마칠 수 있습니다."
+          },
+          "ru": {
+            "stepTitle": "Умные рамки таможенного контроля",
+            "instruction": "Пройдите через умные барьеры. Стойки Красного коридора оборудованы интерактивными дисплеями.",
+            "locationNote": "Выходной таможенный пункт, 1-й этаж",
+            "customsOfficerTip": "Покажите двуязычную декларацию и рецепт для мгновенной проверки."
+          },
+          "vi": {
+            "stepTitle": "Cổng kiểm soát hải quan thông minh",
+            "instruction": "Đi qua cổng thông minh. Quầy Luồng Đỏ trang bị màn hình cảm ứng kỹ thuật số và cán bộ hỗ trợ song ngữ.",
+            "locationNote": "Tầng 1 đến, cửa ra hải quan",
+            "customsOfficerTip": "Xuất trình phiếu khai báo song ngữ và đơn thuốc để được xác minh nhanh chóng."
+          }
+        }
       }
     ],
     "redChannelDesk": {
@@ -186,6 +630,24 @@
       "coldChainBioSecurity": "Dedicated smart biosafety inspection station.",
       "luggageScreeningTech": "Next-generation integrated CT scanning with AI density recognition."
     },
-    "handlingOfExcessMedication": "Smart locker customs storage available for excess supplies with digital barcode receipt."
+    "handlingOfExcessMedication": "Smart locker customs storage available for excess supplies with digital barcode receipt.",
+    "i18n": {
+      "ja": {
+        "inspectionCharacteristics": "「100%事前高速CT機検」を完備した世界最先端のスマート税関。受託手荷物は地下トンネルの搬送中に高速CTで全量自動透視され、95%以上の旅客が手荷物受取後に立ち止まることなくシームレスに通関できます。",
+        "handlingOfExcessMedication": "スマートロッカー方式の税関保管設備を備えており、デジタルバーコード受領証により出国時に迅速な返還が受けられます。"
+      },
+      "ko": {
+        "inspectionCharacteristics": "'100% 사전 고속 CT 검사'를 적용한 최첨단 스마트 세관 시스템입니다. 위탁 수하물은 지하 컨베이어에서 고속 투시 검사를 마치므로, 95%의 일반 승객은 정지 없이 원스톱으로 통과할 수 있습니다.",
+        "handlingOfExcessMedication": "디지털 바코드 수령증이 발급되는 스마트 로커 보관함을 운영하여 출국 시 신속하게 회수할 수 있습니다."
+      },
+      "ru": {
+        "inspectionCharacteristics": "Ультрасовременная система со 100% предварительным КТ-сканированием в подземных тоннелях до выдачи багажа. Более 95% пассажиров проходят таможню без единой остановки.",
+        "handlingOfExcessMedication": "Используются автоматические камеры хранения со штрих-код квитанциями для быстрого возврата при вылете."
+      },
+      "vi": {
+        "inspectionCharacteristics": "Hệ thống hải quan thông minh hiện đại bậc nhất áp dụng '100% kiểm tra CT ngầm tốc độ cao'. 95% hành khách thông quan liên tục không cần dừng lại nếu không có thuốc diện kiểm soát.",
+        "handlingOfExcessMedication": "Có hệ thống tủ gửi đồ hải quan thông minh quét mã vạch kỹ thuật số để nhận lại thuốc nhanh chóng khi xuất cảnh."
+      }
+    }
   }
 ]

@@ -20,7 +20,9 @@ import {
 } from 'lucide-react';
 import ExpatClinicDirectoryCTA from '@/components/conversion/ExpatClinicDirectoryCTA';
 import TravelInsuranceCTA from '@/components/conversion/TravelInsuranceCTA';
+import LeadCaptureEmailCard from '@/components/conversion/LeadCaptureEmailCard';
 import { Locale, SUBPATH_LOCALES, getHreflangAlternates, getLocalizedPath } from '@/lib/i18n/config';
+
 import { getDictionary } from '@/lib/i18n/dictionaries';
 
 export function generateStaticParams() {
@@ -181,10 +183,12 @@ export default function LocalizedBringMedicationsGuidePage({
           </Link>
         </div>
 
-        {/* CTA Blocks */}
+        {/* CTA Blocks: Triple-Funnel (Lead Magnet -> Medical Care -> Travel Insurance) */}
+        <LeadCaptureEmailCard locale={locale} />
         <ExpatClinicDirectoryCTA locale={locale} />
         <TravelInsuranceCTA locale={locale} />
       </div>
     </article>
   );
 }
+

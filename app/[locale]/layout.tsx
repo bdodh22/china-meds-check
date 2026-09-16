@@ -1,6 +1,8 @@
 import React from 'react';
 import { notFound } from 'next/navigation';
 import { SUBPATH_LOCALES, Locale } from '@/lib/i18n/config';
+import { getDictionary } from '@/lib/i18n/dictionaries';
+import { DictionaryProvider } from '@/lib/i18n/DictionaryContext';
 
 export function generateStaticParams() {
   return SUBPATH_LOCALES.map((locale) => ({ locale }));
@@ -20,9 +22,15 @@ export default function LocaleLayout({ children, params }: LocaleLayoutProps) {
     notFound();
   }
 
+  const validLocale = locale as Locale;
+  const dict = getDictionary(validLocale);
+
   return (
-    <div data-locale={locale} className="w-full">
-      {children}
-    </div>
+    <DictionaryProvider locale={validLocale} dict={dict}>
+      <div data-locale={locale} className="w-full">
+        {children}
+      </div>
+    </DictionaryProvider>
   );
 }
+

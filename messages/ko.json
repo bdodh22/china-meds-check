@@ -406,5 +406,32 @@
     "genCardDays": "{days}일분 세관신고서 생성",
     "saveToBag": "+ 여행 가방에 저장",
     "addedToBag": "✓ 가방에 추가됨"
+  },
+  "airports": {
+    "redChannelManned": "적색 신고 창구 24시간 운영",
+    "autoProtocol": "자동 검사 프로토콜 및 특징:",
+    "timelineTitle": "입국 심사 및 세관 통관 전체 동선:",
+    "customsNote": "세관 주의사항:",
+    "prepareBeforeLanding": "{iata} 도착 전 필수 사전 준비",
+    "prepareDesc": "세관 검사관에게 제시할 한중 이중언어 공식 신고서를 사전에 생성하십시오.",
+    "createSlip": "세관신고서 생성하기",
+    "officialProtocol": "{iata} 초과 의약품 공식 처리 규정:"
+  },
+  "leadCapture": {
+    "badge": "무료 2025-2026 출국 필수 가이드",
+    "title": "중국 세관 의약품 반입 체크리스트 (PDF 다운로드)",
+    "subtitle": "오프라인에서 바로 확인 가능한 1페이지 세관 대응 가이드. 레드/그린 채널 판정 트리, 한중 이중언어 처방전 서식, 긴급 영문 핫라인 수록.",
+    "bullet1": "출력하여 기내 휴대가 가능한 1페이지 PDF 체크리스트",
+    "bullet2": "세관 적색(신고) vs 녹색(통과) 통로 정확한 판별 기준",
+    "bullet3": "세관 검사관 제시용 한중 이중언어 필수 문구 및 긴급 연락망",
+    "placeholder": "이메일 주소를 입력하세요...",
+    "button": "무료 PDF 가이드 받기",
+    "submitting": "발송 중...",
+    "successTitle": "체크리스트가 발송되었습니다!",
+    "successDesc": "입력하신 이메일로 2025-2026 중국 세관 PDF 요약 가이드를 전송했습니다.",
+    "privacy": "스팸 없음. 언제든 원클릭 수신 거부 가능. 개인정보 철저 보호.",
+    "invalidEmail": "올바른 이메일 주소를 입력해 주세요.",
+    "printChecklist": "체크리스트 즉시 출력",
+    "reset": "다른 이메일 입력"
   }
 }

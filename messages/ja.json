@@ -406,5 +406,32 @@
     "genCardDays": "{days}日分の税関申告票を生成",
     "saveToBag": "+ 旅行薬箱に保存",
     "addedToBag": "✓ 薬箱に追加済"
+  },
+  "airports": {
+    "redChannelManned": "赤色申告カウンター24時間常駐",
+    "autoProtocol": "自動検査プロトコル・設備特徴:",
+    "timelineTitle": "入国審査および税関通関ルート案内:",
+    "customsNote": "税関ワンポイント助言:",
+    "prepareBeforeLanding": "{iata} 到着前の事前準備",
+    "prepareDesc": "税関検査官へ提示する日中二言語の公式申告書をワンクリックで事前生成できます。",
+    "createSlip": "申告カードを作成",
+    "officialProtocol": "{iata} における規定超過医薬品の公的手続き:"
+  },
+  "leadCapture": {
+    "badge": "無料 2025-2026 渡航前必携ガイド",
+    "title": "中国税関 医薬品持ち込み点検チェックシート (PDF)",
+    "subtitle": "オフラインで確認できるA4・1枚の税関対策シート。赤・緑チャンネル判定ツリー、日中バイリンガル処方箋テンプレート、緊急連絡先を網羅。",
+    "bullet1": "印刷して持参できるオフラインPDFチェックリスト",
+    "bullet2": "赤色（申告）／緑色（無申告）通道の明快な判定基準",
+    "bullet3": "税関職員にそのまま見せられる日中二言語対訳文",
+    "placeholder": "メールアドレスを入力...",
+    "button": "無料PDFガイドを受け取る",
+    "submitting": "送信中...",
+    "successTitle": "チェックリストを送信しました！",
+    "successDesc": "ご入力いただいたメールアドレスへ2025-2026年版税関PDFチェックシートをお送りしました。",
+    "privacy": "スパム送信は一切行いません。いつでもワンクリックで解除可能です。",
+    "invalidEmail": "有効なメールアドレスを入力してください。",
+    "printChecklist": "今すぐチェックシートを印刷",
+    "reset": "別のメールアドレスを入力"
   }
 }

@@ -21,6 +21,8 @@ import {
 } from 'lucide-react';
 import ExpatClinicDirectoryCTA from '@/components/conversion/ExpatClinicDirectoryCTA';
 import TravelInsuranceCTA from '@/components/conversion/TravelInsuranceCTA';
+import LeadCaptureEmailCard from '@/components/conversion/LeadCaptureEmailCard';
+
 
 import { getHreflangAlternates } from '@/lib/i18n/config';
 
@@ -276,9 +278,13 @@ export default function BringMedicationsGuidePage() {
           </section>
         </div>
 
+        {/* Lead Capture PDF Checklist */}
+        <LeadCaptureEmailCard locale="en" />
+
         {/* Travel Health Insurance CTA */}
         <TravelInsuranceCTA />
       </div>
     </div>
   );
 }
+

@@ -406,5 +406,32 @@
     "genCardDays": "Generate Customs Card for {days} Days",
     "saveToBag": "+ Save to Travel Bag",
     "addedToBag": "✓ Added to Bag"
+  },
+  "airports": {
+    "redChannelManned": "24/7 Red Channel Manned",
+    "autoProtocol": "Automated Inspection Protocol:",
+    "timelineTitle": "Passenger Arrival & Border Clearance Path:",
+    "customsNote": "Customs Note:",
+    "prepareBeforeLanding": "Prepare Before Landing at {iata}",
+    "prepareDesc": "Generate official bilingual declaration slip to hand to duty customs officers.",
+    "createSlip": "Create Declaration Slip",
+    "officialProtocol": "Official Protocol for Excess Medication at {iata}:"
+  },
+  "leadCapture": {
+    "badge": "FREE 2025-2026 DEPARTURE GUIDE",
+    "title": "Download China Medication Customs Checklist (PDF)",
+    "subtitle": "Get our offline 1-page compliance cheat-sheet with Red/Green channel decision trees, bilingual doctor note templates, and emergency English hotlines.",
+    "bullet1": "Offline printable 1-page PDF checklist",
+    "bullet2": "Red vs Green Channel decision tree",
+    "bullet3": "Official bilingual declaration phrases & hotlines",
+    "placeholder": "Enter your email address...",
+    "button": "Send Free Guide",
+    "submitting": "Sending...",
+    "successTitle": "Checklist is on the way!",
+    "successDesc": "We have dispatched the 2025-2026 China Customs PDF Cheat-Sheet to your inbox.",
+    "privacy": "Zero spam. One-click unsubscribe anytime. 100% privacy protected.",
+    "invalidEmail": "Please enter a valid email address.",
+    "printChecklist": "Print Checklist Now",
+    "reset": "Enter another email"
   }
 }

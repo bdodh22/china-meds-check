@@ -406,5 +406,32 @@
     "genCardDays": "Tạo phiếu hải quan cho {days} ngày",
     "saveToBag": "+ Lưu vào túi thuốc",
     "addedToBag": "✓ Đã thêm vào túi thuốc"
+  },
+  "airports": {
+    "redChannelManned": "Quầy Luồng Đỏ có nhân viên trực 24/7",
+    "autoProtocol": "Quy trình kiểm tra tự động & thiết bị:",
+    "timelineTitle": "Lộ trình nhập cảnh và kiểm tra hải quan:",
+    "customsNote": "Lưu ý từ cán bộ hải quan:",
+    "prepareBeforeLanding": "Chuẩn bị trước khi hạ cánh tại {iata}",
+    "prepareDesc": "Tạo sẵn phiếu khai báo hải quan song ngữ chính thức để xuất trình cho cán bộ hải quan trực ca.",
+    "createSlip": "Tạo phiếu khai báo",
+    "officialProtocol": "Quy định xử lý thuốc vượt định mức tại {iata}:"
+  },
+  "leadCapture": {
+    "badge": "CẨM NANG XUẤT CẢNH MIỄN PHÍ 2025-2026",
+    "title": "Tải bảng kiểm tra hải quan thuốc vào Trung Quốc (PDF)",
+    "subtitle": "Tài liệu tóm tắt 1 trang xem ngoại tuyến: sơ đồ chọn Cửa Đỏ/Cửa Xanh, mẫu đơn thuốc song ngữ và đường dây nóng hỗ trợ khẩn cấp.",
+    "bullet1": "Bảng kiểm tra PDF 1 trang tiện lợi in mang theo khi lên máy bay",
+    "bullet2": "Sơ đồ hướng dẫn rõ ràng: Đi Cửa Đỏ (khai báo) hay Cửa Xanh",
+    "bullet3": "Các câu giao tiếp tiếng Trung chuẩn hải quan & số điện thoại hỗ trợ",
+    "placeholder": "Nhập địa chỉ email của bạn...",
+    "button": "Nhận cẩm nang PDF miễn phí",
+    "submitting": "Đang gửi...",
+    "successTitle": "Bảng kiểm tra đã được gửi đi!",
+    "successDesc": "Chúng tôi đã gửi cẩm nang PDF hải quan Trung Quốc 2025-2026 đến hòm thư của bạn.",
+    "privacy": "Cam kết không spam. Hủy đăng ký chỉ với 1 cú nhấp. Bảo mật tuyệt đối.",
+    "invalidEmail": "Vui lòng nhập địa chỉ email hợp lệ.",
+    "printChecklist": "In bảng kiểm tra ngay",
+    "reset": "Nhập email khác"
   }
 }

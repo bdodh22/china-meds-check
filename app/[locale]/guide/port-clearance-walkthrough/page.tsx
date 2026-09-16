@@ -13,6 +13,7 @@ import { getAllPortWalkthroughs } from '@/lib/ports';
 import { Locale, SUBPATH_LOCALES, getHreflangAlternates, getLocalizedPath } from '@/lib/i18n/config';
 import { getDictionary } from '@/lib/i18n/dictionaries';
 import AirportClearanceWidget from '@/components/tools/AirportClearanceWidget';
+import LeadCaptureEmailCard from '@/components/conversion/LeadCaptureEmailCard';
 
 export function generateStaticParams() {
   return SUBPATH_LOCALES.map((locale) => ({ locale }));
@@ -120,7 +121,13 @@ export default function LocalizedPortClearanceWalkthroughPage({
 
         {/* Interactive Airport Tabs & Timeline Component */}
         <AirportClearanceWidget ports={ports} locale={locale} />
+
+        {/* Departure Checklist Lead Magnet */}
+        <div className="pt-4">
+          <LeadCaptureEmailCard locale={locale} />
+        </div>
       </div>
     </div>
   );
 }
+

@@ -106,6 +106,12 @@ export interface WalkthroughStep {
   instruction: string;
   locationNote: string;
   customsOfficerTip: string;
+  i18n?: Record<string, {
+    stepTitle: string;
+    instruction: string;
+    locationNote: string;
+    customsOfficerTip: string;
+  }>;
 }
 
 export interface PortWalkthrough {
@@ -127,6 +133,10 @@ export interface PortWalkthrough {
     luggageScreeningTech: string;
   };
   handlingOfExcessMedication: string;
+  i18n?: Record<string, {
+    inspectionCharacteristics: string;
+    handlingOfExcessMedication: string;
+  }>;
 }
 
 export interface TravelBagItem {

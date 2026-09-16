@@ -13,6 +13,9 @@ import {
 import { getAllPortWalkthroughs } from '@/lib/ports';
 import { getHreflangAlternates } from '@/lib/i18n/config';
 import AirportClearanceWidget from '@/components/tools/AirportClearanceWidget';
+import LeadCaptureEmailCard from '@/components/conversion/LeadCaptureEmailCard';
+
+
 
 export const metadata: Metadata = {
   title: 'China Airport Customs Clearance Guide: PEK, PVG, CAN',
@@ -110,7 +113,13 @@ export default function PortClearanceWalkthroughPage() {
 
         {/* Interactive Airport Tabs & Timeline Component */}
         <AirportClearanceWidget ports={ports} locale="en" />
+
+        {/* Departure Checklist Lead Magnet */}
+        <div className="pt-4">
+          <LeadCaptureEmailCard locale="en" />
+        </div>
       </div>
     </div>
   );
 }
+

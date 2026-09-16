@@ -19,7 +19,9 @@ import {
 import DrugSearchWidget from '@/components/tools/DrugSearchWidget';
 import DrugStatusBadge from '@/components/tools/DrugStatusBadge';
 import TravelInsuranceCTA from '@/components/conversion/TravelInsuranceCTA';
+import LeadCaptureEmailCard from '@/components/conversion/LeadCaptureEmailCard';
 import { getAllMedications } from '@/lib/medications';
+
 import { Locale, SUBPATH_LOCALES, getHreflangAlternates, getLocalizedPath } from '@/lib/i18n/config';
 import { getDictionary } from '@/lib/i18n/dictionaries';
 
@@ -282,10 +284,16 @@ export default function LocalizedHomePage({
         </div>
       </section>
 
+      {/* High-Converting Lead Capture: Offline PDF Checklist */}
+      <section className="py-8 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <LeadCaptureEmailCard locale={locale} />
+      </section>
+
       {/* Commercial Traveler Protection Banner */}
-      <section className="py-12 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-8 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <TravelInsuranceCTA locale={locale} />
       </section>
     </div>
   );
 }
+
