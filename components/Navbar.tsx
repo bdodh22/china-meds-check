@@ -4,7 +4,6 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import {
-  Shield,
   Menu,
   X,
   Calculator,
@@ -40,8 +39,32 @@ export default function Navbar() {
           {/* Logo & Slogan */}
           <div className="flex items-center gap-3">
             <Link href={localizedHref('/')} className="flex items-center gap-2.5 group">
-              <div className="h-9 w-9 rounded-lg bg-slate-900 flex items-center justify-center text-white shadow-sm group-hover:bg-slate-800 transition">
-                <Shield className="h-5 w-5 text-emerald-400" />
+              <div className="h-9 w-9 rounded-xl bg-gradient-to-br from-slate-900 via-blue-950 to-slate-900 border border-blue-500/30 flex items-center justify-center text-white shadow-sm shadow-blue-950/25 group-hover:scale-105 group-hover:border-blue-400/50 transition-all duration-200">
+                <svg
+                  className="h-5 w-5"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  {/* Outer Customs Protective Shield */}
+                  <path
+                    d="M12 22C12 22 20 18 20 12V5L12 2L4 5V12C4 18 12 22 12 22Z"
+                    fill="#3B82F6"
+                    fillOpacity="0.2"
+                    stroke="#60A5FA"
+                    strokeWidth="1.8"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                  {/* Inner Official Medical Cross */}
+                  <path
+                    d="M12 7.5V14.5M8.5 11H15.5"
+                    stroke="#FFFFFF"
+                    strokeWidth="2.2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
               </div>
               <div className="flex flex-col">
                 <div className="flex items-center gap-1">
