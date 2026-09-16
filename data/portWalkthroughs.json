@@ -1,0 +1,191 @@
+[
+  {
+    "id": "pvg-t2",
+    "airportName": "Shanghai Pudong International Airport",
+    "terminal": "Terminal 2 (International Arrivals)",
+    "city": "Shanghai",
+    "iataCode": "PVG",
+    "chineseName": "上海浦东国际机场 T2航站楼",
+    "inspectionCharacteristics": "High-tech automated 'Pre-inspection Before Arrival' (先期机检). Checked baggage is scanned via high-speed CT before reaching the luggage carousel. Bags containing suspicious powders, bulk pills, or undeclared biologics receive an electronic tamper-evident yellow seal and lock band.",
+    "walkthroughSteps": [
+      {
+        "stepNumber": 1,
+        "stepTitle": "Deplane & Health Quarantine Screening",
+        "instruction": "Follow international arrival signs down the skybridge. Pass through automated thermal imaging fever scanners and body temperature gates. No special drug check occurs at this first gate.",
+        "locationNote": "2F International Arrival Concourse",
+        "customsOfficerTip": "Keep your passport and boarding pass easily accessible."
+      },
+      {
+        "stepNumber": 2,
+        "stepTitle": "Immigration & Border Inspection (NIA)",
+        "instruction": "Clear National Immigration Administration (国家移民管理局) passport control. Foreign travelers scan fingerprints at automated biometric kiosks before queued border officer booths.",
+        "locationNote": "Immigration Inspection Hall",
+        "customsOfficerTip": "Immigration checks legal entry visas; they do NOT inspect medications. Do not show medications here."
+      },
+      {
+        "stepNumber": 3,
+        "stepTitle": "Baggage Claim & Pre-Screen Seal Inspection",
+        "instruction": "Proceed downstairs to the baggage carousels. When retrieving checked luggage, inspect your suitcase handles. If your bag has a yellow electronic Customs Lock (海关电子锁) or yellow warning tape, it has been flagged by CT scanner for mandatory physical inspection.",
+        "locationNote": "1F Baggage Reclaim Hall (Carousels 21-36)",
+        "customsOfficerTip": "NEVER attempt to cut, damage, or remove the yellow Customs electronic seal. Damaging a customs seal constitutes a separate administrative and criminal offense."
+      },
+      {
+        "stepNumber": 4,
+        "stepTitle": "Dual-Channel Customs Inspection (Red vs Green)",
+        "instruction": "Walk towards the exit. The corridor splits clearly: Right lane is Red Channel (申报通道 - Goods to Declare); Center/Left lanes are Green Channel (无申报通道 - Nothing to Declare).",
+        "locationNote": "Customs Exit Portal, 1F International Arrival",
+        "customsOfficerTip": "If carrying Category 1 or 2 Psychotropics (Concerta, Xanax), Precursors (Sudafed >2 packs), or if your bag received a yellow seal, walk directly into the Red Channel desk."
+      },
+      {
+        "stepNumber": 5,
+        "stepTitle": "Red Channel Declaration Desk Procedure",
+        "instruction": "Approach the manned customs desk. Hand over your passport, physical doctor prescription, and your completed bilingual declaration form. Place bags on the inspection conveyor when directed.",
+        "locationNote": "Customs Duty Officer Station (Manned 24/7)",
+        "customsOfficerTip": "State politely: 'I am voluntarily declaring personal prescription medication under 15 days supply, complying with GACC Decree 43.' Officers will verify the patient name against your passport and record the entry."
+      }
+    ],
+    "redChannelDesk": {
+      "physicalLocation": "Located on the far right side immediately before the final exit doors to the public arrival greeting lobby.",
+      "operatingHours": "24 Hours / 7 Days a week for all international scheduled flight arrivals.",
+      "staffing": "Staffed continuously by uniformed General Administration of Customs (GACC) officers."
+    },
+    "specialEquipmentRules": {
+      "coldChainBioSecurity": "Insulin and GLP-1 pens with gel ice packs in carry-on are cleared quickly upon showing physician certificate. If packed in checked baggage, ensure packaging is insulated.",
+      "luggageScreeningTech": "PVG utilizes AI-assisted dual-energy CT scanners capable of 3D molecular density reconstruction of organic compounds."
+    },
+    "handlingOfExcessMedication": "If you voluntarily declare medication exceeding the 7-15 day threshold, customs will generally offer an official Customs Temporary Custody Slip (海关暂存凭单). Excess medication is held securely at the airport depot for up to 90 days and can be retrieved when exiting the country, or returned via air freight. No criminal penalty applies to bona fide voluntary declarations of non-banned substances."
+  },
+  {
+    "id": "pek-t3",
+    "airportName": "Beijing Capital International Airport",
+    "terminal": "Terminal 3 (T3-E International Arrival)",
+    "city": "Beijing",
+    "iataCode": "PEK",
+    "chineseName": "北京首都国际机场 T3航站楼",
+    "inspectionCharacteristics": "Two-stage transit: flights disembark at Satellite T3-E; passengers take the APM Automated Train to T3-C Baggage Hall. Capital Airport customs enforces the strictest chemical and narcotics screening due to capital security protocols.",
+    "walkthroughSteps": [
+      {
+        "stepNumber": 1,
+        "stepTitle": "T3-E Disembarkation & APM Train Ride",
+        "instruction": "Exit gate at Concourse E. Follow signs to the Terminal 3 APM people mover train. The automated shuttle transports all international travelers to Terminal 3-C in approximately 4 minutes.",
+        "locationNote": "T3-E Transit Platform to T3-C",
+        "customsOfficerTip": "Do not leave carry-on medical kits on the train."
+      },
+      {
+        "stepNumber": 2,
+        "stepTitle": "Health & Quarantine Gate",
+        "instruction": "Exit the APM and proceed to the health inspection gate. Infrared temperature check.",
+        "locationNote": "T3-C International Arrival Concourse",
+        "customsOfficerTip": "Routine health check."
+      },
+      {
+        "stepNumber": 3,
+        "stepTitle": "Passport Control & Baggage Reclaim",
+        "instruction": "Clear Immigration checkpoints. Descend escalators to baggage carousels 37-48.",
+        "locationNote": "T3-C Baggage Claim Level",
+        "customsOfficerTip": "Inspect your luggage tags and ensure all medication bags are intact."
+      },
+      {
+        "stepNumber": 4,
+        "stepTitle": "Customs Clearance & Red Channel Counter",
+        "instruction": "Approach the customs barrier. Beijing Customs features wide inspection portals with high-throughput X-ray scanners. Manned Red Channel declaration podiums are situated prominently with bilingual signage.",
+        "locationNote": "T3-C Customs Clearance Area",
+        "customsOfficerTip": "In Beijing, narcotic and psychotropic declarations are handled with extreme procedural rigor. Have your official doctor diagnosis, prescription, and passport ready in your hand."
+      }
+    ],
+    "redChannelDesk": {
+      "physicalLocation": "Central Red Channel counter clearly designated with overhead bilingual red illuminated signs (申报通道 / Goods to Declare).",
+      "operatingHours": "24/7 continuous operation aligned with international arrival slots.",
+      "staffing": "PRC Customs supervisory officers on duty."
+    },
+    "specialEquipmentRules": {
+      "coldChainBioSecurity": "Special inspection counter available for travelers carrying biological pharmaceuticals.",
+      "luggageScreeningTech": "Millimeter-wave and high-resolution baggage X-ray systems."
+    },
+    "handlingOfExcessMedication": "Voluntary declaration allows formal entry assessment or bonded storage retention under Beijing Customs Form No. 2."
+  },
+  {
+    "id": "can-t2",
+    "airportName": "Guangzhou Baiyun International Airport",
+    "terminal": "Terminal 2 (International Arrivals)",
+    "city": "Guangzhou",
+    "iataCode": "CAN",
+    "chineseName": "广州白云国际机场 T2航站楼",
+    "inspectionCharacteristics": "Key southern hub connecting Southeast Asia, Middle East, and Australia. Baiyun Customs emphasizes anti-smuggling vigilance for controlled stimulants and precursor chemicals.",
+    "walkthroughSteps": [
+      {
+        "stepNumber": 1,
+        "stepTitle": "Arrival Hall & Quarantine",
+        "instruction": "Walk along the international arrival finger corridor to immigration and health screening.",
+        "locationNote": "T2 2F International Pier",
+        "customsOfficerTip": "Standard arrival transit."
+      },
+      {
+        "stepNumber": 2,
+        "stepTitle": "Baggage Claim Hall",
+        "instruction": "Collect bags from carousels. Pre-screening scanners flag suspicious luggage with tamper tags.",
+        "locationNote": "T2 1F Baggage Hall",
+        "customsOfficerTip": "Keep carry-on cold bags with you."
+      },
+      {
+        "stepNumber": 3,
+        "stepTitle": "Customs Channel Selection",
+        "instruction": "Choose between Red Channel (Goods to Declare) and Green Channel (Nothing to Declare).",
+        "locationNote": "T2 Customs Exit Gate",
+        "customsOfficerTip": "Travelers from Southeast Asia are subject to strict scrutiny for pseudoephedrine and codeine products."
+      }
+    ],
+    "redChannelDesk": {
+      "physicalLocation": "Directly adjacent to the exit gates of Terminal 2 international baggage reclaim.",
+      "operatingHours": "24/7 operational coverage.",
+      "staffing": "Guangzhou Customs border officers."
+    },
+    "specialEquipmentRules": {
+      "coldChainBioSecurity": "Biological temperature-sensitive products must be declared with physician verification.",
+      "luggageScreeningTech": "Smart passenger inspection lanes with automated facial and baggage tag tracking."
+    },
+    "handlingOfExcessMedication": "Excess items can be held in customs bonded custody (海关暂扣保管) for release upon passenger return departure."
+  },
+  {
+    "id": "pkx",
+    "airportName": "Beijing Daxing International Airport",
+    "terminal": "Main Terminal (International Arrivals)",
+    "city": "Beijing",
+    "iataCode": "PKX",
+    "chineseName": "北京大兴国际机场",
+    "inspectionCharacteristics": "Ultra-modern integrated customs system with '100% Pre-clearance High-Speed CT'. Checked bags are inspected seamlessly in underground conveyor tunnels before delivery to carousels, allowing 95% of passengers to walk through with zero stops.",
+    "walkthroughSteps": [
+      {
+        "stepNumber": 1,
+        "stepTitle": "Radial Concourse Arrival",
+        "instruction": "Disembark from one of the 5 radial concourses. Walk to the central atrium for quarantine and border control.",
+        "locationNote": "Central Atrium Level 2",
+        "customsOfficerTip": "Follow international transfer/arrival signage."
+      },
+      {
+        "stepNumber": 2,
+        "stepTitle": "Smart Baggage Carousel",
+        "instruction": "Retrieve baggage. Daxing uses high-speed AI tracking to monitor luggage risk tags.",
+        "locationNote": "Level 1 Baggage Reclaim",
+        "customsOfficerTip": "Any flagged bag must be presented at the inspection desk."
+      },
+      {
+        "stepNumber": 3,
+        "stepTitle": "Smart Customs Inspection Gate",
+        "instruction": "Walk through the smart barrier. Red Channel desks are equipped with digital touchscreens and bilingual officers.",
+        "locationNote": "Arrival Level 1 Customs Exit",
+        "customsOfficerTip": "Present your bilingual declaration letter and doctor prescription for rapid verification."
+      }
+    ],
+    "redChannelDesk": {
+      "physicalLocation": "Level 1 Customs Inspection Hall, clearly marked with high-visibility bilingual LED signage.",
+      "operatingHours": "24/7 operational.",
+      "staffing": "Daxing Airport Customs Specialized Inspection Division."
+    },
+    "specialEquipmentRules": {
+      "coldChainBioSecurity": "Dedicated smart biosafety inspection station.",
+      "luggageScreeningTech": "Next-generation integrated CT scanning with AI density recognition."
+    },
+    "handlingOfExcessMedication": "Smart locker customs storage available for excess supplies with digital barcode receipt."
+  }
+]

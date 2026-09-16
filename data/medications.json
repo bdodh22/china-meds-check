@@ -1,0 +1,2119 @@
+[
+  {
+    "slug": "adderall-in-china",
+    "brandNames": [
+      "Adderall",
+      "Adderall XR",
+      "Mydayis",
+      "Adzenys",
+      "Dyanavel"
+    ],
+    "genericName": "Amphetamine / Dextroamphetamine",
+    "chineseName": "安非他命 / 苯丙胺",
+    "category": "BANNED",
+    "status": "RED",
+    "summary": "Strictly prohibited under PRC Criminal Law. Classified as an illicit narcotic drug. Prohibited from entering China even with a legitimate foreign doctor prescription.",
+    "customsRule": "Zero tolerance at all ports of entry. Carrying this substance into China may lead to criminal detention, deportation, or drug smuggling charges regardless of a valid foreign prescription.",
+    "allowance": "0 days (Strictly prohibited)",
+    "allowanceDaysMax": 0,
+    "channel": "STRICTLY_FORBIDDEN",
+    "legalBasis": "Articles 347 & 357 of the Criminal Law of the People's Republic of China; State Council Catalogue of Narcotic Drugs & Psychotropic Substances; UN INCB China Entry Schedule.",
+    "declarationRequirement": "Do not attempt to declare or bring across the border. Possession is classified as illegal drug smuggling.",
+    "localAlternative": "Methylphenidate (Concerta/利他林) is strictly controlled but legally prescribable inside China; Atomoxetine (Strattera/择思达) is non-stimulant and widely available at Tier-3 hospitals and expat clinics.",
+    "affiliateCategory": "clinic",
+    "indications": [
+      "ADHD",
+      "Narcolepsy"
+    ],
+    "casNumber": "300-62-9",
+    "incbCategory": "UN Convention on Psychotropic Substances 1971 Schedule II / China Banned Narcotic",
+    "rxnormCui": "1009147",
+    "authorityNotes": "U.S. Embassy in Beijing explicitly warns: 'Adderall is considered an illegal narcotic in China; do not attempt to bring it into the country under any circumstances.'",
+    "beforePackingTips": [
+      "Consult your psychiatrist 4-8 weeks prior to departure to taper off or transition to a China-approved formulation (e.g. Concerta or Atomoxetine).",
+      "Thoroughly inspect all luggage pockets, backpack crevices, and pillboxes to ensure zero residual Adderall capsules remain.",
+      "Obtain an English medical summary explaining your ADHD diagnosis and previous therapy to present to doctors inside China if a local evaluation is needed."
+    ],
+    "faqItems": [
+      {
+        "question": "Can I bring Adderall to China if I have an official doctor's note?",
+        "answer": "No. Under Chinese law, Amphetamine is classified as an illicit narcotic drug. Foreign prescriptions hold zero legal exemption at China Customs, and attempting to bring Adderall into the country can result in immediate confiscation, administrative detention, or criminal prosecution."
+      },
+      {
+        "question": "What is the legal ADHD medication alternative in China?",
+        "answer": "Methylphenidate (Concerta) is available via psychiatric evaluation at accredited Chinese Tier-3 public hospitals and international clinics (such as United Family and Jiahui Health). Atomoxetine (Strattera), a non-stimulant ADHD medication, is also widely prescribed and legal."
+      },
+      {
+        "question": "What happens if customs finds Adderall in my luggage?",
+        "answer": "Customs officers and anti-smuggling police will confiscate the medication. Depending on the quantity, you may face police questioning, denial of entry, administrative detention up to 15 days, or criminal smuggling charges under PRC Criminal Law Article 347."
+      }
+    ],
+    "activeIngredients": [
+      "amphetamine",
+      "dextroamphetamine"
+    ],
+    "redLineWarning": true,
+    "clearanceProfiles": {
+      "gaccCustoms": {
+        "status": "PROHIBITED",
+        "declarationRequired": true,
+        "maxDays": 0,
+        "channel": "STRICTLY_FORBIDDEN",
+        "legalBasis": "PRC Criminal Law Articles 347 & 357; State Council Narcotic Catalogue.",
+        "advice": "Zero-tolerance narcotic ban. Attempting to enter China with Adderall is classified as drug smuggling regardless of foreign doctor prescription."
+      },
+      "caacAviation": {
+        "carryOn": "CHECKED_ONLY",
+        "sharpsInvolved": false,
+        "coldChain": false,
+        "securityAdvisory": "Prohibited item on all flights entering China. Carrying on person or in luggage constitutes an aviation and border security violation."
+      },
+      "localRefill": {
+        "refillableInChina": false,
+        "hospitalTier": "Not Available (Illicit)",
+        "specialistRequired": "None",
+        "maxRefillDays": 0,
+        "requiredDocs": [],
+        "warningNotes": "Amphetamine is completely unapproved in China. Patients must consult a psychiatrist before travel to transition to Methylphenidate (Concerta) or Atomoxetine."
+      }
+    }
+  },
+  {
+    "slug": "ritalin-concerta-in-china",
+    "brandNames": [
+      "Ritalin",
+      "Concerta",
+      "Medikinet",
+      "Daytrana",
+      "Equasym"
+    ],
+    "genericName": "Methylphenidate",
+    "chineseName": "哌甲酯 (利他林 / 专注达)",
+    "category": "CONTROLLED",
+    "status": "YELLOW",
+    "summary": "Classified as a Category 1 Psychotropic Substance (第一类精神药品) in China. Legally permitted for personal travel use only with strict medical documentation and quantity limits.",
+    "customsRule": "Must declare at the Red Channel (Goods to Declare) upon arrival. Original doctor's prescription, diagnosis note (translated into English or Chinese), and matching passport identity are mandatory. Maximum allowance is strictly limited to 7 to 15 days personal supply.",
+    "allowance": "Max 7-15 days supply (Single travel course)",
+    "allowanceDaysMax": 15,
+    "channel": "RED_CHANNEL",
+    "legalBasis": "PRC Regulations on the Administration of Narcotic Drugs and Psychotropic Substances (State Council Decree No. 442, Article 44); INCB Official China Declaration Guidelines.",
+    "declarationRequirement": "Mandatory written declaration at Customs Red Channel. Submit original prescription, diagnosis certificate, and valid passport.",
+    "localAlternative": "Prescriptions can be refilled in major Chinese cities (Beijing, Shanghai, Guangzhou, Shenzhen, Chengdu) by visiting the psychiatric outpatient department of a Tier-3 public hospital or an accredited international hospital (e.g., Jiahui Health, United Family Healthcare).",
+    "affiliateCategory": "clinic",
+    "indications": [
+      "ADHD",
+      "Narcolepsy"
+    ],
+    "casNumber": "113-45-1",
+    "incbCategory": "UN 1971 Schedule II / China Category 1 Psychotropic",
+    "rxnormCui": "206740",
+    "authorityNotes": "INCB China Official Rule: Travelers may carry Category 1 psychotropics only for personal therapy not exceeding one regular treatment course (up to 15 days maximum).",
+    "beforePackingTips": [
+      "Carry no more than 7 to 15 days supply in your carry-on luggage. Never put controlled psychotropics in checked baggage.",
+      "Keep medication in its original pharmacy-dispensed bottle with the patient label, dosage instructions, and doctor's name intact.",
+      "Carry a stamped doctor's certificate stating full diagnosis, daily dosage, and justifying the necessity of continuous therapy during international travel.",
+      "Walk straight into the Red Channel (申报通道) upon baggage claim and present your documents."
+    ],
+    "faqItems": [
+      {
+        "question": "Can I bring Ritalin or Concerta into China?",
+        "answer": "Yes, but with strict limitations. Methylphenidate is a Category 1 Psychotropic Substance in China. You must declare it at the Red Channel, carry the original doctor's prescription and medical diagnosis, keep it in original packaging, and limit the amount to a reasonable travel supply (generally not exceeding 7 to 15 days)."
+      },
+      {
+        "question": "What documents do I need to clear Chinese customs with Concerta?",
+        "answer": "You need: 1) Original doctor's prescription clearly stating your name, drug dosage, and daily intake; 2) Formal medical certificate/diagnosis letter signed and stamped by your physician; 3) Valid passport matching the name on the prescription; 4) Unopened or original pharmacy packaging with intact labeling."
+      },
+      {
+        "question": "How do I get a Concerta refill if I stay in China longer than 15 days?",
+        "answer": "Bring your comprehensive medical records and translated diagnosis to an international clinic (e.g., United Family, Jiahui Health) or a psychiatric department at a local Grade 3A (三甲) hospital. Doctors can issue a local Red Prescription (麻精专用处方) for up to 15-30 days."
+      }
+    ],
+    "activeIngredients": [
+      "methylphenidate"
+    ],
+    "redLineWarning": false,
+    "clearanceProfiles": {
+      "gaccCustoms": {
+        "status": "RESTRICTED",
+        "declarationRequired": true,
+        "maxDays": 15,
+        "channel": "RED_CHANNEL",
+        "legalBasis": "PRC Narcotic Drugs & Psychotropic Substances Regs (Decree 442, Art. 44); INCB Guidelines.",
+        "advice": "Classified as Category 1 Psychotropic (第一类精神药品). You must declare at the Red Channel. Max 7-15 days supply allowed for personal travel therapy."
+      },
+      "caacAviation": {
+        "carryOn": "WITH_CERTIFICATE",
+        "sharpsInvolved": false,
+        "coldChain": false,
+        "securityAdvisory": "Always carry in personal cabin baggage with official stamped prescription and passport. Never place Category 1 controlled psychotropics in checked baggage."
+      },
+      "localRefill": {
+        "refillableInChina": true,
+        "hospitalTier": "Grade 3A (三甲) Psychiatric Outpatient or Accredited International Hospital (e.g. Jiahui Health, United Family)",
+        "specialistRequired": "Licensed Psychiatrist with PRC Narcotic & Category 1 Psychotropic Prescription Authorization (麻精专用红处方资质)",
+        "maxRefillDays": 15,
+        "requiredDocs": [
+          "Original foreign medical records & formal diagnosis certificate (in English/Chinese)",
+          "Original foreign prescription slip with dosing regimen",
+          "Valid passport with valid Chinese visa or residence permit"
+        ],
+        "warningNotes": "General Practitioners (GPs) and ER doctors cannot prescribe Concerta. Maximum local refill per visit is capped at 15 days (up to 30 days for controlled-release tablets)."
+      }
+    }
+  },
+  {
+    "slug": "vyvanse-in-china",
+    "brandNames": [
+      "Vyvanse",
+      "Elvanse",
+      "Tyvense",
+      "Aduvanz"
+    ],
+    "genericName": "Lisdexamfetamine Dimesylate",
+    "chineseName": "赖氨酸安非他命 / 地塞米松",
+    "category": "BANNED",
+    "status": "RED",
+    "summary": "Strictly illegal in mainland China. As a prodrug of dextroamphetamine, it metabolizes directly into amphetamine and is treated identically to Adderall under PRC criminal statutes.",
+    "customsRule": "Absolute prohibition at all Chinese border checkpoints. Foreign prescriptions have no legal force. Attempted entry risks immediate seizure and criminal investigation.",
+    "allowance": "0 days (Strictly prohibited)",
+    "allowanceDaysMax": 0,
+    "channel": "STRICTLY_FORBIDDEN",
+    "legalBasis": "PRC Criminal Law Articles 347 & 357; 2023 Supplementary Catalogue of Controlled Narcotics and Psychotropic Substances.",
+    "declarationRequirement": "Do not pack or bring Vyvanse into mainland China under any circumstances.",
+    "localAlternative": "Transition before travel under clinical supervision to Methylphenidate (Concerta) or Atomoxetine (Strattera), both of which are legally available in China.",
+    "affiliateCategory": "clinic",
+    "indications": [
+      "ADHD",
+      "Binge Eating Disorder"
+    ],
+    "casNumber": "608137-32-2",
+    "incbCategory": "UN 1971 Schedule II / China Banned Narcotic",
+    "rxnormCui": "705024",
+    "authorityNotes": "Forensic lab tests in China detect dextroamphetamine metabolites in urine, making possession of lisdexamfetamine actionable as drug smuggling.",
+    "beforePackingTips": [
+      "Do not attempt to conceal capsules in other medicine containers; airport CT scanners detect organic pharmaceutical densities.",
+      "Switch to Concerta or Strattera at least one month before your journey.",
+      "Clean travel bags and check for loose capsules."
+    ],
+    "faqItems": [
+      {
+        "question": "Is Vyvanse considered different from Adderall in China?",
+        "answer": "No. Chinese law and customs forensic laboratories evaluate chemical metabolites. Because Lisdexamfetamine is converted in the human body into dextroamphetamine, it falls under the same prohibited amphetamine narcotic classification."
+      },
+      {
+        "question": "What should I do if I am prescribed Vyvanse and need to travel to China?",
+        "answer": "Consult your prescribing doctor 4-8 weeks before your trip to discuss transitioning to legal alternatives such as Methylphenidate (Concerta) or non-stimulants like Atomoxetine (Strattera), and prepare official medical records for entry."
+      }
+    ],
+    "activeIngredients": [
+      "lisdexamfetamine",
+      "amphetamine"
+    ],
+    "redLineWarning": true,
+    "clearanceProfiles": {
+      "gaccCustoms": {
+        "status": "PROHIBITED",
+        "declarationRequired": true,
+        "maxDays": 0,
+        "channel": "STRICTLY_FORBIDDEN",
+        "legalBasis": "PRC Criminal Law Articles 347 & 357. Prodrug of amphetamine.",
+        "advice": "Strictly banned. Prodrug metabolizes into dextroamphetamine and is treated identically to illicit narcotics."
+      },
+      "caacAviation": {
+        "carryOn": "CHECKED_ONLY",
+        "sharpsInvolved": false,
+        "coldChain": false,
+        "securityAdvisory": "Strictly prohibited from civil aviation passenger luggage entering mainland China."
+      },
+      "localRefill": {
+        "refillableInChina": false,
+        "hospitalTier": "Not Available",
+        "specialistRequired": "None",
+        "maxRefillDays": 0,
+        "requiredDocs": [],
+        "warningNotes": "Not registered or prescribable in China. Must transition to Concerta or Strattera."
+      }
+    }
+  },
+  {
+    "slug": "modafinil-in-china",
+    "brandNames": [
+      "Provigil",
+      "Modalert",
+      "Modiodal",
+      "Alertec"
+    ],
+    "genericName": "Modafinil",
+    "chineseName": "莫达非尼",
+    "category": "CONTROLLED",
+    "status": "YELLOW",
+    "summary": "Classified as a Category 1 Psychotropic Substance (第一类精神药品) in China. Under strict hospital-only administration.",
+    "customsRule": "Must declare at Red Channel. Requires formal medical records, diagnosis, and prescription. Allowance capped at 7 to 14 days personal supply.",
+    "allowance": "Max 7-14 days supply",
+    "allowanceDaysMax": 14,
+    "channel": "RED_CHANNEL",
+    "legalBasis": "State Council Catalogue of Psychotropic Substances (Category 1); NMPA Decree No. 442.",
+    "declarationRequirement": "Declare at Red Channel. Doctor prescription with passport name match required.",
+    "localAlternative": "Strictly regulated in China; available through Tier-3 neurological and sleep disorder outpatient units with certified medical records.",
+    "affiliateCategory": "clinic",
+    "indications": [
+      "Narcolepsy",
+      "Shift Work Sleep Disorder",
+      "Obstructive Sleep Apnea"
+    ],
+    "casNumber": "68693-11-8",
+    "incbCategory": "UN Psychotropic Substances / China Category 1 Psychotropic",
+    "rxnormCui": "221147",
+    "authorityNotes": "Modafinil is treated with the same stringency as Category 1 stimulants in China due to off-label 'smart drug' cognitive abuse concerns.",
+    "beforePackingTips": [
+      "Bring official sleep study (polysomnography) diagnostic documentation if prescribed for narcolepsy.",
+      "Limit carried quantity to strictly under 14 days supply.",
+      "Declare at Red Channel upon landing."
+    ],
+    "faqItems": [
+      {
+        "question": "Can I bring Modafinil (Provigil) to China for shift work or jet lag?",
+        "answer": "Only if you possess an authentic medical prescription for a certified condition (like narcolepsy). In China, Modafinil is a Category 1 Psychotropic. Unprescribed carriage for study or focus is illegal."
+      }
+    ],
+    "activeIngredients": [
+      "modafinil"
+    ],
+    "redLineWarning": false,
+    "clearanceProfiles": {
+      "gaccCustoms": {
+        "status": "RESTRICTED",
+        "declarationRequired": true,
+        "maxDays": 15,
+        "channel": "RED_CHANNEL",
+        "legalBasis": "Category 1 Psychotropic Substance under PRC Catalogue of Psychotropic Substances.",
+        "advice": "Regulated as Category 1 Psychotropic. Declare at Red Channel with stamped diagnosis certificate and prescription. Maximum 15 days supply."
+      },
+      "caacAviation": {
+        "carryOn": "WITH_CERTIFICATE",
+        "sharpsInvolved": false,
+        "coldChain": false,
+        "securityAdvisory": "Carry in cabin baggage only with matching medical certificate."
+      },
+      "localRefill": {
+        "refillableInChina": true,
+        "hospitalTier": "Grade 3A Hospital Neurology or Sleep Medicine Department",
+        "specialistRequired": "Neurologist/Psychiatrist with Red Prescription license",
+        "maxRefillDays": 15,
+        "requiredDocs": [
+          "Sleep study (PSG) report",
+          "Foreign prescription",
+          "Passport"
+        ],
+        "warningNotes": "Extremely difficult to obtain at international clinics; primary supply is through public Tier-3 specialist departments."
+      }
+    }
+  },
+  {
+    "slug": "armodafinil-in-china",
+    "brandNames": [
+      "Nuvigil",
+      "Waklert",
+      "Artvigil"
+    ],
+    "genericName": "Armodafinil",
+    "chineseName": "阿莫达非尼",
+    "category": "CONTROLLED",
+    "status": "YELLOW",
+    "summary": "The R-enantiomer of modafinil. Regulated in China as a controlled psychotropic substance under strict state oversight.",
+    "customsRule": "Declare at Red Channel. Doctor prescription and medical records required. Max 7-14 days supply.",
+    "allowance": "Max 7-14 days supply",
+    "allowanceDaysMax": 14,
+    "channel": "RED_CHANNEL",
+    "legalBasis": "NMPA/MPS Joint Catalogue of Psychotropic Substances.",
+    "declarationRequirement": "Declare at Red Channel with original prescription.",
+    "localAlternative": "Consult neurologists at accredited international clinics in Shanghai or Beijing for sleep therapy.",
+    "affiliateCategory": "clinic",
+    "indications": [
+      "Narcolepsy",
+      "Excessive Daytime Sleepiness"
+    ],
+    "casNumber": "112111-43-0",
+    "incbCategory": "Controlled Psychotropic",
+    "rxnormCui": "685084",
+    "faqItems": [
+      {
+        "question": "Is Nuvigil legal to bring to China?",
+        "answer": "Yes, with strict Category 1/2 psychotropic documentation, valid diagnosis, and declared at the Red Channel under 14 days supply."
+      }
+    ],
+    "activeIngredients": [
+      "armodafinil"
+    ],
+    "redLineWarning": false,
+    "clearanceProfiles": {
+      "gaccCustoms": {
+        "status": "RESTRICTED",
+        "declarationRequired": true,
+        "maxDays": 15,
+        "channel": "RED_CHANNEL",
+        "legalBasis": "Category 1 Psychotropic Substance (R-enantiomer of modafinil).",
+        "advice": "Same strict control as Modafinil. Red Channel declaration required with 15-day limit."
+      },
+      "caacAviation": {
+        "carryOn": "WITH_CERTIFICATE",
+        "sharpsInvolved": false,
+        "coldChain": false,
+        "securityAdvisory": "Carry on board with prescription."
+      },
+      "localRefill": {
+        "refillableInChina": false,
+        "hospitalTier": "Public Tier-3 hospitals dispense racemic Modafinil, rarely pure Armodafinil",
+        "specialistRequired": "Neurologist",
+        "maxRefillDays": 15,
+        "requiredDocs": [
+          "Sleep study / Narcolepsy history",
+          "Passport"
+        ],
+        "warningNotes": "Usually substituted with generic Modafinil in Chinese domestic pharmacies."
+      }
+    }
+  },
+  {
+    "slug": "strattera-in-china",
+    "brandNames": [
+      "Strattera",
+      "Axepta"
+    ],
+    "genericName": "Atomoxetine Hydrochloride",
+    "chineseName": "托莫西汀 / 择思达",
+    "category": "ALLOWED",
+    "status": "GREEN",
+    "summary": "Non-stimulant selective norepinephrine reuptake inhibitor for ADHD. Not a controlled substance in China. Fully legal with prescription.",
+    "customsRule": "Green Channel permitted for personal supply up to 90 days. Keep in original packaging with doctor prescription.",
+    "allowance": "Up to 90 days personal supply",
+    "allowanceDaysMax": 90,
+    "channel": "GREEN_CHANNEL",
+    "legalBasis": "GACC Announcement No. 43 on Personal Luggage; NMPA Non-Controlled Prescription Category.",
+    "declarationRequirement": "Green Channel. Carry doctor prescription copy.",
+    "localAlternative": "Widely available and prescribable at psychiatric clinics and pharmacies across China under the domestic brand 择思达 (Strattera).",
+    "affiliateCategory": "clinic",
+    "indications": [
+      "ADHD"
+    ],
+    "casNumber": "82248-59-7",
+    "incbCategory": "Non-Controlled Therapeutic Agent",
+    "rxnormCui": "358263",
+    "faqItems": [
+      {
+        "question": "Is Strattera (Atomoxetine) controlled in China like Adderall or Concerta?",
+        "answer": "No. Atomoxetine is a non-stimulant and is not on China's controlled psychotropic catalogue. You can bring up to a 90-day personal supply through the Green Channel."
+      }
+    ],
+    "activeIngredients": [
+      "atomoxetine"
+    ],
+    "redLineWarning": false,
+    "clearanceProfiles": {
+      "gaccCustoms": {
+        "status": "ALLOWED",
+        "declarationRequired": false,
+        "maxDays": 90,
+        "channel": "GREEN_CHANNEL",
+        "legalBasis": "PRC Drug Administration Law; GACC Decree 43 (Personal Use Exemption).",
+        "advice": "Non-stimulant ADHD medication, NOT scheduled under narcotic or psychotropic catalogues. Permitted up to 90 days with prescription."
+      },
+      "caacAviation": {
+        "carryOn": "ALLOWED",
+        "sharpsInvolved": false,
+        "coldChain": false,
+        "securityAdvisory": "Standard oral medication. Permitted in carry-on and checked luggage."
+      },
+      "localRefill": {
+        "refillableInChina": true,
+        "hospitalTier": "Tier-2/3 Public Hospitals & International Clinics (United Family, Jiahui, Parkway)",
+        "specialistRequired": "Psychiatrist or General Practitioner",
+        "maxRefillDays": 30,
+        "requiredDocs": [
+          "Foreign prescription or doctor summary",
+          "Passport"
+        ],
+        "warningNotes": "Readily available in China under brand name 择思达 (Strattera) or approved domestic bioequivalents."
+      }
+    }
+  },
+  {
+    "slug": "cbd-oil-in-china",
+    "brandNames": [
+      "CBD Oil",
+      "CBD Gummies",
+      "Hemp Extract",
+      "Charlotte's Web",
+      "Elixinol"
+    ],
+    "genericName": "Cannabidiol",
+    "chineseName": "大麻二酚 (CBD)",
+    "category": "BANNED",
+    "status": "RED",
+    "summary": "Completely prohibited in all forms, including oils, gummies, tinctures, vapes, and cosmetic lotions, regardless of THC content or medical licenses.",
+    "customsRule": "Strict zero tolerance. China's National Narcotics Control Commission and Customs classify all cannabis plant derivatives under anti-drug statutes.",
+    "allowance": "0 days (Absolute prohibition)",
+    "allowanceDaysMax": 0,
+    "channel": "STRICTLY_FORBIDDEN",
+    "legalBasis": "National Narcotics Control Commission (NNCC) Notice on Cannabis Derivatives; PRC Public Security Administration Punishments Law Article 72; Criminal Law Article 347.",
+    "declarationRequirement": "Do not bring any CBD products under any circumstances. Even trace residues trigger airport swab alarms.",
+    "localAlternative": "For sleep assistance, Melatonin (褪黑素) is widely available OTC. For chronic pain, consult in-country physicians for approved non-cannabinoid analgesics.",
+    "affiliateCategory": "insurance",
+    "indications": [
+      "Insomnia",
+      "Chronic Pain",
+      "Anxiety"
+    ],
+    "casNumber": "13956-29-1",
+    "incbCategory": "UN 1961 Convention on Narcotic Drugs / China Total Prohibition",
+    "rxnormCui": "213824",
+    "authorityNotes": "China bans all CBD cosmetics and consumables since 2021. British and US embassies warn travelers that 'CBD gummies and vape liquids can lead to immediate arrest'.",
+    "beforePackingTips": [
+      "Check all backpacks, coats, and toiletries for CBD gummies, balms, bath salts, or oils.",
+      "Do not bring empty vape pens that previously held CBD or THC liquids; trace resin triggers customs spectrometer detections.",
+      "Discard any hemp-seed oil topical products before flying."
+    ],
+    "faqItems": [
+      {
+        "question": "Can I bring THC-free CBD gummies or oil to China for personal health reasons?",
+        "answer": "No. China makes no legal distinction between THC and CBD in imported personal goods. All CBD products are banned. Attempting to bring CBD gummies, topicals, or vape pens into China can result in drug detention and deportation."
+      },
+      {
+        "question": "Are drug testing swabs used at Chinese international airports?",
+        "answer": "Yes. Chinese customs and border inspection points frequently employ ion-mobility spectrometry swabs and sniffer dogs. Trace cannabinoid particles on luggage or toiletries will prompt a thorough secondary inspection and mandatory drug testing."
+      }
+    ],
+    "activeIngredients": [
+      "cannabidiol",
+      "cbd"
+    ],
+    "redLineWarning": true,
+    "clearanceProfiles": {
+      "gaccCustoms": {
+        "status": "PROHIBITED",
+        "declarationRequired": true,
+        "maxDays": 0,
+        "channel": "STRICTLY_FORBIDDEN",
+        "legalBasis": "PRC Narcotics Control Law; PRC Criminal Law Art. 347; 2021 NMPA Total Cosmetic & Food Cannabinoid Ban.",
+        "advice": "Absolute legal red line. All CBD oils, gummies, tinctures, and vapes are illegal narcotics in China. Even 0.0% THC claims are not exempt."
+      },
+      "caacAviation": {
+        "carryOn": "CHECKED_ONLY",
+        "sharpsInvolved": false,
+        "coldChain": false,
+        "securityAdvisory": "Carrying CBD on international flights to China violates civil aviation contraband rules. Security police will detain on arrival."
+      },
+      "localRefill": {
+        "refillableInChina": false,
+        "hospitalTier": "Prohibited Nationwide",
+        "specialistRequired": "None",
+        "maxRefillDays": 0,
+        "requiredDocs": [],
+        "warningNotes": "CBD has zero approved medical formulations in mainland China. Do not seek locally."
+      }
+    }
+  },
+  {
+    "slug": "medical-marijuana-thc-in-china",
+    "brandNames": [
+      "Medical Cannabis",
+      "Marinol",
+      "Sativex",
+      "THC Vape Cartridges"
+    ],
+    "genericName": "Tetrahydrocannabinol / Dronabinol",
+    "chineseName": "四氢大麻酚 (THC) / 医用大麻",
+    "category": "BANNED",
+    "status": "RED",
+    "summary": "Treated as an illegal narcotic drug under PRC Criminal Law. Extreme penalties for smuggling or possession, regardless of foreign prescription.",
+    "customsRule": "Strict zero tolerance. Immediate arrest, criminal investigation, and multi-year imprisonment for smuggling.",
+    "allowance": "0 days (Absolute prohibition)",
+    "allowanceDaysMax": 0,
+    "channel": "STRICTLY_FORBIDDEN",
+    "legalBasis": "PRC Criminal Law Articles 347, 348 & 357.",
+    "declarationRequirement": "Never bring any THC, cannabis, or marijuana products into China.",
+    "localAlternative": "Legal conventional therapies available at Chinese hospitals for pain and spasticity.",
+    "affiliateCategory": "insurance",
+    "indications": [
+      "Chronic Pain",
+      "Nausea",
+      "Spasticity"
+    ],
+    "casNumber": "1972-08-3",
+    "incbCategory": "UN 1961 Single Convention / China Prohibited Narcotic",
+    "rxnormCui": "10438",
+    "faqItems": [
+      {
+        "question": "Does China allow medical cannabis if I have a state medical marijuana card?",
+        "answer": "No. Foreign medical marijuana cards carry zero validity in China. Possession of cannabis or THC is treated as criminal narcotics possession."
+      }
+    ],
+    "activeIngredients": [
+      "tetrahydrocannabinol",
+      "thc",
+      "cannabis"
+    ],
+    "redLineWarning": true,
+    "clearanceProfiles": {
+      "gaccCustoms": {
+        "status": "PROHIBITED",
+        "declarationRequired": true,
+        "maxDays": 0,
+        "channel": "STRICTLY_FORBIDDEN",
+        "legalBasis": "PRC Criminal Law Art. 347 (Smuggling of Narcotics punishable by detention up to life imprisonment/capital punishment).",
+        "advice": "Strict criminal drug smuggling offense. Foreign medical marijuana cards carry zero validity in China."
+      },
+      "caacAviation": {
+        "carryOn": "CHECKED_ONLY",
+        "sharpsInvolved": false,
+        "coldChain": false,
+        "securityAdvisory": "Criminal contraband on any aircraft bound for China."
+      },
+      "localRefill": {
+        "refillableInChina": false,
+        "hospitalTier": "Prohibited Nationwide",
+        "specialistRequired": "None",
+        "maxRefillDays": 0,
+        "requiredDocs": [],
+        "warningNotes": "Strictly banned."
+      }
+    }
+  },
+  {
+    "slug": "xanax-in-china",
+    "brandNames": [
+      "Xanax",
+      "Niravam",
+      "Alprazolam Intensol"
+    ],
+    "genericName": "Alprazolam",
+    "chineseName": "阿普唑仑",
+    "category": "CONTROLLED",
+    "status": "YELLOW",
+    "summary": "Classified as a Category 2 Psychotropic Substance (第二类精神药品) in China. Controlled benzodiazepine requiring physician documentation and Red Channel declaration.",
+    "customsRule": "Must declare at Red Channel. Valid original prescription and doctor's diagnosis note required. Maximum personal allowance is restricted to 15 to 30 days personal supply.",
+    "allowance": "Max 15-30 days personal supply",
+    "allowanceDaysMax": 30,
+    "channel": "RED_CHANNEL",
+    "legalBasis": "State Council Administrative Regulations on Narcotic Drugs and Psychotropic Substances; NMPA Psychotropic Substance Catalogue (Category 2).",
+    "declarationRequirement": "Declare at Red Channel. Present valid doctor's prescription, clinical diagnosis, and passport.",
+    "localAlternative": "Alprazolam is approved in China as a Category 2 Psychotropic and can be prescribed by licensed psychiatrists at Tier-3 public hospitals or international medical centers.",
+    "affiliateCategory": "clinic",
+    "indications": [
+      "Panic Disorder",
+      "Anxiety",
+      "Insomnia"
+    ],
+    "casNumber": "28981-97-7",
+    "incbCategory": "UN 1971 Convention Schedule IV / China Category 2 Psychotropic",
+    "rxnormCui": "596",
+    "authorityNotes": "INCB Guidelines: Travelers may carry Category 2 psychotropics not exceeding 30 days single medical regimen with formal physician certification.",
+    "beforePackingTips": [
+      "Carry no more than 15 to 30 days of tablets in original prescription packaging.",
+      "Bring a signed doctor's letter indicating diagnosis, daily dose, and duration of regimen.",
+      "Declare at the Red Channel at airport customs."
+    ],
+    "faqItems": [
+      {
+        "question": "Can I bring Xanax (Alprazolam) to China?",
+        "answer": "Yes, provided you follow the controlled substance protocol: carry an original physician's prescription, bring no more than a 15 to 30 day supply, keep it in the original pharmacy packaging, and declare it at the Customs Red Channel upon arrival."
+      },
+      {
+        "question": "What happens if I forget to declare Xanax at Chinese Customs?",
+        "answer": "If baggage scanners identify un-declared controlled psychotropic tablets in your luggage at the Green Channel, you may face intensive questioning, confiscation, and administrative penalties. Always proceed through the Red Channel to declare."
+      }
+    ],
+    "activeIngredients": [
+      "alprazolam",
+      "benzodiazepine"
+    ],
+    "redLineWarning": false,
+    "clearanceProfiles": {
+      "gaccCustoms": {
+        "status": "RESTRICTED",
+        "declarationRequired": true,
+        "maxDays": 30,
+        "channel": "RED_CHANNEL",
+        "legalBasis": "Category 2 Psychotropic Substance (第二类精神药品); Decree 442 Art. 44.",
+        "advice": "Controlled Category 2 Psychotropic. Mandatory Red Channel declaration. Bring doctor prescription and diagnosis. Allowed up to 15-30 days."
+      },
+      "caacAviation": {
+        "carryOn": "WITH_CERTIFICATE",
+        "sharpsInvolved": false,
+        "coldChain": false,
+        "securityAdvisory": "Keep in carry-on bag with doctor note. Do not place large quantities in checked luggage."
+      },
+      "localRefill": {
+        "refillableInChina": true,
+        "hospitalTier": "Tier-3 Hospital Outpatient or Expat Clinics",
+        "specialistRequired": "Psychiatrist or licensed physician with Psychotropic Cat-2 authority",
+        "maxRefillDays": 14,
+        "requiredDocs": [
+          "Medical certificate",
+          "Passport"
+        ],
+        "warningNotes": "Single outpatient prescription usually limited to 7 to 14 days supply."
+      }
+    }
+  },
+  {
+    "slug": "klonopin-in-china",
+    "brandNames": [
+      "Klonopin",
+      "Rivotril"
+    ],
+    "genericName": "Clonazepam",
+    "chineseName": "氯硝西泮 / 氯硝安定",
+    "category": "CONTROLLED",
+    "status": "YELLOW",
+    "summary": "Category 2 Psychotropic Substance in China. Controlled potent benzodiazepine for epilepsy and panic disorder.",
+    "customsRule": "Declare at Red Channel. Doctor prescription and medical records required. Max 15-30 days personal supply.",
+    "allowance": "Max 15-30 days personal supply",
+    "allowanceDaysMax": 30,
+    "channel": "RED_CHANNEL",
+    "legalBasis": "State Council Decree No. 442; NMPA Category 2 Psychotropic Catalogue.",
+    "declarationRequirement": "Declare at Red Channel. Doctor certificate and original bottle required.",
+    "localAlternative": "Readily available and prescribed at Chinese hospital neurology and psychiatry departments (氯硝西泮片).",
+    "affiliateCategory": "clinic",
+    "indications": [
+      "Seizure Disorders",
+      "Panic Disorder",
+      "Involuntary Muscle Spasms"
+    ],
+    "casNumber": "1622-61-3",
+    "incbCategory": "UN 1971 Schedule IV / China Category 2 Psychotropic",
+    "rxnormCui": "2598",
+    "faqItems": [
+      {
+        "question": "Can I bring Klonopin into China for seizures?",
+        "answer": "Yes, bring up to a 30-day supply in original packaging, carry a doctor's certificate specifying your seizure treatment plan, and declare at the Red Channel."
+      }
+    ],
+    "activeIngredients": [
+      "clonazepam",
+      "benzodiazepine"
+    ],
+    "redLineWarning": false,
+    "clearanceProfiles": {
+      "gaccCustoms": {
+        "status": "RESTRICTED",
+        "declarationRequired": true,
+        "maxDays": 30,
+        "channel": "RED_CHANNEL",
+        "legalBasis": "Category 2 Psychotropic Substance (第二类精神药品).",
+        "advice": "Controlled Category 2 Psychotropic. Declare at Red Channel with prescription. Carry limit 15-30 days."
+      },
+      "caacAviation": {
+        "carryOn": "WITH_CERTIFICATE",
+        "sharpsInvolved": false,
+        "coldChain": false,
+        "securityAdvisory": "Carry-on recommended with physician letter."
+      },
+      "localRefill": {
+        "refillableInChina": true,
+        "hospitalTier": "Tier-3 Neurology/Psychiatry",
+        "specialistRequired": "Neurologist or Psychiatrist",
+        "maxRefillDays": 14,
+        "requiredDocs": [
+          "Diagnosis slip",
+          "Passport"
+        ],
+        "warningNotes": "Commonly used for epilepsy and panic disorder in Chinese hospitals."
+      }
+    }
+  },
+  {
+    "slug": "valium-in-china",
+    "brandNames": [
+      "Valium",
+      "Diastat",
+      "Valrelease"
+    ],
+    "genericName": "Diazepam",
+    "chineseName": "地西泮 (安定)",
+    "category": "CONTROLLED",
+    "status": "YELLOW",
+    "summary": "Category 2 Psychotropic Substance in China. Widely recognized controlled tranquilizer.",
+    "customsRule": "Declare at Red Channel. Doctor prescription required. Max 15-30 days personal supply.",
+    "allowance": "Max 15-30 days personal supply",
+    "allowanceDaysMax": 30,
+    "channel": "RED_CHANNEL",
+    "legalBasis": "NMPA Psychotropic Substances Catalogue (Category 2).",
+    "declarationRequirement": "Declare at Red Channel. Prescription and passport matching required.",
+    "localAlternative": "Widely available at all Chinese hospitals upon doctor consultation (地西泮片).",
+    "affiliateCategory": "clinic",
+    "indications": [
+      "Anxiety",
+      "Muscle Spasms",
+      "Alcohol Withdrawal"
+    ],
+    "casNumber": "439-14-5",
+    "incbCategory": "UN 1971 Schedule IV / China Category 2 Psychotropic",
+    "rxnormCui": "3322",
+    "faqItems": [
+      {
+        "question": "Is Valium allowed in China for flight anxiety?",
+        "answer": "Yes, but it is a controlled psychotropic. Carry a doctor prescription, pack it in original packaging, and declare at the Red Channel."
+      }
+    ],
+    "activeIngredients": [
+      "diazepam",
+      "benzodiazepine"
+    ],
+    "redLineWarning": false,
+    "clearanceProfiles": {
+      "gaccCustoms": {
+        "status": "RESTRICTED",
+        "declarationRequired": true,
+        "maxDays": 30,
+        "channel": "RED_CHANNEL",
+        "legalBasis": "Category 2 Psychotropic Substance (第二类精神药品).",
+        "advice": "Category 2 Psychotropic. Red Channel declaration required."
+      },
+      "caacAviation": {
+        "carryOn": "WITH_CERTIFICATE",
+        "sharpsInvolved": false,
+        "coldChain": false,
+        "securityAdvisory": "Keep in cabin baggage."
+      },
+      "localRefill": {
+        "refillableInChina": true,
+        "hospitalTier": "Public Tier-2/3 Hospitals and International Clinics",
+        "specialistRequired": "Physician with psychotropic prescribing authority",
+        "maxRefillDays": 14,
+        "requiredDocs": [
+          "Doctor note",
+          "Passport"
+        ],
+        "warningNotes": "Readily available across China under name 地西泮 (安定)."
+      }
+    }
+  },
+  {
+    "slug": "ativan-in-china",
+    "brandNames": [
+      "Ativan",
+      "Lorazepam Intensol"
+    ],
+    "genericName": "Lorazepam",
+    "chineseName": "劳拉西泮",
+    "category": "CONTROLLED",
+    "status": "YELLOW",
+    "summary": "Category 2 Psychotropic Substance in China. Controlled fast-acting benzodiazepine.",
+    "customsRule": "Declare at Red Channel. Doctor prescription required. Max 15-30 days supply.",
+    "allowance": "Max 15-30 days personal supply",
+    "allowanceDaysMax": 30,
+    "channel": "RED_CHANNEL",
+    "legalBasis": "State Council Decree No. 442.",
+    "declarationRequirement": "Declare at Red Channel.",
+    "localAlternative": "Prescribable by licensed physicians at Tier-3 hospitals and expat clinics in China.",
+    "affiliateCategory": "clinic",
+    "indications": [
+      "Anxiety",
+      "Insomnia"
+    ],
+    "casNumber": "846-49-1",
+    "incbCategory": "UN 1971 Schedule IV / China Category 2 Psychotropic",
+    "rxnormCui": "6470",
+    "faqItems": [
+      {
+        "question": "Can I bring Ativan to China?",
+        "answer": "Yes, with original prescription, under 30 days supply, declared at the Red Channel."
+      }
+    ],
+    "activeIngredients": [
+      "lorazepam",
+      "benzodiazepine"
+    ],
+    "redLineWarning": false,
+    "clearanceProfiles": {
+      "gaccCustoms": {
+        "status": "RESTRICTED",
+        "declarationRequired": true,
+        "maxDays": 30,
+        "channel": "RED_CHANNEL",
+        "legalBasis": "Category 2 Psychotropic Substance (第二类精神药品).",
+        "advice": "Controlled Category 2 Psychotropic. Declare at Red Channel. 15-30 days personal limit."
+      },
+      "caacAviation": {
+        "carryOn": "WITH_CERTIFICATE",
+        "sharpsInvolved": false,
+        "coldChain": false,
+        "securityAdvisory": "Carry on board with prescription."
+      },
+      "localRefill": {
+        "refillableInChina": true,
+        "hospitalTier": "Tier-3 Hospital Outpatient",
+        "specialistRequired": "Psychiatrist or Neurologist",
+        "maxRefillDays": 14,
+        "requiredDocs": [
+          "Diagnosis summary",
+          "Passport"
+        ],
+        "warningNotes": "Prescribed as 劳拉西泮 (罗拉)."
+      }
+    }
+  },
+  {
+    "slug": "ambien-in-china",
+    "brandNames": [
+      "Ambien",
+      "Ambien CR",
+      "Stilnox",
+      "Edluar",
+      "Zolpimist"
+    ],
+    "genericName": "Zolpidem Tartrate",
+    "chineseName": "唑吡坦 (思诺思)",
+    "category": "CONTROLLED",
+    "status": "YELLOW",
+    "summary": "Classified as a Category 2 Psychotropic Substance in China. Controlled hypnotic sleep aid requiring medical certificate and customs declaration.",
+    "customsRule": "Declare at Red Channel. Doctor's prescription, stamped diagnosis letter, and original packaging with clear dosage instructions required. Permitted allowance is limited to single travel course (max 15-30 days).",
+    "allowance": "Max 15-30 days personal supply",
+    "allowanceDaysMax": 30,
+    "channel": "RED_CHANNEL",
+    "legalBasis": "State Council Regulations on Narcotic Drugs and Psychotropic Substances (Article 44).",
+    "declarationRequirement": "Declare at Red Channel. Keep doctor's documentation with prescription dosage and passport match.",
+    "localAlternative": "Zolpidem (known locally as 思诺思 / Stilnox) is widely prescribed at Chinese hospitals upon consultation with a neurologist or psychiatrist.",
+    "affiliateCategory": "clinic",
+    "indications": [
+      "Insomnia",
+      "Sleep Disorders"
+    ],
+    "casNumber": "82626-48-0",
+    "incbCategory": "UN 1971 Schedule IV / China Category 2 Psychotropic",
+    "rxnormCui": "39993",
+    "faqItems": [
+      {
+        "question": "Can I bring Ambien for jet lag on my flight to China?",
+        "answer": "Yes, but you must have an authentic doctor's prescription and keep it inside its original labeled bottle. Declare it at the Red Channel if carrying a full course of medication into China."
+      },
+      {
+        "question": "Can I buy Ambien over the counter in China?",
+        "answer": "No. Zolpidem is strictly regulated under Category 2 Psychotropic regulations. It cannot be purchased over the counter and requires a hospital consultation and formal physician prescription."
+      }
+    ],
+    "activeIngredients": [
+      "zolpidem"
+    ],
+    "redLineWarning": false,
+    "clearanceProfiles": {
+      "gaccCustoms": {
+        "status": "RESTRICTED",
+        "declarationRequired": true,
+        "maxDays": 30,
+        "channel": "RED_CHANNEL",
+        "legalBasis": "Category 2 Psychotropic Substance (第二类精神药品).",
+        "advice": "Controlled Category 2 Psychotropic. Declare at Red Channel. Max 15-30 days."
+      },
+      "caacAviation": {
+        "carryOn": "WITH_CERTIFICATE",
+        "sharpsInvolved": false,
+        "coldChain": false,
+        "securityAdvisory": "Carry in hand luggage with label."
+      },
+      "localRefill": {
+        "refillableInChina": true,
+        "hospitalTier": "Tier-3 Hospitals & International Clinics",
+        "specialistRequired": "Physician with Cat-2 psychotropic authority",
+        "maxRefillDays": 7,
+        "requiredDocs": [
+          "Insomnia diagnosis letter",
+          "Passport"
+        ],
+        "warningNotes": "Single outpatient prescription is strictly capped at 7 to 14 days maximum (思诺思)."
+      }
+    }
+  },
+  {
+    "slug": "lunesta-in-china",
+    "brandNames": [
+      "Lunesta"
+    ],
+    "genericName": "Eszopiclone",
+    "chineseName": "右佐匹克隆",
+    "category": "CONTROLLED",
+    "status": "YELLOW",
+    "summary": "Category 2 Psychotropic Substance in China. Non-benzodiazepine hypnotic agent for insomnia.",
+    "customsRule": "Declare at Red Channel. Doctor prescription required. Max 15-30 days personal supply.",
+    "allowance": "Max 15-30 days personal supply",
+    "allowanceDaysMax": 30,
+    "channel": "RED_CHANNEL",
+    "legalBasis": "NMPA Psychotropic Substance Catalogue (Category 2).",
+    "declarationRequirement": "Declare at Red Channel with original prescription.",
+    "localAlternative": "Prescribable across Chinese public and private hospitals (右佐匹克隆片).",
+    "affiliateCategory": "clinic",
+    "indications": [
+      "Insomnia"
+    ],
+    "casNumber": "138729-47-2",
+    "incbCategory": "Controlled Psychotropic",
+    "rxnormCui": "402016",
+    "faqItems": [
+      {
+        "question": "Is Lunesta controlled in China?",
+        "answer": "Yes, Eszopiclone is regulated as a Category 2 Psychotropic. You need a prescription and must declare it at the Red Channel."
+      }
+    ],
+    "activeIngredients": [
+      "eszopiclone"
+    ],
+    "redLineWarning": false,
+    "clearanceProfiles": {
+      "gaccCustoms": {
+        "status": "RESTRICTED",
+        "declarationRequired": true,
+        "maxDays": 30,
+        "channel": "RED_CHANNEL",
+        "legalBasis": "Category 2 Psychotropic Substance (第二类精神药品).",
+        "advice": "Category 2 Psychotropic. Declare at Red Channel. Max 30 days."
+      },
+      "caacAviation": {
+        "carryOn": "WITH_CERTIFICATE",
+        "sharpsInvolved": false,
+        "coldChain": false,
+        "securityAdvisory": "Carry in carry-on bag."
+      },
+      "localRefill": {
+        "refillableInChina": true,
+        "hospitalTier": "Tier-3 Hospitals",
+        "specialistRequired": "Neurologist/Psychiatrist",
+        "maxRefillDays": 14,
+        "requiredDocs": [
+          "Doctor note",
+          "Passport"
+        ],
+        "warningNotes": "Available as 右佐匹克隆 in Chinese pharmacies with Rx."
+      }
+    }
+  },
+  {
+    "slug": "fentanyl-patch-in-china",
+    "brandNames": [
+      "Duragesic",
+      "Matrifen",
+      "Fentora"
+    ],
+    "genericName": "Fentanyl Transdermal Patch",
+    "chineseName": "芬太尼透皮贴剂",
+    "category": "CONTROLLED",
+    "status": "YELLOW",
+    "summary": "Classified as a strictly controlled Narcotic Drug (麻醉药品) in China. Allowed only for certified severe chronic pain / cancer patients with rigorous medical authorization.",
+    "customsRule": "Mandatory Red Channel declaration. Must carry official hospital diagnosis, oncologist certification, original packaging with serial numbers, and exact dosage schedule. Limited strictly to a 7-day personal regimen.",
+    "allowance": "Max 7 days supply (Strict scrutiny)",
+    "allowanceDaysMax": 7,
+    "channel": "RED_CHANNEL",
+    "legalBasis": "PRC Regulations on the Administration of Narcotic Drugs and Psychotropic Substances; Criminal Law Anti-Opioid Directives; UN 1961 Convention.",
+    "declarationRequirement": "Mandatory declaration at Red Channel. Detailed hospital diagnostic documentation and oncologist signature required.",
+    "localAlternative": "Available at Chinese Grade-3A hospital oncology departments under specialized Red Narcotic Prescriptions (麻醉药品专用处方).",
+    "affiliateCategory": "clinic",
+    "indications": [
+      "Severe Chronic Pain",
+      "Cancer Pain Management"
+    ],
+    "casNumber": "437-38-7",
+    "incbCategory": "UN 1961 Single Convention Schedule I / China Narcotic Drug",
+    "rxnormCui": "31555",
+    "authorityNotes": "Given China's global anti-fentanyl enforcement focus, carrying fentanyl patches without comprehensive stamped clinical paperwork will trigger rigorous interrogation.",
+    "beforePackingTips": [
+      "Carry a signed oncologist letter specifying patient passport number, cancer/pain diagnosis, patch strength (mcg/hr), and daily dosage.",
+      "Carry only the exact number of patches required for the initial 7 days of your stay in China.",
+      "Ensure patches remain in sealed, unbroken foil pouches."
+    ],
+    "faqItems": [
+      {
+        "question": "Can I travel to China with Fentanyl pain patches for cancer treatment?",
+        "answer": "Yes, but you must adhere to the strictest level of documentation: carry an oncologist certificate translated into Chinese or English, pack no more than 7 days of patches in original sealed foil, and declare immediately at the Red Channel."
+      }
+    ],
+    "activeIngredients": [
+      "fentanyl",
+      "opioid"
+    ],
+    "redLineWarning": true,
+    "clearanceProfiles": {
+      "gaccCustoms": {
+        "status": "PROHIBITED",
+        "declarationRequired": true,
+        "maxDays": 0,
+        "channel": "STRICTLY_FORBIDDEN",
+        "legalBasis": "PRC Narcotic Control Regulations; Narcotic Drug Catalogue (麻醉药品).",
+        "advice": "Potent narcotic opioid. Regular travelers cannot bring fentanyl into China without prior ministerial import permits from NMPA."
+      },
+      "caacAviation": {
+        "carryOn": "CHECKED_ONLY",
+        "sharpsInvolved": false,
+        "coldChain": false,
+        "securityAdvisory": "Restricted narcotic under strict civil aviation and border policing."
+      },
+      "localRefill": {
+        "refillableInChina": true,
+        "hospitalTier": "Tier-3 Oncology Inpatient / Palliative Care Only",
+        "specialistRequired": "Certified Oncologist / Pain Specialist with Red Narcotic Prescription (麻醉药品红处方)",
+        "maxRefillDays": 7,
+        "requiredDocs": [
+          "Advanced oncology hospital discharge records",
+          "ID/Passport",
+          "Family caregiver authorization"
+        ],
+        "warningNotes": "Extremely restricted. Outpatients cannot obtain fentanyl patches without rigorous in-person hospital registration and photo record."
+      }
+    }
+  },
+  {
+    "slug": "oxycodone-in-china",
+    "brandNames": [
+      "OxyContin",
+      "Percocet",
+      "Roxicodone",
+      "Endocet"
+    ],
+    "genericName": "Oxycodone Hydrochloride",
+    "chineseName": "羟考酮 (奥施康定)",
+    "category": "CONTROLLED",
+    "status": "YELLOW",
+    "summary": "Classified as a Narcotic Drug (麻醉药品) in China. Potent opioid analgesic under strict national quotas.",
+    "customsRule": "Must declare at Red Channel. Official physician diagnosis and prescription required. Maximum allowance strictly limited to 7 days personal supply.",
+    "allowance": "Max 7 days personal supply",
+    "allowanceDaysMax": 7,
+    "channel": "RED_CHANNEL",
+    "legalBasis": "State Council Decree No. 442; NMPA Narcotic Drugs Catalogue.",
+    "declarationRequirement": "Mandatory Red Channel declaration. Original doctor diagnosis and prescription required.",
+    "localAlternative": "Prescribable at Tier-3 hospital oncology and pain management clinics under special narcotics registration.",
+    "affiliateCategory": "clinic",
+    "indications": [
+      "Severe Pain",
+      "Post-Surgical Analgesia",
+      "Oncology Pain"
+    ],
+    "casNumber": "76-42-6",
+    "incbCategory": "UN 1961 Single Convention Schedule I / China Narcotic Drug",
+    "rxnormCui": "7804",
+    "faqItems": [
+      {
+        "question": "Can I bring OxyContin to China?",
+        "answer": "Yes, but strictly as a declared narcotic drug with a 7-day limit, original doctor diagnosis, and mandatory Red Channel declaration."
+      }
+    ],
+    "activeIngredients": [
+      "oxycodone",
+      "opioid"
+    ],
+    "redLineWarning": true,
+    "clearanceProfiles": {
+      "gaccCustoms": {
+        "status": "RESTRICTED",
+        "declarationRequired": true,
+        "maxDays": 7,
+        "channel": "RED_CHANNEL",
+        "legalBasis": "PRC Narcotic Drugs Catalogue (麻醉药品).",
+        "advice": "Narcotic analgesic. Strict Red Channel declaration required. Allowed only for genuine severe pain with hospital verification, max 3-7 days."
+      },
+      "caacAviation": {
+        "carryOn": "WITH_CERTIFICATE",
+        "sharpsInvolved": false,
+        "coldChain": false,
+        "securityAdvisory": "Must carry in cabin with doctor certificate. Never in checked baggage."
+      },
+      "localRefill": {
+        "refillableInChina": true,
+        "hospitalTier": "Tier-3 Oncology or Pain Management Department",
+        "specialistRequired": "Specialist with Narcotic Red Prescription",
+        "maxRefillDays": 7,
+        "requiredDocs": [
+          "Oncology/Surgical pathology report",
+          "Original foreign prescription",
+          "Passport"
+        ],
+        "warningNotes": "Controlled release tablets (OxyContin/奥施康定) strictly monitored by national tracking code."
+      }
+    }
+  },
+  {
+    "slug": "tramadol-in-china",
+    "brandNames": [
+      "Ultram",
+      "ConZip",
+      "Tramal",
+      "Zydol"
+    ],
+    "genericName": "Tramadol Hydrochloride",
+    "chineseName": "曲马多",
+    "category": "CONTROLLED",
+    "status": "YELLOW",
+    "summary": "Classified as a controlled Category 2 Psychotropic/Narcotic Substance in China. Regulated due to opioid-like dependency risks.",
+    "customsRule": "Must declare at Red Channel. Doctor's prescription, official medical record demonstrating chronic pain, and original packaging required. Strict 7-15 days reasonable personal supply limit.",
+    "allowance": "Max 7-15 days personal supply",
+    "allowanceDaysMax": 15,
+    "channel": "RED_CHANNEL",
+    "legalBasis": "Ministry of Public Security, NMPA & National Health Commission Joint Directive on Tramadol Control (2023 Revision).",
+    "declarationRequirement": "Mandatory Red Channel declaration. Failure to declare controlled opioids risks administrative detention.",
+    "localAlternative": "Consult pain management specialists at major Chinese medical centers; standard non-opioid NSAIDs or localized analgesics are available OTC.",
+    "affiliateCategory": "clinic",
+    "indications": [
+      "Moderate to Severe Pain",
+      "Post-Surgical Analgesia"
+    ],
+    "casNumber": "27203-92-5",
+    "incbCategory": "UN Psychotropic Substances / China Category 2 Psychotropic",
+    "rxnormCui": "10689",
+    "faqItems": [
+      {
+        "question": "Can I bring Tramadol painkillers to China?",
+        "answer": "Yes, but strictly as a controlled substance: you must possess a formal physician diagnosis and prescription, carry no more than a 7 to 15 day personal dosage, and declare it at the Red Channel upon arrival."
+      }
+    ],
+    "activeIngredients": [
+      "tramadol",
+      "opioid"
+    ],
+    "redLineWarning": false,
+    "clearanceProfiles": {
+      "gaccCustoms": {
+        "status": "RESTRICTED",
+        "declarationRequired": true,
+        "maxDays": 15,
+        "channel": "RED_CHANNEL",
+        "legalBasis": "Category 2 Psychotropic (scheduled July 2023).",
+        "advice": "Scheduled as Category 2 Psychotropic in China. Declare at Red Channel. Max 15 days."
+      },
+      "caacAviation": {
+        "carryOn": "WITH_CERTIFICATE",
+        "sharpsInvolved": false,
+        "coldChain": false,
+        "securityAdvisory": "Carry on board with prescription."
+      },
+      "localRefill": {
+        "refillableInChina": true,
+        "hospitalTier": "Tier-2/3 Public Hospitals and International Clinics",
+        "specialistRequired": "Orthopedic or Pain Specialist",
+        "maxRefillDays": 7,
+        "requiredDocs": [
+          "Pain diagnosis",
+          "Passport"
+        ],
+        "warningNotes": "Widely available domestically under generic name 曲马多."
+      }
+    }
+  },
+  {
+    "slug": "codeine-cough-syrup-in-china",
+    "brandNames": [
+      "Tussionex",
+      "Cheratussin AC",
+      "Robitussin AC",
+      "Tylenol with Codeine"
+    ],
+    "genericName": "Codeine Phosphate / Promethazine with Codeine",
+    "chineseName": "可待因 (含可待因复方口服液)",
+    "category": "CONTROLLED",
+    "status": "YELLOW",
+    "summary": "Compound oral liquids and tablets containing codeine are strictly controlled under Chinese law. High seizure risk if undeclared.",
+    "customsRule": "Red Channel declaration is compulsory. Must present formal hospital diagnosis and prescription. Unprescribed cough syrups containing codeine are treated as illegal narcotic imports.",
+    "allowance": "Max 7 days supply with matching diagnosis",
+    "allowanceDaysMax": 7,
+    "channel": "RED_CHANNEL",
+    "legalBasis": "Notice on the Inclusion of Compound Codeine Oral Solutions in Narcotic Drugs Regulation (NMPA & MPS Announcement).",
+    "declarationRequirement": "Declare at Red Channel. Must retain original physician dosage order; carrying bulk bottles without matching medical documentation can trigger criminal investigation.",
+    "localAlternative": "Non-codeine antitussives (such as Dextromethorphan or herbal cough syrups like Nin Jiom Pei Pa Koa) are widely available in China.",
+    "affiliateCategory": "insurance",
+    "indications": [
+      "Severe Cough",
+      "Pain Relief"
+    ],
+    "casNumber": "52-28-8",
+    "incbCategory": "UN 1961 Single Convention Schedule II / China Narcotic Drug",
+    "rxnormCui": "2670",
+    "faqItems": [
+      {
+        "question": "Can I bring over-the-counter cough medicine containing codeine into China?",
+        "answer": "No. Even if codeine cough syrup is sold over-the-counter overseas, in China it is classified under Narcotic Drug controls. You must have a formal prescription, limit quantity to under 7 days, and declare at Red Channel."
+      }
+    ],
+    "activeIngredients": [
+      "codeine",
+      "opioid"
+    ],
+    "redLineWarning": true,
+    "clearanceProfiles": {
+      "gaccCustoms": {
+        "status": "PROHIBITED",
+        "declarationRequired": true,
+        "maxDays": 0,
+        "channel": "STRICTLY_FORBIDDEN",
+        "legalBasis": "PRC Public Security & NMPA Special Joint Catalogue for Codeine Oral Liquids.",
+        "advice": "Codeine oral liquids/syrups are classified as controlled narcotics. Total prohibition for casual travelers. High risk of criminal seizure."
+      },
+      "caacAviation": {
+        "carryOn": "CHECKED_ONLY",
+        "sharpsInvolved": false,
+        "coldChain": false,
+        "securityAdvisory": "Liquids exceeding 100ml prohibited at airport security. Codeine syrup subject to police confiscation."
+      },
+      "localRefill": {
+        "refillableInChina": false,
+        "hospitalTier": "Restricted to specialized respiratory inpatients",
+        "specialistRequired": "Respiratory specialist",
+        "maxRefillDays": 3,
+        "requiredDocs": [],
+        "warningNotes": "Retail pharmacies banned from selling codeine liquids. Solid tablets tightly tracked."
+      }
+    }
+  },
+  {
+    "slug": "pseudoephedrine-sudafed-in-china",
+    "brandNames": [
+      "Sudafed",
+      "Claritin-D",
+      "Allegra-D",
+      "Advil Cold & Sinus"
+    ],
+    "genericName": "Pseudoephedrine Hydrochloride",
+    "chineseName": "伪麻黄碱 (含伪麻黄碱复方制剂)",
+    "category": "CONTROLLED",
+    "status": "YELLOW",
+    "summary": "Pseudoephedrine is a chemical precursor for methamphetamine. While small personal OTC amounts are allowed, bulk carriage is strictly prohibited under GACC Announcement No. 43.",
+    "customsRule": "Carrying more than 2 commercial retail boxes is strictly prohibited and triggers anti-smuggling precursor investigations. Keep in original packaging.",
+    "allowance": "Max 1-2 retail boxes (Under 10 days)",
+    "allowanceDaysMax": 10,
+    "channel": "RED_CHANNEL",
+    "legalBasis": "GACC Announcement No. 43; State Council Regulations on the Administration of Precursor Chemicals (Decree No. 445).",
+    "declarationRequirement": "Do not carry bulk packs. If carrying more than 1 box, declare at Red Channel with prescription or receipt.",
+    "localAlternative": "In China, OTC cold medications containing pseudoephedrine (like Contac NT / 白加黑) require real-name national ID/passport registration at pharmacies.",
+    "affiliateCategory": "insurance",
+    "indications": [
+      "Nasal Congestion",
+      "Sinusitis",
+      "Allergic Rhinitis"
+    ],
+    "casNumber": "90-82-4",
+    "incbCategory": "Precursor Chemical Table I / GACC Strictly Controlled Precursor",
+    "rxnormCui": "8814",
+    "authorityNotes": "GACC airport customs has prosecuted passengers carrying commercial quantities of Sudafed under precursor chemical trafficking laws.",
+    "beforePackingTips": [
+      "Bring no more than a single box of Sudafed for personal use during your flight.",
+      "Never carry cold medicines on behalf of others or in bulk multi-packs.",
+      "Consider using non-pseudoephedrine nasal sprays (such as Oxymetazoline) instead."
+    ],
+    "faqItems": [
+      {
+        "question": "Why is Sudafed or cold medicine restricted at Chinese Customs?",
+        "answer": "Pseudoephedrine can be chemically extracted to synthesize methamphetamine. Chinese Customs enforces a strict ceiling (generally no more than 2 boxes for personal use) and prosecutes bulk importation."
+      }
+    ],
+    "activeIngredients": [
+      "pseudoephedrine",
+      "precursor_chemical"
+    ],
+    "redLineWarning": false,
+    "clearanceProfiles": {
+      "gaccCustoms": {
+        "status": "RESTRICTED",
+        "declarationRequired": true,
+        "maxDays": 10,
+        "channel": "RED_CHANNEL",
+        "legalBasis": "PRC Precursor Chemicals Regulation (State Council Decree 445).",
+        "advice": "Precursor chemical for methamphetamine synthesis. Permitted strictly in reasonable personal quantities (≤ 2 retail packs, max 7-10 days). Bulk quantities trigger anti-smuggling criminal charges."
+      },
+      "caacAviation": {
+        "carryOn": "ALLOWED",
+        "sharpsInvolved": false,
+        "coldChain": false,
+        "securityAdvisory": "Standard oral tablets permitted in carry-on and checked luggage."
+      },
+      "localRefill": {
+        "refillableInChina": true,
+        "hospitalTier": "Local Retail Pharmacies & Community Clinics",
+        "specialistRequired": "Pharmacist real-name ID registration",
+        "maxRefillDays": 7,
+        "requiredDocs": [
+          "Passport or Resident ID (real-name registration required at counter)"
+        ],
+        "warningNotes": "Over-the-counter sales in China require presenting physical passport/ID due to precursor tracking regulations (新康泰克)."
+      }
+    }
+  },
+  {
+    "slug": "pregabalin-lyrica-in-china",
+    "brandNames": [
+      "Lyrica"
+    ],
+    "genericName": "Pregabalin",
+    "chineseName": "普瑞巴林 (乐瑞卡)",
+    "category": "CONTROLLED",
+    "status": "YELLOW",
+    "summary": "Officially elevated to a controlled Category 2 Psychotropic Substance in China (effective October 2023). Requires medical documentation and customs declaration.",
+    "customsRule": "Must declare at Red Channel. Doctor prescription, diagnosis for neuropathic pain or fibromyalgia, and original packaging required. Max 15-30 days supply.",
+    "allowance": "Max 15-30 days personal supply",
+    "allowanceDaysMax": 30,
+    "channel": "RED_CHANNEL",
+    "legalBasis": "NMPA, Ministry of Public Security & National Health Commission Joint Announcement on Scheduling Pregabalin as Category 2 Psychotropic (2023 Revision).",
+    "declarationRequirement": "Declare at Red Channel. Present medical diagnosis and prescription.",
+    "localAlternative": "Available at Chinese hospitals upon consultation with neurologists or pain specialists.",
+    "affiliateCategory": "clinic",
+    "indications": [
+      "Neuropathic Pain",
+      "Fibromyalgia",
+      "Post-Herpetic Neuralgia"
+    ],
+    "casNumber": "148553-50-8",
+    "incbCategory": "China 2023 Newly Scheduled Category 2 Psychotropic",
+    "rxnormCui": "187832",
+    "authorityNotes": "Notice: In late 2023, China officially scheduled Pregabalin under Category 2 Psychotropic regulations due to growing non-medical abuse.",
+    "beforePackingTips": [
+      "Carry up to 30 days maximum with doctor's prescription clearly stating neuropathic pain diagnosis.",
+      "Declare at Red Channel."
+    ],
+    "faqItems": [
+      {
+        "question": "Is Lyrica (Pregabalin) controlled in China?",
+        "answer": "Yes. Effective October 1, 2023, China officially scheduled Pregabalin as a Category 2 Psychotropic substance. You must carry a prescription and declare it at the Red Channel."
+      }
+    ],
+    "activeIngredients": [
+      "pregabalin"
+    ],
+    "redLineWarning": false,
+    "clearanceProfiles": {
+      "gaccCustoms": {
+        "status": "RESTRICTED",
+        "declarationRequired": true,
+        "maxDays": 30,
+        "channel": "RED_CHANNEL",
+        "legalBasis": "Category 2 Psychotropic (Scheduled October 1, 2023).",
+        "advice": "Recently added to Category 2 Psychotropic catalogue. Red Channel declaration mandatory. Limit 15-30 days."
+      },
+      "caacAviation": {
+        "carryOn": "WITH_CERTIFICATE",
+        "sharpsInvolved": false,
+        "coldChain": false,
+        "securityAdvisory": "Carry in hand luggage with prescription."
+      },
+      "localRefill": {
+        "refillableInChina": true,
+        "hospitalTier": "Tier-3 Hospital Neurology / Pain Outpatient",
+        "specialistRequired": "Neurologist with Cat-2 Psychotropic authorization",
+        "maxRefillDays": 14,
+        "requiredDocs": [
+          "Neuropathic pain or epilepsy records",
+          "Passport"
+        ],
+        "warningNotes": "Available as 普瑞巴林 in Chinese hospitals."
+      }
+    }
+  },
+  {
+    "slug": "gabapentin-in-china",
+    "brandNames": [
+      "Neurontin",
+      "Gralise",
+      "Horizant"
+    ],
+    "genericName": "Gabapentin",
+    "chineseName": "加巴喷丁",
+    "category": "ALLOWED",
+    "status": "GREEN",
+    "summary": "Standard anticonvulsant and neuropathic pain prescription drug. Not scheduled as a controlled psychotropic in China. Permitted with prescription.",
+    "customsRule": "Green Channel permitted for personal use up to 90 days. Keep in original packaging with doctor prescription.",
+    "allowance": "Up to 90 days personal supply",
+    "allowanceDaysMax": 90,
+    "channel": "GREEN_CHANNEL",
+    "legalBasis": "GACC Standard Prescription Luggage Provisions.",
+    "declarationRequirement": "Green Channel. Carry doctor prescription copy.",
+    "localAlternative": "Available at Chinese hospital pharmacies across all provinces.",
+    "affiliateCategory": "clinic",
+    "indications": [
+      "Neuropathic Pain",
+      "Epilepsy"
+    ],
+    "casNumber": "60142-96-3",
+    "rxnormCui": "25480",
+    "faqItems": [
+      {
+        "question": "Can I bring Gabapentin to China?",
+        "answer": "Yes. Unlike Pregabalin, Gabapentin is not currently scheduled on China's psychotropic list. Up to 90 days personal supply is allowed through the Green Channel."
+      }
+    ],
+    "activeIngredients": [
+      "gabapentin"
+    ],
+    "redLineWarning": false,
+    "clearanceProfiles": {
+      "gaccCustoms": {
+        "status": "ALLOWED",
+        "declarationRequired": false,
+        "maxDays": 90,
+        "channel": "GREEN_CHANNEL",
+        "legalBasis": "PRC Drug Administration Law; GACC Decree 43.",
+        "advice": "Standard prescription medication, not scheduled under psychotropics. Permitted up to 90 days with prescription."
+      },
+      "caacAviation": {
+        "carryOn": "ALLOWED",
+        "sharpsInvolved": false,
+        "coldChain": false,
+        "securityAdvisory": "Permitted in carry-on and checked luggage."
+      },
+      "localRefill": {
+        "refillableInChina": true,
+        "hospitalTier": "Public Tier-2/3 Hospitals & Expat Clinics",
+        "specialistRequired": "General Physician or Neurologist",
+        "maxRefillDays": 30,
+        "requiredDocs": [
+          "Doctor prescription",
+          "Passport"
+        ],
+        "warningNotes": "Easily accessible under name 加巴喷丁."
+      }
+    }
+  },
+  {
+    "slug": "ozempic-wegovy-in-china",
+    "brandNames": [
+      "Ozempic",
+      "Wegovy",
+      "Rybelsus"
+    ],
+    "genericName": "Semaglutide",
+    "chineseName": "司美格鲁肽 (诺和泰)",
+    "category": "ALLOWED",
+    "status": "GREEN",
+    "summary": "GLP-1 receptor agonist approved in China for Type 2 Diabetes (and select weight management indications). Allowed for travelers with personal medical prescription.",
+    "customsRule": "Permitted within reasonable personal travel limits (typically 1 to 3 months supply). Maintain in original cold-pack / insulated medical pouch with original prescription and matching airline boarding pass.",
+    "allowance": "Up to 1-3 months personal supply",
+    "allowanceDaysMax": 90,
+    "channel": "GREEN_CHANNEL",
+    "legalBasis": "NMPA Biological Products Import Supervision Provisions; GACC Personal Effects Guidelines.",
+    "declarationRequirement": "Generally Green Channel if accompanied by doctor's note and under 3 boxes. Ensure cooling gels comply with civil aviation security rules for carry-on liquids.",
+    "localAlternative": "Ozempic (诺和泰) is officially approved and available at endocrinology departments of Grade-A hospitals and international clinics across China.",
+    "affiliateCategory": "insurance",
+    "indications": [
+      "Type 2 Diabetes",
+      "Weight Management"
+    ],
+    "casNumber": "910463-68-2",
+    "rxnormCui": "1991302",
+    "beforePackingTips": [
+      "Carry injector pens and needles in your carry-on luggage with cooling gel packs; never place peptide pens in checked baggage where cargo hold freezing will destroy the protein.",
+      "Bring doctor's prescription matching your passport name to present during aviation security liquid/sharps screening."
+    ],
+    "faqItems": [
+      {
+        "question": "Can I bring Ozempic pens and insulin cooling packs on planes to China?",
+        "answer": "Yes. Keep the pen injector needles and cooling gel pack inside your carry-on luggage. Bring your official physician prescription to present to airport security during carry-on liquid and sharps screening."
+      },
+      {
+        "question": "Is Ozempic available in China if I need a replacement pen?",
+        "answer": "Yes. Semaglutide is licensed in China. You can visit an international hospital or endocrinology clinic in cities like Shanghai, Beijing, or Shenzhen with your foreign diagnosis to obtain a local prescription."
+      }
+    ],
+    "activeIngredients": [
+      "semaglutide",
+      "glp1"
+    ],
+    "redLineWarning": false,
+    "clearanceProfiles": {
+      "gaccCustoms": {
+        "status": "ALLOWED",
+        "declarationRequired": false,
+        "maxDays": 90,
+        "channel": "GREEN_CHANNEL",
+        "legalBasis": "PRC Drug Administration Law; GACC Decree 43.",
+        "advice": "Legal prescription biological drug. Allowed for personal therapy (up to 30-90 days) with valid doctor prescription."
+      },
+      "caacAviation": {
+        "carryOn": "WITH_CERTIFICATE",
+        "sharpsInvolved": true,
+        "coldChain": true,
+        "securityAdvisory": "CRITICAL: Pen needles (sharps) must be kept with insulin pens in cabin. Gel ice packs (>100ml) for 2-8°C cold-chain require an official physician cooling certificate to clear airport security checkpoints."
+      },
+      "localRefill": {
+        "refillableInChina": true,
+        "hospitalTier": "Tier-3 Public Hospitals & International Hospitals (Jiahui, United Family, Parkway)",
+        "specialistRequired": "Endocrinologist",
+        "maxRefillDays": 30,
+        "requiredDocs": [
+          "Type 2 Diabetes / Weight management diagnosis note",
+          "Passport"
+        ],
+        "warningNotes": "Approved in China under brand 诺和泰 (Ozempic). High demand; check stock in advance at international clinic pharmacies."
+      }
+    }
+  },
+  {
+    "slug": "mounjaro-zepbound-in-china",
+    "brandNames": [
+      "Mounjaro",
+      "Zepbound"
+    ],
+    "genericName": "Tirzepatide",
+    "chineseName": "替尔泊肽 (穆峰达)",
+    "category": "ALLOWED",
+    "status": "GREEN",
+    "summary": "Dual GIP/GLP-1 receptor agonist approved in China for Type 2 Diabetes. Permitted for travelers with legitimate personal prescription.",
+    "customsRule": "Green Channel permitted for personal quantities up to 90 days. Maintain cold chain in carry-on luggage with doctor's prescription.",
+    "allowance": "Up to 90 days personal supply",
+    "allowanceDaysMax": 90,
+    "channel": "GREEN_CHANNEL",
+    "legalBasis": "NMPA Approval for Tirzepatide (May 2024); GACC Personal Effects Rules.",
+    "declarationRequirement": "Green Channel with doctor prescription.",
+    "localAlternative": "Officially approved in China (穆峰达); available at endocrinology departments of major medical centers.",
+    "affiliateCategory": "insurance",
+    "indications": [
+      "Type 2 Diabetes",
+      "Weight Management"
+    ],
+    "casNumber": "2023788-19-2",
+    "rxnormCui": "2601736",
+    "faqItems": [
+      {
+        "question": "Can I bring Mounjaro into China?",
+        "answer": "Yes. Tirzepatide is an approved non-controlled biological medicine in China. Keep it in an insulated pouch with your prescription."
+      }
+    ],
+    "activeIngredients": [
+      "tirzepatide",
+      "glp1"
+    ],
+    "redLineWarning": false,
+    "clearanceProfiles": {
+      "gaccCustoms": {
+        "status": "ALLOWED",
+        "declarationRequired": false,
+        "maxDays": 90,
+        "channel": "GREEN_CHANNEL",
+        "legalBasis": "PRC Drug Administration Law; GACC Decree 43.",
+        "advice": "Legal prescription drug. Allowed for personal travel supply up to 30-90 days with prescription."
+      },
+      "caacAviation": {
+        "carryOn": "WITH_CERTIFICATE",
+        "sharpsInvolved": true,
+        "coldChain": true,
+        "securityAdvisory": "Requires 2-8°C cold chain. Carry medical certificate for gel ice packs and injection needles through security screening."
+      },
+      "localRefill": {
+        "refillableInChina": true,
+        "hospitalTier": "Tier-3 Hospital Endocrinology Departments",
+        "specialistRequired": "Endocrinologist",
+        "maxRefillDays": 30,
+        "requiredDocs": [
+          "Endocrine history",
+          "Passport"
+        ],
+        "warningNotes": "Approved by NMPA in May 2024 (穆峰达). Available in major tier-1 city hospitals."
+      }
+    }
+  },
+  {
+    "slug": "metformin-in-china",
+    "brandNames": [
+      "Glucophage",
+      "Fortamet",
+      "Glumetza"
+    ],
+    "genericName": "Metformin Hydrochloride",
+    "chineseName": "二甲双胍",
+    "category": "ALLOWED",
+    "status": "GREEN",
+    "summary": "Standard first-line medication for Type 2 Diabetes. Fully permitted for personal use with physician diagnosis.",
+    "customsRule": "Green Channel permitted for personal quantities (typically up to 1 to 3 months supply). Maintain original packaging and carry prescription.",
+    "allowance": "Up to 1-3 months personal supply",
+    "allowanceDaysMax": 90,
+    "channel": "GREEN_CHANNEL",
+    "legalBasis": "GACC Customs Clearance Rules for Daily Personal Maintenance Medications.",
+    "declarationRequirement": "No declaration required if carried in reasonable personal quantities with matching prescription.",
+    "localAlternative": "Universally available at every hospital pharmacy and community clinic in China at low cost (二甲双胍片).",
+    "affiliateCategory": "insurance",
+    "indications": [
+      "Type 2 Diabetes",
+      "Insulin Resistance"
+    ],
+    "casNumber": "1115-70-4",
+    "rxnormCui": "6809",
+    "faqItems": [
+      {
+        "question": "Can I bring a 3-month supply of Metformin into China?",
+        "answer": "Yes. Chronic maintenance medications like Metformin are permitted up to a 90-day reasonable personal supply. Carry a copy of your doctor's prescription and keep the medicine in original manufacturer packaging."
+      }
+    ],
+    "activeIngredients": [
+      "metformin"
+    ],
+    "redLineWarning": false,
+    "clearanceProfiles": {
+      "gaccCustoms": {
+        "status": "ALLOWED",
+        "declarationRequired": false,
+        "maxDays": 90,
+        "channel": "GREEN_CHANNEL",
+        "legalBasis": "PRC Drug Administration Law; GACC Decree 43.",
+        "advice": "Standard chronic maintenance medicine. Permitted up to 90 days."
+      },
+      "caacAviation": {
+        "carryOn": "ALLOWED",
+        "sharpsInvolved": false,
+        "coldChain": false,
+        "securityAdvisory": "Tablets allowed in carry-on and checked luggage."
+      },
+      "localRefill": {
+        "refillableInChina": true,
+        "hospitalTier": "All Hospitals, Community Health Centers, and Retail Pharmacies",
+        "specialistRequired": "Any Licensed Physician",
+        "maxRefillDays": 30,
+        "requiredDocs": [
+          "Medical history or old prescription",
+          "Passport"
+        ],
+        "warningNotes": "Universally available nationwide under name 二甲双胍 (Glucophage/格华止)."
+      }
+    }
+  },
+  {
+    "slug": "prozac-in-china",
+    "brandNames": [
+      "Prozac",
+      "Sarafem"
+    ],
+    "genericName": "Fluoxetine Hydrochloride",
+    "chineseName": "氟西汀 (百优解)",
+    "category": "ALLOWED",
+    "status": "GREEN",
+    "summary": "Standard SSRI antidepressant. Not scheduled on China's controlled psychotropic catalogue. Allowed with doctor prescription.",
+    "customsRule": "Green Channel permitted for personal therapy up to 90 days. Keep in original packaging with prescription.",
+    "allowance": "Up to 90 days personal supply",
+    "allowanceDaysMax": 90,
+    "channel": "GREEN_CHANNEL",
+    "legalBasis": "GACC Personal Effects Guidelines; NMPA Non-Controlled Prescription Drugs.",
+    "declarationRequirement": "Green Channel with doctor prescription.",
+    "localAlternative": "Widely available and prescribable at hospitals across China under the domestic brand 百优解 (Prozac).",
+    "affiliateCategory": "clinic",
+    "indications": [
+      "Major Depressive Disorder",
+      "OCD",
+      "Bulimia Nervosa"
+    ],
+    "casNumber": "56296-78-7",
+    "rxnormCui": "4493",
+    "faqItems": [
+      {
+        "question": "Is Prozac controlled in China?",
+        "answer": "No. SSRI antidepressants like Fluoxetine (Prozac) are standard prescription medicines, not controlled psychotropics. You can bring up to 90 days through the Green Channel."
+      }
+    ],
+    "activeIngredients": [
+      "fluoxetine",
+      "ssri"
+    ],
+    "redLineWarning": false,
+    "clearanceProfiles": {
+      "gaccCustoms": {
+        "status": "ALLOWED",
+        "declarationRequired": false,
+        "maxDays": 90,
+        "channel": "GREEN_CHANNEL",
+        "legalBasis": "PRC Drug Administration Law; GACC Decree 43.",
+        "advice": "Standard SSRI antidepressant. NOT scheduled as a controlled psychotropic. Allowed up to 90 days."
+      },
+      "caacAviation": {
+        "carryOn": "ALLOWED",
+        "sharpsInvolved": false,
+        "coldChain": false,
+        "securityAdvisory": "Standard oral medication permitted in carry-on."
+      },
+      "localRefill": {
+        "refillableInChina": true,
+        "hospitalTier": "Tier-2/3 Public Hospitals & Expat Clinics",
+        "specialistRequired": "Psychiatrist or General Practitioner",
+        "maxRefillDays": 30,
+        "requiredDocs": [
+          "Foreign prescription summary",
+          "Passport"
+        ],
+        "warningNotes": "Widely available nationwide (百优解 / 盐酸氟西汀)."
+      }
+    }
+  },
+  {
+    "slug": "zoloft-in-china",
+    "brandNames": [
+      "Zoloft"
+    ],
+    "genericName": "Sertraline Hydrochloride",
+    "chineseName": "舍曲林 (左洛复)",
+    "category": "ALLOWED",
+    "status": "GREEN",
+    "summary": "Standard SSRI antidepressant. Permitted for personal maintenance with prescription.",
+    "customsRule": "Green Channel permitted up to 90 days personal supply. Retain original pharmacy packaging.",
+    "allowance": "Up to 90 days personal supply",
+    "allowanceDaysMax": 90,
+    "channel": "GREEN_CHANNEL",
+    "legalBasis": "GACC Announcement No. 43.",
+    "declarationRequirement": "Green Channel with doctor prescription copy.",
+    "localAlternative": "Readily available at public hospital psychiatric clinics and expat centers (左洛复).",
+    "affiliateCategory": "clinic",
+    "indications": [
+      "Depression",
+      "Panic Disorder",
+      "PTSD",
+      "Social Anxiety"
+    ],
+    "casNumber": "79559-97-0",
+    "rxnormCui": "36437",
+    "faqItems": [
+      {
+        "question": "Can I bring Zoloft into China?",
+        "answer": "Yes. Sertraline is an allowed standard prescription medication. Up to 90 days personal supply is permitted through the Green Channel."
+      }
+    ],
+    "activeIngredients": [
+      "sertraline",
+      "ssri"
+    ],
+    "redLineWarning": false,
+    "clearanceProfiles": {
+      "gaccCustoms": {
+        "status": "ALLOWED",
+        "declarationRequired": false,
+        "maxDays": 90,
+        "channel": "GREEN_CHANNEL",
+        "legalBasis": "PRC Drug Administration Law; GACC Decree 43.",
+        "advice": "Standard prescription SSRI antidepressant. Permitted up to 90 days with prescription."
+      },
+      "caacAviation": {
+        "carryOn": "ALLOWED",
+        "sharpsInvolved": false,
+        "coldChain": false,
+        "securityAdvisory": "Permitted in hand luggage and checked luggage."
+      },
+      "localRefill": {
+        "refillableInChina": true,
+        "hospitalTier": "Tier-2/3 Public Hospitals & International Clinics",
+        "specialistRequired": "Psychiatrist or General Physician",
+        "maxRefillDays": 30,
+        "requiredDocs": [
+          "Doctor note",
+          "Passport"
+        ],
+        "warningNotes": "Widely available nationwide (左洛复 / 盐酸舍曲林)."
+      }
+    }
+  },
+  {
+    "slug": "lexapro-in-china",
+    "brandNames": [
+      "Lexapro",
+      "Cipralex"
+    ],
+    "genericName": "Escitalopram Oxalate",
+    "chineseName": "艾司西酞普兰 (来士普)",
+    "category": "ALLOWED",
+    "status": "GREEN",
+    "summary": "Standard SSRI antidepressant. Fully permitted for traveler personal maintenance.",
+    "customsRule": "Green Channel permitted up to 90 days personal supply.",
+    "allowance": "Up to 90 days personal supply",
+    "allowanceDaysMax": 90,
+    "channel": "GREEN_CHANNEL",
+    "legalBasis": "GACC Personal Effects Regulations.",
+    "declarationRequirement": "Green Channel with prescription copy.",
+    "localAlternative": "Widely available at psychiatric outpatient departments across China (来士普).",
+    "affiliateCategory": "clinic",
+    "indications": [
+      "Generalized Anxiety Disorder",
+      "Depression"
+    ],
+    "casNumber": "219861-08-2",
+    "rxnormCui": "352741",
+    "faqItems": [
+      {
+        "question": "Is Lexapro allowed at China Customs?",
+        "answer": "Yes, Lexapro is an allowed maintenance prescription. Bring a copy of your prescription and keep in original packaging."
+      }
+    ],
+    "activeIngredients": [
+      "escitalopram",
+      "ssri"
+    ],
+    "redLineWarning": false,
+    "clearanceProfiles": {
+      "gaccCustoms": {
+        "status": "ALLOWED",
+        "declarationRequired": false,
+        "maxDays": 90,
+        "channel": "GREEN_CHANNEL",
+        "legalBasis": "PRC Drug Administration Law; GACC Decree 43.",
+        "advice": "Standard prescription antidepressant. Allowed up to 90 days."
+      },
+      "caacAviation": {
+        "carryOn": "ALLOWED",
+        "sharpsInvolved": false,
+        "coldChain": false,
+        "securityAdvisory": "Permitted in hand luggage."
+      },
+      "localRefill": {
+        "refillableInChina": true,
+        "hospitalTier": "Tier-2/3 Hospitals & Expat Clinics",
+        "specialistRequired": "Psychiatrist or Physician",
+        "maxRefillDays": 30,
+        "requiredDocs": [
+          "Doctor note",
+          "Passport"
+        ],
+        "warningNotes": "Widely available (来士普 / 草酸艾司西酞普兰)."
+      }
+    }
+  },
+  {
+    "slug": "wellbutrin-in-china",
+    "brandNames": [
+      "Wellbutrin",
+      "Wellbutrin XL",
+      "Zyban"
+    ],
+    "genericName": "Bupropion Hydrochloride",
+    "chineseName": "安非他酮 (悦亭)",
+    "category": "ALLOWED",
+    "status": "GREEN",
+    "summary": "NDRI antidepressant and smoking cessation aid. Allowed for personal use with doctor prescription.",
+    "customsRule": "Green Channel permitted up to 90 days personal supply. Keep in original packaging with prescription.",
+    "allowance": "Up to 90 days personal supply",
+    "allowanceDaysMax": 90,
+    "channel": "GREEN_CHANNEL",
+    "legalBasis": "GACC Standard Prescription Guidelines.",
+    "declarationRequirement": "Green Channel with doctor prescription.",
+    "localAlternative": "Prescribable at hospital psychiatric and smoking cessation outpatient units in China (安非他酮缓释片).",
+    "affiliateCategory": "clinic",
+    "indications": [
+      "Major Depressive Disorder",
+      "Seasonal Affective Disorder",
+      "Smoking Cessation"
+    ],
+    "casNumber": "31677-93-7",
+    "rxnormCui": "42347",
+    "faqItems": [
+      {
+        "question": "Is Wellbutrin (Bupropion) considered an amphetamine in China?",
+        "answer": "No. Despite chemical structural similarities, Bupropion is classified as an antidepressant, not a controlled amphetamine. It is permitted with a valid prescription."
+      }
+    ],
+    "activeIngredients": [
+      "bupropion",
+      "ndri"
+    ],
+    "redLineWarning": false,
+    "clearanceProfiles": {
+      "gaccCustoms": {
+        "status": "ALLOWED",
+        "declarationRequired": false,
+        "maxDays": 90,
+        "channel": "GREEN_CHANNEL",
+        "legalBasis": "PRC Drug Administration Law; GACC Decree 43.",
+        "advice": "Standard prescription antidepressant / smoking cessation aid. Allowed up to 90 days."
+      },
+      "caacAviation": {
+        "carryOn": "ALLOWED",
+        "sharpsInvolved": false,
+        "coldChain": false,
+        "securityAdvisory": "Permitted in carry-on."
+      },
+      "localRefill": {
+        "refillableInChina": true,
+        "hospitalTier": "Tier-3 Hospital Outpatient",
+        "specialistRequired": "Psychiatrist or Physician",
+        "maxRefillDays": 30,
+        "requiredDocs": [
+          "Prescription slip",
+          "Passport"
+        ],
+        "warningNotes": "Available in Tier-3 hospitals as 盐酸安非他酮缓释片."
+      }
+    }
+  },
+  {
+    "slug": "ibuprofen-in-china",
+    "brandNames": [
+      "Advil",
+      "Motrin",
+      "Nurofen",
+      "Brufen"
+    ],
+    "genericName": "Ibuprofen",
+    "chineseName": "布洛芬",
+    "category": "ALLOWED",
+    "status": "GREEN",
+    "summary": "Standard over-the-counter (OTC) non-steroidal anti-inflammatory drug (NSAID). Fully permitted for personal use within reasonable traveler quantities.",
+    "customsRule": "Green Channel (Nothing to Declare) is applicable if carrying normal travel quantities (typically up to 3 to 6 months personal supply). Maintain original packaging.",
+    "allowance": "Up to 3-6 months personal supply",
+    "allowanceDaysMax": 90,
+    "channel": "GREEN_CHANNEL",
+    "legalBasis": "General Administration of Customs (GACC) Announcement No. 43 on Personal Baggage Limits.",
+    "declarationRequirement": "No declaration needed if quantities reflect personal travel use. Commercial quantities (multiple cartons) require customs duties or import licensing.",
+    "localAlternative": "Ubiquitously available over-the-counter across all pharmacies in China without prescription (popular domestic brands: Fenbid / 布洛芬缓释胶囊).",
+    "affiliateCategory": "insurance",
+    "indications": [
+      "Headache",
+      "Fever",
+      "Muscle Pain",
+      "Dysmenorrhea"
+    ],
+    "casNumber": "15687-27-1",
+    "rxnormCui": "5640",
+    "faqItems": [
+      {
+        "question": "Do I need a doctor's prescription to bring Advil or Ibuprofen into China?",
+        "answer": "No prescription is required for standard over-the-counter quantities of Ibuprofen. You can walk through the Green Channel at customs as long as the quantity clearly reflects personal travel use."
+      }
+    ],
+    "activeIngredients": [
+      "ibuprofen",
+      "nsaid"
+    ],
+    "redLineWarning": false,
+    "clearanceProfiles": {
+      "gaccCustoms": {
+        "status": "ALLOWED",
+        "declarationRequired": false,
+        "maxDays": 90,
+        "channel": "GREEN_CHANNEL",
+        "legalBasis": "PRC Drug Administration Law; GACC Decree 43.",
+        "advice": "Standard OTC analgesic/NSAID. Permitted in reasonable personal use quantities (up to 90 days)."
+      },
+      "caacAviation": {
+        "carryOn": "ALLOWED",
+        "sharpsInvolved": false,
+        "coldChain": false,
+        "securityAdvisory": "Oral tablets/capsules allowed in cabin and checked luggage."
+      },
+      "localRefill": {
+        "refillableInChina": true,
+        "hospitalTier": "Every retail pharmacy, convenience store, and clinic nationwide",
+        "specialistRequired": "None (OTC)",
+        "maxRefillDays": 90,
+        "requiredDocs": [],
+        "warningNotes": "Universally available OTC under brand 芬必得 (Fenbid) or generic 布洛芬."
+      }
+    }
+  },
+  {
+    "slug": "paracetamol-tylenol-in-china",
+    "brandNames": [
+      "Tylenol",
+      "Panadol",
+      "Calpol"
+    ],
+    "genericName": "Acetaminophen / Paracetamol",
+    "chineseName": "对乙酰氨基酚 (扑热息痛 / 泰诺林)",
+    "category": "ALLOWED",
+    "status": "GREEN",
+    "summary": "Universal over-the-counter antipyretic and analgesic. Fully permitted for personal use (standard formulations without codeine).",
+    "customsRule": "Green Channel permitted for reasonable personal quantities. Ensure tablets do not contain codeine or tramadol.",
+    "allowance": "Up to 3-6 months personal supply",
+    "allowanceDaysMax": 90,
+    "channel": "GREEN_CHANNEL",
+    "legalBasis": "GACC Personal Luggage Standards.",
+    "declarationRequirement": "No declaration required for standard OTC formulations.",
+    "localAlternative": "Available at every pharmacy and supermarket in China without prescription (泰诺林).",
+    "affiliateCategory": "insurance",
+    "indications": [
+      "Fever",
+      "Mild to Moderate Pain"
+    ],
+    "casNumber": "103-90-2",
+    "rxnormCui": "161",
+    "faqItems": [
+      {
+        "question": "Can I bring Tylenol to China?",
+        "answer": "Yes, standard Tylenol (Acetaminophen) is completely permitted. However, avoid 'Tylenol #3' or versions containing Codeine, which are strictly controlled."
+      }
+    ],
+    "activeIngredients": [
+      "acetaminophen",
+      "antipyretic"
+    ],
+    "redLineWarning": false,
+    "clearanceProfiles": {
+      "gaccCustoms": {
+        "status": "ALLOWED",
+        "declarationRequired": false,
+        "maxDays": 90,
+        "channel": "GREEN_CHANNEL",
+        "legalBasis": "PRC Drug Administration Law; GACC Decree 43.",
+        "advice": "Standard OTC antipyretic/analgesic. Permitted up to 90 days reasonable personal supply."
+      },
+      "caacAviation": {
+        "carryOn": "ALLOWED",
+        "sharpsInvolved": false,
+        "coldChain": false,
+        "securityAdvisory": "Permitted in carry-on and checked luggage."
+      },
+      "localRefill": {
+        "refillableInChina": true,
+        "hospitalTier": "Available at all retail pharmacies, convenience stores, and clinics",
+        "specialistRequired": "None (OTC)",
+        "maxRefillDays": 90,
+        "requiredDocs": [],
+        "warningNotes": "Universally available OTC under 泰诺林 (Tylenol) or generic 对乙酰氨基酚 / 扑热息痛."
+      }
+    }
+  },
+  {
+    "slug": "melatonin-in-china",
+    "brandNames": [
+      "Natrol Melatonin",
+      "Nature Made Melatonin",
+      "ZzzQuil Pure Zzzs"
+    ],
+    "genericName": "Melatonin",
+    "chineseName": "褪黑素",
+    "category": "ALLOWED",
+    "status": "GREEN",
+    "summary": "Classified as a dietary health supplement in China. Unrestricted for standard personal travel use.",
+    "customsRule": "Green Channel permitted. Reasonable personal quantity (up to 3-6 months supply in original commercial packaging).",
+    "allowance": "Up to 3-6 months personal supply",
+    "allowanceDaysMax": 90,
+    "channel": "GREEN_CHANNEL",
+    "legalBasis": "State Administration for Market Regulation (SAMR) Health Food Catalogue.",
+    "declarationRequirement": "No declaration required for standard personal travel quantities.",
+    "localAlternative": "Widely available at Chinese pharmacies, Watsons stores, and on e-commerce platforms (Taobao, JD.com) without any prescription.",
+    "affiliateCategory": "insurance",
+    "indications": [
+      "Jet Lag",
+      "Sleep Cycle Regulation"
+    ],
+    "casNumber": "73-31-4",
+    "rxnormCui": "6718",
+    "faqItems": [
+      {
+        "question": "Is Melatonin legal to bring into China for jet lag?",
+        "answer": "Yes, Melatonin is completely legal and classified as a health food/dietary supplement in China. You do not need a prescription and can walk through the Green Channel."
+      }
+    ],
+    "activeIngredients": [
+      "melatonin",
+      "supplement"
+    ],
+    "redLineWarning": false,
+    "clearanceProfiles": {
+      "gaccCustoms": {
+        "status": "ALLOWED",
+        "declarationRequired": false,
+        "maxDays": 90,
+        "channel": "GREEN_CHANNEL",
+        "legalBasis": "PRC Food Safety Law; GACC Decree 43.",
+        "advice": "Classified as dietary health food (保健食品) in China. Freely permitted up to 90 days."
+      },
+      "caacAviation": {
+        "carryOn": "ALLOWED",
+        "sharpsInvolved": false,
+        "coldChain": false,
+        "securityAdvisory": "Permitted in carry-on and checked luggage."
+      },
+      "localRefill": {
+        "refillableInChina": true,
+        "hospitalTier": "Available at all pharmacies, supermarkets, and e-commerce platforms",
+        "specialistRequired": "None (Health supplement)",
+        "maxRefillDays": 90,
+        "requiredDocs": [],
+        "warningNotes": "Widely sold OTC across China under name 褪黑素."
+      }
+    }
+  }
+]
