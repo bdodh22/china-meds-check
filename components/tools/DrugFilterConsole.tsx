@@ -19,15 +19,19 @@ import {
   RotateCcw
 } from 'lucide-react';
 import { Medication, TravelBagItem } from '@/lib/types';
+import { Locale, getLocalizedPath } from '@/lib/i18n/config';
+import { getDictionary } from '@/lib/i18n/dictionaries';
 import DrugStatusBadge from './DrugStatusBadge';
 
 interface DrugFilterConsoleProps {
   initialMedications: Medication[];
+  locale?: Locale;
 }
 
 const STORAGE_KEY = 'chinameds_travel_bag';
 
-export default function DrugFilterConsole({ initialMedications }: DrugFilterConsoleProps) {
+export default function DrugFilterConsole({ initialMedications, locale = 'en' }: DrugFilterConsoleProps) {
+  const dict = getDictionary(locale);
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedIndication, setSelectedIndication] = useState('ALL');
   const [selectedChannel, setSelectedChannel] = useState('ALL');
@@ -144,7 +148,7 @@ export default function DrugFilterConsole({ initialMedications }: DrugFilterCons
               type="text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Search by Brand Name, INN Generic, Chinese name or CAS number..."
+              placeholder={dict.drugs.searchPrompt}
               className="w-full h-11 pl-10 pr-10 rounded-xl border border-slate-300 bg-slate-50 text-sm font-medium text-slate-900 placeholder-slate-400 focus:bg-white focus:outline-none focus:ring-2 focus:ring-blue-600 transition"
             />
             {searchQuery && (
@@ -169,7 +173,7 @@ export default function DrugFilterConsole({ initialMedications }: DrugFilterCons
               title="Compact Table Mode (High Density)"
             >
               <TableIcon className="h-3.5 w-3.5" />
-              <span>Table HUD</span>
+              <span>{dict.drugs.tableMode}</span>
             </button>
             <button
               onClick={() => setViewMode('grid')}
@@ -181,7 +185,7 @@ export default function DrugFilterConsole({ initialMedications }: DrugFilterCons
               title="Grid Card Mode"
             >
               <LayoutGrid className="h-3.5 w-3.5" />
-              <span>Cards</span>
+              <span>{dict.drugs.cardsMode}</span>
             </button>
           </div>
         </div>
@@ -191,55 +195,55 @@ export default function DrugFilterConsole({ initialMedications }: DrugFilterCons
           {/* Dropdown 1: Indication */}
           <div>
             <label className="block font-bold text-slate-600 mb-1">
-              Therapeutic Class / Indication:
+              {dict.drugs.filterClassLabel}
             </label>
             <select
               value={selectedIndication}
               onChange={(e) => setSelectedIndication(e.target.value)}
               className="w-full h-10 px-3 rounded-xl border border-slate-300 bg-white font-medium text-slate-800 focus:outline-none focus:ring-2 focus:ring-blue-600 cursor-pointer"
             >
-              <option value="ALL">All Categories (全部分类)</option>
-              <option value="ADHD">ADHD & Stimulants (专注达/利他林/兴奋剂)</option>
-              <option value="ANXIETY">Anxiety & Sedatives (安定/Xanax/镇静安眠)</option>
-              <option value="DIABETES">Diabetes & GLP-1 (司美格鲁肽/胰岛素)</option>
-              <option value="PAIN">Pain & Opioids (曲马多/止痛药物)</option>
-              <option value="DEPRESSION">Antidepressants (抗抑郁药物)</option>
-              <option value="OTC">Cold & OTC (感冒药/退烧止痛/褪黑素)</option>
+              <option value="ALL">{dict.drugs.classAll}</option>
+              <option value="ADHD">{dict.drugs.classAdhd}</option>
+              <option value="ANXIETY">{dict.drugs.classAnxiety}</option>
+              <option value="DIABETES">{dict.drugs.classDiabetes}</option>
+              <option value="PAIN">{dict.drugs.classPain}</option>
+              <option value="DEPRESSION">{dict.drugs.classDepression}</option>
+              <option value="OTC">{dict.drugs.classOtc}</option>
             </select>
           </div>
 
           {/* Dropdown 2: Customs Channel */}
           <div>
             <label className="block font-bold text-slate-600 mb-1">
-              Customs Channel (海关通道):
+              {dict.drugs.filterChannelLabel}
             </label>
             <select
               value={selectedChannel}
               onChange={(e) => setSelectedChannel(e.target.value)}
               className="w-full h-10 px-3 rounded-xl border border-slate-300 bg-white font-medium text-slate-800 focus:outline-none focus:ring-2 focus:ring-blue-600 cursor-pointer"
             >
-              <option value="ALL">All Channels (全部通道)</option>
-              <option value="RED_CHANNEL">🔴 Red Channel (Mandatory Declaration)</option>
-              <option value="GREEN_CHANNEL">🟢 Green Channel (Allowed Personal Use)</option>
-              <option value="STRICTLY_FORBIDDEN">⛔ Strictly Forbidden (0 Days)</option>
+              <option value="ALL">{dict.drugs.channelAll}</option>
+              <option value="RED_CHANNEL">{dict.drugs.channelRed}</option>
+              <option value="GREEN_CHANNEL">{dict.drugs.channelGreen}</option>
+              <option value="STRICTLY_FORBIDDEN">{dict.drugs.channelBanned}</option>
             </select>
           </div>
 
           {/* Dropdown 3: Carry Allowance Days */}
           <div>
             <label className="block font-bold text-slate-600 mb-1">
-              Allowance Limit (携带上限):
+              {dict.drugs.filterQuotaLabel}
             </label>
             <select
               value={selectedAllowance}
               onChange={(e) => setSelectedAllowance(e.target.value)}
               className="w-full h-10 px-3 rounded-xl border border-slate-300 bg-white font-medium text-slate-800 focus:outline-none focus:ring-2 focus:ring-blue-600 cursor-pointer"
             >
-              <option value="ALL">All Limit Quotas (全部天数)</option>
-              <option value="0_DAYS">0 Days (Banned Narcotics)</option>
-              <option value="7_15_DAYS">7 - 15 Days (Controlled Cat 1/2)</option>
-              <option value="30_DAYS">30 Days Supply</option>
-              <option value="90_DAYS">90 Days (Maintenance / OTC)</option>
+              <option value="ALL">{dict.drugs.quotaAll}</option>
+              <option value="0_DAYS">{dict.drugs.quota0d}</option>
+              <option value="7_15_DAYS">{dict.drugs.quota7_15d}</option>
+              <option value="30_DAYS">{dict.drugs.quota30d}</option>
+              <option value="90_DAYS">{dict.drugs.quota90d}</option>
             </select>
           </div>
         </div>
@@ -257,8 +261,9 @@ export default function DrugFilterConsole({ initialMedications }: DrugFilterCons
               className="text-blue-600 hover:text-blue-800 font-bold flex items-center gap-1"
             >
               <RotateCcw className="h-3.5 w-3.5" />
-              <span>Reset Filters</span>
+              <span>{dict.drugs.resetFilters}</span>
             </button>
+
           )}
         </div>
       </div>
@@ -286,7 +291,7 @@ export default function DrugFilterConsole({ initialMedications }: DrugFilterCons
                 {filteredMeds.length === 0 ? (
                   <tr>
                     <td colSpan={8} className="py-12 text-center text-slate-400 text-sm">
-                      No medications match your selected filters. Try broadening your criteria.
+                      {dict.drugs.noMatch}
                     </td>
                   </tr>
                 ) : (

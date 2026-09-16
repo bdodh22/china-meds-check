@@ -132,13 +132,13 @@ export default function LocalizedHomePage({
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {/* Tool 1: Allowance Calculator */}
+          {/* Tool 1: Allowance Calculator (Blue Theme) */}
           <Link
             href={locHref('/calculator')}
-            className="group p-6 sm:p-7 rounded-3xl bg-white border border-slate-200/80 hover:border-blue-400 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.04)] hover:shadow-md transition-all duration-200 flex flex-col justify-between"
+            className="group p-6 sm:p-7 rounded-3xl bg-white border border-slate-200/80 hover:border-blue-400/80 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.04)] hover:shadow-lg hover:-translate-y-1 transition-all duration-200 flex flex-col justify-between"
           >
             <div className="space-y-4">
-              <div className="h-12 w-12 rounded-2xl bg-blue-50 text-blue-600 flex items-center justify-center group-hover:scale-105 transition-transform duration-200">
+              <div className="h-12 w-12 rounded-2xl bg-blue-50 text-blue-600 border border-blue-100 flex items-center justify-center group-hover:scale-105 group-hover:bg-blue-600 group-hover:text-white transition-all duration-200">
                 <Calculator className="h-6 w-6" />
               </div>
               <div>
@@ -160,20 +160,20 @@ export default function LocalizedHomePage({
             </div>
           </Link>
 
-          {/* Tool 2: Travel Bag Manifest */}
+          {/* Tool 2: Travel Bag Manifest (Emerald Theme) */}
           <Link
             href={locHref('/manifest')}
-            className="group p-6 sm:p-7 rounded-3xl bg-white border border-slate-200/80 hover:border-blue-400 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.04)] hover:shadow-md transition-all duration-200 flex flex-col justify-between"
+            className="group p-6 sm:p-7 rounded-3xl bg-white border border-slate-200/80 hover:border-emerald-400/80 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.04)] hover:shadow-lg hover:-translate-y-1 transition-all duration-200 flex flex-col justify-between"
           >
             <div className="space-y-4">
-              <div className="h-12 w-12 rounded-2xl bg-blue-50 text-blue-600 flex items-center justify-center group-hover:scale-105 transition-transform duration-200">
+              <div className="h-12 w-12 rounded-2xl bg-emerald-50 text-emerald-600 border border-emerald-100 flex items-center justify-center group-hover:scale-105 group-hover:bg-emerald-600 group-hover:text-white transition-all duration-200">
                 <Luggage className="h-6 w-6" />
               </div>
               <div>
-                <span className="text-[11px] font-mono font-bold text-blue-700 uppercase tracking-wider block">
+                <span className="text-[11px] font-mono font-bold text-emerald-700 uppercase tracking-wider block">
                   {dict.nav.bag}
                 </span>
-                <h3 className="text-lg font-bold text-slate-900 group-hover:text-blue-700 transition-colors mt-0.5">
+                <h3 className="text-lg font-bold text-slate-900 group-hover:text-emerald-700 transition-colors mt-0.5">
                   {dict.manifest.title}
                 </h3>
                 <p className="text-xs text-slate-600 leading-relaxed mt-2">
@@ -182,26 +182,26 @@ export default function LocalizedHomePage({
               </div>
             </div>
 
-            <div className="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-blue-700">
+            <div className="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-emerald-700">
               <span>{dict.nav.bag}</span>
               <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
             </div>
           </Link>
 
-          {/* Tool 3: Customs Declaration Slip */}
+          {/* Tool 3: Customs Declaration Slip (Indigo Theme) */}
           <Link
             href={locHref('/customs-card')}
-            className="group p-6 sm:p-7 rounded-3xl bg-white border border-slate-200/80 hover:border-blue-400 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.04)] hover:shadow-md transition-all duration-200 flex flex-col justify-between"
+            className="group p-6 sm:p-7 rounded-3xl bg-white border border-slate-200/80 hover:border-indigo-400/80 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.04)] hover:shadow-lg hover:-translate-y-1 transition-all duration-200 flex flex-col justify-between"
           >
             <div className="space-y-4">
-              <div className="h-12 w-12 rounded-2xl bg-blue-50 text-blue-600 flex items-center justify-center group-hover:scale-105 transition-transform duration-200">
+              <div className="h-12 w-12 rounded-2xl bg-indigo-50 text-indigo-600 border border-indigo-100 flex items-center justify-center group-hover:scale-105 group-hover:bg-indigo-600 group-hover:text-white transition-all duration-200">
                 <FileText className="h-6 w-6" />
               </div>
               <div>
-                <span className="text-[11px] font-mono font-bold text-blue-700 uppercase tracking-wider block">
+                <span className="text-[11px] font-mono font-bold text-indigo-700 uppercase tracking-wider block">
                   {dict.nav.customsCard}
                 </span>
-                <h3 className="text-lg font-bold text-slate-900 group-hover:text-blue-700 transition-colors mt-0.5">
+                <h3 className="text-lg font-bold text-slate-900 group-hover:text-indigo-700 transition-colors mt-0.5">
                   {dict.customsCard.title}
                 </h3>
                 <p className="text-xs text-slate-600 leading-relaxed mt-2">
@@ -210,7 +210,7 @@ export default function LocalizedHomePage({
               </div>
             </div>
 
-            <div className="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-blue-700">
+            <div className="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-indigo-700">
               <span>{dict.nav.customsCard}</span>
               <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
             </div>
@@ -269,7 +269,11 @@ export default function LocalizedHomePage({
                 </div>
 
                 <div className="mt-4 pt-3 border-t border-slate-200/60 flex items-center justify-between text-[11px] font-bold text-slate-900">
-                  <span>{med.allowanceDaysMax > 0 ? `${med.allowanceDaysMax} d` : '0 d'}</span>
+                  <span>
+                    {med.allowanceDaysMax > 0
+                      ? dict.inlineCalc.quotaDays.replace('{days}', String(med.allowanceDaysMax))
+                      : dict.inlineCalc.quotaBanned}
+                  </span>
                   <ArrowRight className="h-3.5 w-3.5 text-slate-400 group-hover:text-blue-600 group-hover:translate-x-0.5 transition" />
                 </div>
               </Link>

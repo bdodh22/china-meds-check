@@ -1,40 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
-import { Hospital, MapPin, Phone, FileCheck, ArrowRight, ShieldAlert } from 'lucide-react';
+import { Hospital, MapPin, Phone, FileCheck, ArrowRight } from 'lucide-react';
 
 import { Locale, getLocalizedPath } from '@/lib/i18n/config';
 import { getDictionary } from '@/lib/i18n/dictionaries';
-
-const CLINICS = [
-  {
-    name: 'United Family Healthcare (和睦家医疗)',
-    cities: 'Beijing, Shanghai, Guangzhou, Shenzhen, Tianjin',
-    specialties: 'English-speaking psychiatrists, pediatrics, full pharmacy, emergency ER',
-    phone: '4008-919191',
-    note: 'Authorized to prescribe Category 1 & 2 psychotropics with dedicated red prescriptions.',
-  },
-  {
-    name: 'Jiahui Health (嘉会医疗)',
-    cities: 'Shanghai, Beijing, Suzhou',
-    specialties: 'Affiliated with Massachusetts General Hospital; multidisciplinary psychiatric outpatient',
-    phone: '400-868-3000',
-    note: 'Full in-house pharmacy stocking Concerta, Zolpidem, and metabolic chronic drugs.',
-  },
-  {
-    name: 'Parkway Health (百汇医疗)',
-    cities: 'Shanghai, Chengdu, Suzhou',
-    specialties: 'Singapore-managed healthcare group; expat internal medicine and neurology',
-    phone: '400-819-6622',
-    note: 'Direct billing with international expat medical insurances.',
-  },
-  {
-    name: 'Grade 3A Public Hospitals (三甲医院特需/国际部)',
-    cities: 'All Chinese Cities (Peking Union, Huashan, Ruijin, Zhongshan, etc.)',
-    specialties: 'Top-tier academic medical centers with international patient wings',
-    phone: 'Local hospital hotline or 114',
-    note: 'Cost-effective consultation; requires on-site registration with passport.',
-  },
-];
 
 interface ExpatClinicDirectoryCTAProps {
   locale?: Locale;
@@ -42,6 +11,38 @@ interface ExpatClinicDirectoryCTAProps {
 
 export default function ExpatClinicDirectoryCTA({ locale = 'en' }: ExpatClinicDirectoryCTAProps) {
   const dict = getDictionary(locale);
+
+  // All clinic data driven from the locale dictionary — zero hardcoded English
+  const CLINICS = [
+    {
+      name: dict.cta.clinic1Name,
+      cities: dict.cta.clinic1Cities,
+      specialties: dict.cta.clinic1Specialties,
+      phone: dict.cta.clinic1Phone,
+      note: dict.cta.clinic1Note,
+    },
+    {
+      name: dict.cta.clinic2Name,
+      cities: dict.cta.clinic2Cities,
+      specialties: dict.cta.clinic2Specialties,
+      phone: dict.cta.clinic2Phone,
+      note: dict.cta.clinic2Note,
+    },
+    {
+      name: dict.cta.clinic3Name,
+      cities: dict.cta.clinic3Cities,
+      specialties: dict.cta.clinic3Specialties,
+      phone: dict.cta.clinic3Phone,
+      note: dict.cta.clinic3Note,
+    },
+    {
+      name: dict.cta.clinic4Name,
+      cities: dict.cta.clinic4Cities,
+      specialties: dict.cta.clinic4Specialties,
+      phone: dict.cta.clinic4Phone,
+      note: dict.cta.clinic4Note,
+    },
+  ];
 
   return (
     <div className="w-full bg-white rounded-2xl border border-slate-200 p-6 sm:p-8 shadow-sm">

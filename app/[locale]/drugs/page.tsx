@@ -88,7 +88,7 @@ export default function LocalizedDrugsDirectoryPage({
         </div>
 
         {/* Console & Filter Component */}
-        <DrugFilterConsole initialMedications={allMeds} />
+        <DrugFilterConsole initialMedications={allMeds} locale={locale} />
 
         {/* Quick Action Navigation */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-6 border-t border-slate-200">

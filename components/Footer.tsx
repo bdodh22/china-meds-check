@@ -1,9 +1,31 @@
+'use client';
+
 import React from 'react';
 import Link from 'next/link';
-import { Shield, PhoneCall, AlertTriangle, ExternalLink, Heart } from 'lucide-react';
+import { usePathname } from 'next/navigation';
+import { PhoneCall, AlertTriangle, ExternalLink } from 'lucide-react';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
+import { Locale, SUBPATH_LOCALES, getLocalizedPath } from '@/lib/i18n/config';
+import { getDictionary } from '@/lib/i18n/dictionaries';
+
+// Detect current locale from pathname (mirrors LanguageSwitcher logic)
+function useCurrentLocale(): Locale {
+  const pathname = usePathname() || '/';
+  for (const loc of SUBPATH_LOCALES) {
+    if (pathname === `/${loc}` || pathname.startsWith(`/${loc}/`)) {
+      return loc;
+    }
+  }
+  return 'en';
+}
 
 export default function Footer() {
+  const locale = useCurrentLocale();
+  const dict = getDictionary(locale);
+
+  // Helper — locale-aware internal links
+  const lp = (path: string) => getLocalizedPath(path, locale);
+
   return (
     <footer className="bg-slate-50/80 text-slate-600 text-xs border-t border-slate-200">
       {/* Emergency Hotlines Callout Bar */}
@@ -11,13 +33,13 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
           <div className="flex items-center gap-2 text-rose-900 font-bold text-xs uppercase tracking-wide">
             <PhoneCall className="h-4 w-4 text-rose-600" />
-            <span>Emergency Assistance Hotlines in Mainland China:</span>
+            <span>{dict.footer.hotlinesTitle}</span>
           </div>
           <div className="flex items-center gap-3 sm:gap-4 flex-wrap justify-center text-slate-700 font-mono text-[11px]">
-            <span>Medical Emergency: <strong className="text-rose-700 font-bold bg-white px-1.5 py-0.5 rounded border border-rose-200">120</strong></span>
-            <span>Police / Security: <strong className="text-rose-700 font-bold bg-white px-1.5 py-0.5 rounded border border-rose-200">110</strong></span>
-            <span>Customs Hotline: <strong className="text-rose-700 font-bold bg-white px-1.5 py-0.5 rounded border border-rose-200">12360</strong></span>
-            <span>Consular (MFA): <strong className="text-rose-700 font-bold bg-white px-1.5 py-0.5 rounded border border-rose-200">+86-10-12308</strong></span>
+            <span>{dict.footer.medicalEmergency}: <strong className="text-rose-700 font-bold bg-white px-1.5 py-0.5 rounded border border-rose-200">120</strong></span>
+            <span>{dict.footer.police}: <strong className="text-rose-700 font-bold bg-white px-1.5 py-0.5 rounded border border-rose-200">110</strong></span>
+            <span>{dict.footer.customsHotline}: <strong className="text-rose-700 font-bold bg-white px-1.5 py-0.5 rounded border border-rose-200">12360</strong></span>
+            <span>{dict.footer.consularProtection}: <strong className="text-rose-700 font-bold bg-white px-1.5 py-0.5 rounded border border-rose-200">+86-10-12308</strong></span>
           </div>
         </div>
       </div>
@@ -28,42 +50,42 @@ export default function Footer() {
           {/* Column 1: High-Search Medications */}
           <div>
             <h4 className="text-slate-900 font-bold text-xs tracking-wider mb-3.5 uppercase">
-              High-Risk Medications
+              {dict.footer.colRisk}
             </h4>
             <ul className="space-y-2">
               <li>
-                <Link href="/drugs/adderall-in-china" className="hover:text-blue-600 transition">
-                  Adderall & Amphetamine (Prohibited)
+                <Link href={lp('/drugs/adderall-in-china')} className="hover:text-blue-600 transition">
+                  Adderall &amp; Amphetamine (Prohibited)
                 </Link>
               </li>
               <li>
-                <Link href="/drugs/ritalin-concerta-in-china" className="hover:text-blue-600 transition">
-                  Concerta & Ritalin (Category 1)
+                <Link href={lp('/drugs/ritalin-concerta-in-china')} className="hover:text-blue-600 transition">
+                  Concerta &amp; Ritalin (Category 1)
                 </Link>
               </li>
               <li>
-                <Link href="/drugs/cbd-oil-in-china" className="hover:text-blue-600 transition">
-                  CBD Oil & Hemp Extract (Banned)
+                <Link href={lp('/drugs/cbd-oil-in-china')} className="hover:text-blue-600 transition">
+                  CBD Oil &amp; Hemp Extract (Banned)
                 </Link>
               </li>
               <li>
-                <Link href="/drugs/vyvanse-in-china" className="hover:text-blue-600 transition">
+                <Link href={lp('/drugs/vyvanse-in-china')} className="hover:text-blue-600 transition">
                   Vyvanse (Lisdexamfetamine)
                 </Link>
               </li>
               <li>
-                <Link href="/drugs/xanax-in-china" className="hover:text-blue-600 transition">
+                <Link href={lp('/drugs/xanax-in-china')} className="hover:text-blue-600 transition">
                   Xanax (Alprazolam Controlled)
                 </Link>
               </li>
               <li>
-                <Link href="/drugs/ambien-in-china" className="hover:text-blue-600 transition">
+                <Link href={lp('/drugs/ambien-in-china')} className="hover:text-blue-600 transition">
                   Ambien (Zolpidem Sleep Aid)
                 </Link>
               </li>
               <li>
-                <Link href="/drugs/ozempic-wegovy-in-china" className="hover:text-blue-600 transition">
-                  Ozempic (Cold-Chain & Needles)
+                <Link href={lp('/drugs/ozempic-wegovy-in-china')} className="hover:text-blue-600 transition">
+                  Ozempic (Cold-Chain &amp; Needles)
                 </Link>
               </li>
             </ul>
@@ -72,32 +94,32 @@ export default function Footer() {
           {/* Column 2: Tools & Decision Radar */}
           <div>
             <h4 className="text-slate-900 font-bold text-xs tracking-wider mb-3.5 uppercase">
-              Compliance Tools
+              {dict.footer.colTools}
             </h4>
             <ul className="space-y-2">
               <li>
-                <Link href="/manifest" className="text-blue-600 font-semibold hover:text-blue-800 transition">
-                  🎒 Travel Medication Bag Manifest
+                <Link href={lp('/manifest')} className="text-blue-600 font-semibold hover:text-blue-800 transition">
+                  🎒 {dict.nav.auditBag}
                 </Link>
               </li>
               <li>
-                <Link href="/customs-card" className="hover:text-blue-600 transition">
-                  Bilingual Customs Declaration Card
+                <Link href={lp('/customs-card')} className="hover:text-blue-600 transition">
+                  {dict.nav.customsCard}
                 </Link>
               </li>
               <li>
-                <Link href="/calculator" className="hover:text-blue-600 transition">
-                  Carry Allowance Days Calculator
+                <Link href={lp('/calculator')} className="hover:text-blue-600 transition">
+                  {dict.nav.allowance}
                 </Link>
               </li>
               <li>
-                <Link href="/" className="hover:text-blue-600 transition">
-                  Medication Legality Search Radar
+                <Link href={lp('/')} className="hover:text-blue-600 transition">
+                  {dict.nav.radar}
                 </Link>
               </li>
               <li>
-                <Link href="/drugs" className="hover:text-blue-600 transition">
-                  Complete Medication Directory (31+)
+                <Link href={lp('/drugs')} className="hover:text-blue-600 transition">
+                  {dict.nav.directory}
                 </Link>
               </li>
             </ul>
@@ -106,31 +128,31 @@ export default function Footer() {
           {/* Column 3: Customs & Entry Guides */}
           <div>
             <h4 className="text-slate-900 font-bold text-xs tracking-wider mb-3.5 uppercase">
-              Border & Port Guides
+              {dict.footer.colBorder}
             </h4>
             <ul className="space-y-2">
               <li>
-                <Link href="/guide/port-clearance-walkthrough" className="text-emerald-700 font-semibold hover:text-emerald-900 transition">
-                  ✈️ Airport Customs Guides (PVG, PEK, CAN)
+                <Link href={lp('/guide/port-clearance-walkthrough')} className="text-emerald-700 font-semibold hover:text-emerald-900 transition">
+                  ✈️ {dict.nav.airports}
                 </Link>
               </li>
               <li>
-                <Link href="/guide/bring-medications-to-china" className="hover:text-blue-600 transition">
-                  Complete China Customs Entry Guide
+                <Link href={lp('/guide/bring-medications-to-china')} className="hover:text-blue-600 transition">
+                  {dict.nav.radar}
                 </Link>
               </li>
               <li>
-                <Link href="/drugs/pseudoephedrine-sudafed-in-china" className="hover:text-blue-600 transition">
+                <Link href={lp('/drugs/pseudoephedrine-sudafed-in-china')} className="hover:text-blue-600 transition">
                   Sudafed Precursor Chemical Limits
                 </Link>
               </li>
               <li>
-                <Link href="/drugs/fentanyl-patch-in-china" className="hover:text-blue-600 transition">
+                <Link href={lp('/drugs/fentanyl-patch-in-china')} className="hover:text-blue-600 transition">
                   Fentanyl Patch Narcotic Regulations
                 </Link>
               </li>
               <li>
-                <Link href="/drugs/ibuprofen-in-china" className="hover:text-blue-600 transition">
+                <Link href={lp('/drugs/ibuprofen-in-china')} className="hover:text-blue-600 transition">
                   OTC Pain Relievers (Advil / Tylenol)
                 </Link>
               </li>
@@ -140,7 +162,7 @@ export default function Footer() {
           {/* Column 4: Official Authorities & References */}
           <div>
             <h4 className="text-slate-900 font-bold text-xs tracking-wider mb-3.5 uppercase">
-              Official Regulations
+              {dict.footer.colAuthorities}
             </h4>
             <ul className="space-y-2 text-[11px]">
               <li>
@@ -188,7 +210,7 @@ export default function Footer() {
           <div className="flex items-start gap-2 text-slate-600 bg-white p-4 rounded-xl border border-slate-200/90 shadow-2xs">
             <AlertTriangle className="h-4 w-4 text-amber-600 shrink-0 mt-0.5" />
             <p className="leading-relaxed">
-              <strong className="text-slate-800">Statutory YMYL Notice</strong>: ChinaMedsCheck.com is an independent public-information technology service designed to aid international travelers in understanding Chinese medication entry regulations. We are not a law firm, hospital, or agency of the Chinese government. Regulations, drug schedules, and border enforcement policies are subject to unilateral revision by Chinese authorities. Always verify your regimen with your licensed healthcare provider and the relevant Chinese diplomatic mission prior to international departure.
+              <strong className="text-slate-800">{dict.footer.disclaimerTitle}</strong>: {dict.footer.disclaimerText}
             </p>
           </div>
 
@@ -199,12 +221,12 @@ export default function Footer() {
 
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-slate-500 text-[11px] pt-2">
             <div>
-              &copy; {new Date().getFullYear()} ChinaMedsCheck.com. All rights reserved. Built for safe international travel to China.
+              &copy; {new Date().getFullYear()} {dict.footer.rights}
             </div>
             <div className="flex items-center gap-4">
-              <span>Privacy-first: Zero health data saved on servers</span>
+              <span>{dict.footer.privacy}</span>
               <span>•</span>
-              <span>Fast Edge SSG Delivery</span>
+              <span>{dict.footer.ssg}</span>
             </div>
           </div>
         </div>

@@ -51,12 +51,15 @@ export default function AllowanceCalculatorWidget({ locale = 'en' }: AllowanceCa
     return allMeds.find((m) => m.slug === selectedDrugSlug);
   }, [allMeds, selectedDrugSlug]);
 
-  // Derived classification
+  // Derived classification — strictly driven by structured data fields (status & statutory allowance limits)
   const drugType: DrugClassification = useMemo(() => {
     if (currentMed) {
-      if (currentMed.status === 'RED') return 'BANNED';
+      if (currentMed.status === 'RED' || currentMed.channel === 'STRICTLY_FORBIDDEN' || currentMed.allowanceDaysMax === 0) {
+        return 'BANNED';
+      }
       if (currentMed.status === 'YELLOW') {
-        if (currentMed.slug.includes('concerta') || currentMed.slug.includes('ritalin') || currentMed.allowanceDaysMax <= 15) {
+        // Controlled Category 1 is legally capped at 7-15 days single travel course
+        if (currentMed.allowanceDaysMax <= 15 || currentMed.incbCategory?.includes('Category 1')) {
           return 'CONTROLLED_CAT1';
         }
         return 'CONTROLLED_CAT2';

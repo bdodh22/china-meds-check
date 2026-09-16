@@ -19,7 +19,8 @@ import {
   ArrowRight,
   ExternalLink,
   Download,
-  Info
+  Info,
+  X
 } from 'lucide-react';
 import { CustomsDeclarationData, CustomsDeclarationItem, TravelBagItem } from '@/lib/types';
 import { Locale, getLocalizedPath } from '@/lib/i18n/config';
@@ -49,6 +50,15 @@ export default function CustomsDeclarationCard({ locale = 'en' }: CustomsDeclara
   const [addDays, setAddDays] = useState(14);
   const [addDosage, setAddDosage] = useState('As directed on doctor prescription');
 
+  // Inline Banner state — replaces native alert() for a11y & i18n compliance
+  const [syncBanner, setSyncBanner] = useState<{ type: 'success' | 'warning'; message: string } | null>(null);
+
+  // Auto-dismiss banner after 4 seconds
+  useEffect(() => {
+    if (!syncBanner) return;
+    const timer = setTimeout(() => setSyncBanner(null), 4000);
+    return () => clearTimeout(timer);
+  }, [syncBanner]);
   // Declared Items List
   const [items, setItems] = useState<CustomsDeclarationItem[]>([
     {
@@ -84,11 +94,12 @@ export default function CustomsDeclarationCard({ locale = 'en' }: CustomsDeclara
             status: it.status
           }));
           setItems(syncedItems);
+          setSyncBanner({ type: 'success', message: `${syncedItems.length} medication(s) synced from Travel Bag.` });
         } else {
-          alert('Your Travel Bag is currently empty.');
+          setSyncBanner({ type: 'warning', message: 'Your Travel Bag is currently empty. Add medications in the Manifest tool first.' });
         }
       } else {
-        alert('Your Travel Bag is currently empty.');
+        setSyncBanner({ type: 'warning', message: 'Your Travel Bag is currently empty. Add medications in the Manifest tool first.' });
       }
     } catch (e) {
       console.error(e);
@@ -169,7 +180,33 @@ ${items
             </p>
           </div>
 
-          {/* Action Bar */}
+          {/* Inline Sync Banner — replaces native alert() */}
+          {syncBanner && (
+            <div
+              role="alert"
+              className={`mt-4 flex items-center gap-2.5 px-4 py-2.5 rounded-xl border text-xs font-semibold transition-all animate-in fade-in slide-in-from-top-1 duration-200 ${
+                syncBanner.type === 'success'
+                  ? 'bg-emerald-50 border-emerald-300 text-emerald-800'
+                  : 'bg-amber-50 border-amber-300 text-amber-800'
+              }`}
+            >
+              {syncBanner.type === 'success'
+                ? <Check className="h-4 w-4 text-emerald-600 shrink-0" />
+                : <AlertCircle className="h-4 w-4 text-amber-600 shrink-0" />
+              }
+              <span className="flex-1">{syncBanner.message}</span>
+              <button
+                type="button"
+                onClick={() => setSyncBanner(null)}
+                className="shrink-0 text-current opacity-60 hover:opacity-100 transition-opacity"
+                aria-label="Dismiss"
+              >
+                <X className="h-3.5 w-3.5" />
+              </button>
+            </div>
+          )}
+
+        {/* Action Bar */}
           <div className="flex items-center gap-2 flex-wrap">
             <button
               type="button"
