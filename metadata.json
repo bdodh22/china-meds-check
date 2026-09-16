@@ -1,0 +1,8 @@
+{
+  "name": "ChinaMedsCheck",
+  "description": "Can you bring prescription drugs to China? Instant customs legality radar for Adderall, Concerta, Xanax & Ozempic. Check GACC rules and allowances.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

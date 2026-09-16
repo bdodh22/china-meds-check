@@ -235,21 +235,21 @@ export default function ManifestPage() {
           </section>
 
           {/* Section 4: Verified Port Walkthrough Link */}
-          <section className="bg-gradient-to-r from-slate-900 to-blue-950 text-white rounded-2xl p-8 md:p-10 shadow-lg flex flex-col md:flex-row items-center justify-between gap-6">
+          <section className="bg-gradient-to-r from-blue-50/90 via-slate-50 to-indigo-50/40 text-slate-900 rounded-2xl p-8 md:p-10 border border-blue-200/70 shadow-xs flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="space-y-2">
-              <span className="text-blue-400 text-xs font-bold uppercase tracking-wider">
+              <span className="text-blue-700 text-xs font-bold uppercase tracking-wider">
                 Physical Airport Navigation
               </span>
-              <h3 className="text-2xl font-bold tracking-tight">
+              <h3 className="text-2xl font-bold tracking-tight text-slate-900">
                 Read the Official China Airport Customs Walkthrough
               </h3>
-              <p className="text-slate-300 text-sm max-w-xl">
+              <p className="text-slate-600 text-sm max-w-xl">
                 Step-by-step physical terminal walkthroughs for Shanghai Pudong (PVG), Beijing Capital (PEK), Guangzhou Baiyun (CAN), and Beijing Daxing (PKX). Know where the Red Channel desk is and what to say.
               </p>
             </div>
             <Link
               href="/guide/port-clearance-walkthrough"
-              className="px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-sm shrink-0 flex items-center gap-2 shadow-md transition-all hover:translate-x-1"
+              className="px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 active:scale-[0.98] text-white font-bold text-sm shrink-0 flex items-center gap-2 shadow-xs transition-all hover:translate-x-0.5"
             >
               <span>View Airport Walkthroughs</span>
               <ArrowRight className="h-4 w-4" />

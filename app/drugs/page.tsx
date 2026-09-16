@@ -63,21 +63,21 @@ export default function DrugsDirectoryPage() {
         </div>
 
         {/* Quick Travel Bag / Declaration Callout */}
-        <div className="bg-gradient-to-r from-blue-900 to-slate-900 text-white p-4 sm:p-5 rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-4 shadow-sm text-xs">
+        <div className="bg-gradient-to-r from-blue-50/90 via-indigo-50/40 to-white text-slate-900 p-4 sm:p-5 rounded-2xl border border-blue-200/70 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-xs text-xs">
           <div className="flex items-center gap-3">
-            <div className="h-9 w-9 rounded-xl bg-blue-600 flex items-center justify-center shrink-0">
-              <Luggage className="h-5 w-5 text-white" />
+            <div className="h-9 w-9 rounded-xl bg-blue-600 text-white flex items-center justify-center shrink-0 shadow-xs">
+              <Luggage className="h-5 w-5" />
             </div>
             <div>
-              <span className="font-extrabold text-sm block">Carrying multiple medications on your journey?</span>
-              <span className="text-slate-300">
+              <span className="font-extrabold text-sm block text-slate-900">Carrying multiple medications on your journey?</span>
+              <span className="text-slate-600">
                 Audit your whole travel kit for compound chemical stacking and flight security rules.
               </span>
             </div>
           </div>
           <Link
             href="/manifest"
-            className="px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold shrink-0 flex items-center gap-1.5 transition"
+            className="px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 active:scale-[0.98] text-white font-bold shrink-0 flex items-center gap-1.5 transition shadow-xs"
           >
             <span>Open Travel Bag Auditor</span>
             <ArrowRight className="h-3.5 w-3.5" />

@@ -298,7 +298,7 @@ export default function DrugDetailPage({ params }: PageProps) {
             </div>
             <Link
               href="/guide/port-clearance-walkthrough"
-              className="px-4 py-2 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-bold shrink-0 flex items-center gap-1.5 transition"
+              className="px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 active:scale-[0.98] text-white font-bold shrink-0 flex items-center gap-1.5 transition shadow-xs"
             >
               <span>View Airport Walkthrough</span>
               <ArrowRight className="h-3.5 w-3.5" />
