@@ -33,34 +33,36 @@ export default function Navbar() {
   const localizedHref = (path: string) => getLocalizedPath(path, currentLocale);
 
   return (
-    <header className="sticky top-0 z-40 w-full bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
+    <header className="sticky top-0 z-40 w-full bg-white/80 backdrop-blur-xl border-b border-white/90 shadow-[0_4px_20px_rgba(0,0,0,0.03)]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          {/* Logo & Slogan */}
+          {/* Logo & Slogan (Stitch V4 Mint Leaf Medical Cross) */}
           <div className="flex items-center gap-3">
             <Link href={localizedHref('/')} className="flex items-center gap-2.5 group">
-              <div className="h-9 w-9 rounded-xl bg-gradient-to-br from-slate-900 via-blue-950 to-slate-900 border border-blue-500/30 flex items-center justify-center text-white shadow-sm shadow-blue-950/25 group-hover:scale-105 group-hover:border-blue-400/50 transition-all duration-200">
+              <div className="h-9 w-9 rounded-xl bg-gradient-to-br from-teal-500 to-teal-700 border border-teal-400/30 flex items-center justify-center text-white shadow-sm shadow-teal-700/20 group-hover:scale-105 group-hover:shadow-glow-teal transition-all duration-200">
                 <svg
-                  className="h-5 w-5"
+                  className="h-5 w-5 text-white"
                   viewBox="0 0 24 24"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  {/* Outer Customs Protective Shield */}
-                  <path
-                    d="M12 22C12 22 20 18 20 12V5L12 2L4 5V12C4 18 12 22 12 22Z"
-                    fill="#3B82F6"
-                    fillOpacity="0.2"
-                    stroke="#60A5FA"
-                    strokeWidth="1.8"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
+                  {/* Outer Mint Health Badge */}
+                  <rect
+                    x="2"
+                    y="2"
+                    width="20"
+                    height="20"
+                    rx="6"
+                    fill="#0F766E"
+                    fillOpacity="0.4"
+                    stroke="#5EEAD4"
+                    strokeWidth="1.6"
                   />
-                  {/* Inner Official Medical Cross */}
+                  {/* Clean White Cross */}
                   <path
-                    d="M12 7.5V14.5M8.5 11H15.5"
+                    d="M12 6.5V17.5M6.5 12H17.5"
                     stroke="#FFFFFF"
-                    strokeWidth="2.2"
+                    strokeWidth="2.5"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   />
@@ -71,7 +73,7 @@ export default function Navbar() {
                   <span className="font-extrabold text-slate-900 text-lg tracking-tight">
                     ChinaMedsCheck
                   </span>
-                  <span className="text-[10px] font-mono px-1 py-0.2 rounded bg-slate-100 text-slate-600 border border-slate-200">
+                  <span className="text-[10px] font-mono px-1.5 py-0.2 rounded-md bg-teal-50 text-teal-800 border border-teal-200/80 font-bold">
                     .com
                   </span>
                 </div>
@@ -82,57 +84,57 @@ export default function Navbar() {
             </Link>
           </div>
 
-          {/* Desktop Navigation Links */}
+          {/* Desktop Navigation Links (Teal Accented) */}
           <nav className="hidden md:flex items-center gap-1 text-sm font-medium text-slate-600">
             <Link
               href={localizedHref('/')}
-              className="px-2.5 py-1.5 rounded-lg hover:text-slate-900 hover:bg-slate-50 transition"
+              className="px-3 py-1.5 rounded-xl hover:text-teal-800 hover:bg-teal-50/80 transition-all duration-150"
             >
               {dict.nav.radar}
             </Link>
             <Link
               href={localizedHref('/manifest')}
-              className="px-2.5 py-1.5 rounded-lg hover:text-blue-700 hover:bg-blue-50 text-blue-900 font-bold transition flex items-center gap-1"
+              className="px-3 py-1.5 rounded-xl hover:text-teal-800 hover:bg-teal-50/80 text-teal-900 font-bold transition-all duration-150 flex items-center gap-1.5 bg-teal-50/50 border border-teal-100/60"
             >
-              <Luggage className="h-3.5 w-3.5 text-blue-600" />
+              <Luggage className="h-3.5 w-3.5 text-teal-600" />
               <span>{dict.nav.bag}</span>
             </Link>
             <Link
               href={localizedHref('/calculator')}
-              className="px-2.5 py-1.5 rounded-lg hover:text-slate-900 hover:bg-slate-50 transition flex items-center gap-1"
+              className="px-3 py-1.5 rounded-xl hover:text-teal-800 hover:bg-teal-50/80 transition-all duration-150 flex items-center gap-1.5"
             >
               <Calculator className="h-3.5 w-3.5 text-slate-500" />
               <span>{dict.nav.allowance}</span>
             </Link>
             <Link
               href={localizedHref('/customs-card')}
-              className="px-2.5 py-1.5 rounded-lg hover:text-slate-900 hover:bg-slate-50 transition flex items-center gap-1"
+              className="px-3 py-1.5 rounded-xl hover:text-teal-800 hover:bg-teal-50/80 transition-all duration-150 flex items-center gap-1.5"
             >
               <FileText className="h-3.5 w-3.5 text-slate-500" />
               <span>{dict.nav.customsCard}</span>
             </Link>
             <Link
               href={localizedHref('/guide/port-clearance-walkthrough')}
-              className="px-2.5 py-1.5 rounded-lg hover:text-slate-900 hover:bg-slate-50 transition flex items-center gap-1"
+              className="px-3 py-1.5 rounded-xl hover:text-teal-800 hover:bg-teal-50/80 transition-all duration-150 flex items-center gap-1.5"
             >
               <Plane className="h-3.5 w-3.5 text-slate-500" />
               <span>{dict.nav.airports}</span>
             </Link>
             <Link
               href={localizedHref('/drugs')}
-              className="px-2.5 py-1.5 rounded-lg hover:text-slate-900 hover:bg-slate-50 transition"
+              className="px-3 py-1.5 rounded-xl hover:text-teal-800 hover:bg-teal-50/80 transition-all duration-150"
             >
               {dict.nav.directory}
             </Link>
           </nav>
 
           {/* Quick Action Button & Language Switcher & Mobile Toggle */}
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2.5">
             <LanguageSwitcher variant="navbar" />
 
             <Link
               href={localizedHref('/manifest')}
-              className="hidden lg:inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition shadow-sm"
+              className="hidden lg:inline-flex items-center gap-1.5 px-3.5 py-1.5 text-xs font-bold rounded-xl bg-gradient-to-r from-teal-600 to-teal-700 hover:from-teal-500 hover:to-teal-600 text-white shadow-xs hover:shadow-md hover:-translate-y-0.5 active:scale-[0.98] transition-all duration-150"
             >
               <Luggage className="h-3.5 w-3.5" />
               <span>{dict.nav.auditBag}</span>
@@ -141,8 +143,9 @@ export default function Navbar() {
             <button
               type="button"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="md:hidden p-2 rounded-lg text-slate-600 hover:bg-slate-100 hover:text-slate-900 focus:outline-none"
+              className="md:hidden p-2 rounded-xl text-slate-600 hover:bg-teal-50 hover:text-teal-800 focus:outline-none transition"
               aria-label="Toggle Navigation Menu"
+
             >
               {mobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>

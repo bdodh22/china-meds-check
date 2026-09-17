@@ -22,6 +22,7 @@ import DrugStatusBadge from './DrugStatusBadge';
 import { searchMedsWithTypoTolerance } from '@/lib/searchIndex';
 import { resolveBrandViaRxNorm, RxNormResolution } from '@/lib/rxnorm';
 import RedLineBlocker, { checkIsBannedTerm } from './RedLineBlocker';
+import { Locale, getLocalizedPath } from '@/lib/i18n/config';
 
 const POPULAR_SEARCHES = [
   'Adderall',
@@ -40,10 +41,12 @@ const STORAGE_KEY = 'chinameds_travel_bag';
 
 interface DrugSearchWidgetProps {
   placeholder?: string;
+  locale?: Locale;
 }
 
 export default function DrugSearchWidget({
   placeholder = 'Search medication, brand name, condition or CAS number...',
+  locale = 'en',
 }: DrugSearchWidgetProps) {
   const [query, setQuery] = useState('');
   const [isOpen, setIsOpen] = useState(false);
@@ -162,9 +165,9 @@ export default function DrugSearchWidget({
         onClose={() => setBlockedTerm(null)}
       />
 
-      {/* Search Bar Input Container (Stitch Grade Micro-Crafted) */}
-      <div className="relative flex items-center bg-white rounded-2xl border border-slate-200/90 shadow-[0_8px_30px_rgba(15,23,42,0.06)] hover:border-slate-300/90 focus-within:border-blue-500 focus-within:ring-4 focus-within:ring-blue-500/10 transition-all duration-200 group">
-        <div className="pl-4.5 pr-1 text-slate-400 group-focus-within:text-blue-600 transition-colors">
+      {/* Search Bar Input Container (Stitch V4 Frosted Command Capsule) */}
+      <div className="relative flex items-center bg-white/85 backdrop-blur-xl rounded-2xl border border-white/90 shadow-[0_8px_30px_rgba(0,0,0,0.04)] hover:shadow-[0_16px_40px_rgba(13,148,136,0.08)] hover:border-teal-200 focus-within:border-teal-500 focus-within:ring-4 focus-within:ring-teal-500/10 transition-all duration-300 group p-1">
+        <div className="pl-4 pr-1 text-slate-400 group-focus-within:text-teal-600 transition-colors">
           <Search className="h-5 w-5" />
         </div>
         <input
@@ -176,24 +179,41 @@ export default function DrugSearchWidget({
           }}
           onFocus={() => setIsOpen(true)}
           placeholder={placeholder}
-          className="w-full px-3.5 py-4 text-base md:text-lg text-slate-900 bg-transparent placeholder-slate-400 focus:outline-none rounded-2xl"
+          className="w-full px-3 py-3.5 text-base md:text-lg text-slate-900 bg-transparent placeholder-slate-400 focus:outline-none rounded-2xl"
           aria-label="Search medication legality in China"
         />
-        {query && (
+
+        {/* Keyboard Shortcut & Action Cluster */}
+        <div className="flex items-center gap-1.5 pr-1 shrink-0">
+          <span className="hidden sm:inline-flex items-center px-2 py-0.5 rounded-md bg-slate-100/80 text-[11px] font-mono font-medium text-slate-400 border border-slate-200/60">
+            ⌘K
+          </span>
+
+          {query && (
+            <button
+              onClick={handleClear}
+              className="p-2 text-slate-400 hover:text-slate-700 hover:bg-slate-100 rounded-xl transition-all duration-150 cursor-pointer active:scale-95"
+              title="Clear search"
+            >
+              <X className="h-4 w-4" />
+            </button>
+          )}
+
           <button
-            onClick={handleClear}
-            className="p-2 mr-2 text-slate-400 hover:text-slate-700 hover:bg-slate-100 rounded-lg transition-all duration-150 cursor-pointer active:scale-95"
-            title="Clear search"
+            type="button"
+            onClick={() => setIsOpen(true)}
+            className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-gradient-to-r from-teal-600 to-teal-700 hover:from-teal-500 hover:to-teal-600 text-white text-xs font-bold shadow-xs hover:shadow-md hover:-translate-y-0.5 active:scale-[0.98] transition-all duration-150"
           >
-            <X className="h-5 w-5" />
+            <span>Check</span>
+            <ArrowRight className="h-3.5 w-3.5" />
           </button>
-        )}
+        </div>
       </div>
 
-      {/* Popular Fast-Lookup Chips (Kinetic Pills) */}
+      {/* Popular Fast-Lookup Chips (Stitch V4 Frosted Kinetic Pills) */}
       <div className="mt-3.5 flex flex-wrap items-center gap-2 text-xs text-slate-500 px-1">
         <span className="font-semibold text-slate-700 mr-0.5 flex items-center gap-1.5 shrink-0">
-          <HelpCircle className="h-3.5 w-3.5 text-blue-600" />
+          <HelpCircle className="h-3.5 w-3.5 text-teal-600" />
           <span>High-Anxiety Searches:</span>
         </span>
         {POPULAR_SEARCHES.map((term) => (
@@ -201,16 +221,17 @@ export default function DrugSearchWidget({
             key={term}
             type="button"
             onClick={() => handleSelectPopular(term)}
-            className="px-3 py-1 rounded-full bg-white hover:bg-blue-50/80 text-slate-700 hover:text-blue-700 border border-slate-200/80 hover:border-blue-200 shadow-xs hover:shadow-sm hover:-translate-y-0.5 active:scale-[0.97] transition-all duration-150 cursor-pointer font-medium shrink-0 whitespace-nowrap"
+            className="px-3 py-1.5 rounded-full bg-white/80 hover:bg-teal-50 text-slate-700 hover:text-teal-800 border border-white/90 hover:border-teal-200 shadow-xs hover:shadow-sm hover:-translate-y-0.5 active:scale-[0.97] transition-all duration-150 cursor-pointer font-medium shrink-0 whitespace-nowrap backdrop-blur-md"
           >
             {term}
           </button>
         ))}
       </div>
 
-      {/* Autocomplete & Results Dropdown (Stitch Elevated Glass Surface) */}
+      {/* Autocomplete & Results Dropdown (Stitch V4 Elevated Frosted Surface) */}
       {isOpen && query.trim() !== '' && (
-        <div className="absolute left-0 right-0 top-full mt-2.5 bg-white/98 backdrop-blur-md rounded-2xl border border-slate-200/90 shadow-[0_20px_50px_rgba(15,23,42,0.12)] overflow-hidden divide-y divide-slate-100 max-h-[480px] overflow-y-auto z-50">
+        <div className="absolute left-0 right-0 top-full mt-2.5 bg-white/95 backdrop-blur-xl rounded-2xl border border-white/90 shadow-[0_20px_50px_rgba(15,23,42,0.10)] overflow-hidden divide-y divide-slate-100/80 max-h-[480px] overflow-y-auto z-50">
+
 
           {/* Local Matches */}
           {results.length > 0 ? (
@@ -231,7 +252,7 @@ export default function DrugSearchWidget({
                   className={`py-2.5 px-3.5 hover:bg-slate-50 transition border-l-4 ${statusColor} group relative flex items-center justify-between gap-3`}
                 >
                   <Link
-                    href={`/drugs/${med.slug}`}
+                    href={getLocalizedPath(`/drugs/${med.slug}`, locale)}
                     onClick={() => setIsOpen(false)}
                     className="flex-1 min-w-0"
                   >
@@ -287,10 +308,10 @@ export default function DrugSearchWidget({
                       )}
                     </button>
 
-                    <DrugStatusBadge status={med.status} size="sm" />
+                    <DrugStatusBadge status={med.status} size="sm" locale={locale} />
 
                     <Link
-                      href={`/drugs/${med.slug}`}
+                      href={getLocalizedPath(`/drugs/${med.slug}`, locale)}
                       onClick={() => setIsOpen(false)}
                       className="p-1 text-slate-400 hover:text-slate-900"
                     >
@@ -313,7 +334,7 @@ export default function DrugSearchWidget({
               </p>
 
               <Link
-                href={`/drugs/${rxNormResult.matchedMedication.slug}`}
+                href={getLocalizedPath(`/drugs/${rxNormResult.matchedMedication.slug}`, locale)}
                 onClick={() => setIsOpen(false)}
                 className="mt-3 block p-3 rounded-lg bg-white border border-blue-200 hover:border-blue-400 transition"
               >
@@ -326,7 +347,7 @@ export default function DrugSearchWidget({
                       China Status: {rxNormResult.matchedMedication.chineseName}
                     </div>
                   </div>
-                  <DrugStatusBadge status={rxNormResult.matchedMedication.status} size="sm" />
+                  <DrugStatusBadge status={rxNormResult.matchedMedication.status} size="sm" locale={locale} />
                 </div>
               </Link>
             </div>

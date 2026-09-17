@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #F8FAFC;
   --foreground: #0f172a;
   --border: 214.3 31.8% 91.4%;
 }
@@ -48,8 +48,30 @@ body {
 }
 
 /* ==========================================================================
-   Stitch & Emil Kowalski 物理动效与现代工艺原语
+   Stitch V4 Kinetic Elevation 物理毛玻璃与现代工艺原语
    ========================================================================== */
+.glass-panel {
+  background-color: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.04);
+}
+
+.glass-card {
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.95);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.04);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.glass-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px rgba(13, 148, 136, 0.09);
+  border-color: rgba(204, 251, 241, 0.9);
+}
+
 .kinetic-interactive {
   transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -63,9 +85,10 @@ body {
 .radar-grid-bg {
   background-size: 32px 32px;
   background-image: 
-    linear-gradient(to right, rgba(148, 163, 184, 0.07) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(148, 163, 184, 0.07) 1px, transparent 1px);
+    linear-gradient(to right, rgba(148, 163, 184, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(148, 163, 184, 0.06) 1px, transparent 1px);
 }
+
 
 /* Print styling for customs declarations */
 @media print {
