@@ -47,6 +47,15 @@ body {
   word-break: keep-all !important;
 }
 
+/* 隐藏滚动条 */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 /* ==========================================================================
    Stitch V4 Kinetic Elevation 物理毛玻璃与现代工艺原语
    ========================================================================== */

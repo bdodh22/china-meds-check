@@ -166,9 +166,9 @@ export default function DrugSearchWidget({
         onClose={() => setBlockedTerm(null)}
       />
 
-      {/* Search Bar Input Container (Stitch V4 Frosted Command Capsule) */}
-      <div className="relative flex items-center bg-white/85 backdrop-blur-xl rounded-2xl border border-white/90 shadow-[0_8px_30px_rgba(0,0,0,0.04)] hover:shadow-[0_16px_40px_rgba(13,148,136,0.08)] hover:border-teal-200 focus-within:border-teal-500 focus-within:ring-4 focus-within:ring-teal-500/10 transition-all duration-300 group p-1">
-        <div className="pl-4 pr-1 text-slate-400 group-focus-within:text-teal-600 transition-colors">
+      {/* Search Bar Input Container: High-Contrast Crisp Entity */}
+      <div className="relative flex items-center bg-white rounded-2xl border-2 border-slate-300 hover:border-teal-600 focus-within:border-teal-600 focus-within:ring-4 focus-within:ring-teal-500/15 shadow-[0_10px_30px_rgba(15,23,42,0.08)] transition-all duration-200 group p-1.5">
+        <div className="pl-3.5 pr-1 text-slate-400 group-focus-within:text-teal-600 transition-colors">
           <Search className="h-5 w-5" />
         </div>
         <input
@@ -180,13 +180,13 @@ export default function DrugSearchWidget({
           }}
           onFocus={() => setIsOpen(true)}
           placeholder={placeholder}
-          className="w-full px-3 py-3.5 text-base md:text-lg text-slate-900 bg-transparent placeholder-slate-400 focus:outline-none rounded-2xl"
+          className="w-full px-3 py-3 text-base sm:text-lg text-slate-900 bg-transparent placeholder-slate-400 focus:outline-none"
           aria-label="Search medication legality in China"
         />
 
         {/* Keyboard Shortcut & Action Cluster */}
         <div className="flex items-center gap-1.5 pr-1 shrink-0">
-          <span className="hidden sm:inline-flex items-center px-2 py-0.5 rounded-md bg-slate-100/80 text-[11px] font-mono font-medium text-slate-400 border border-slate-200/60">
+          <span className="hidden sm:inline-flex items-center px-2 py-0.5 rounded-md bg-slate-100 text-[11px] font-mono font-medium text-slate-500 border border-slate-200">
             ⌘K
           </span>
 
@@ -203,44 +203,42 @@ export default function DrugSearchWidget({
           <button
             type="button"
             onClick={() => setIsOpen(true)}
-            className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-gradient-to-r from-teal-600 to-teal-700 hover:from-teal-500 hover:to-teal-600 text-white text-xs font-bold shadow-xs hover:shadow-md hover:-translate-y-0.5 active:scale-[0.98] transition-all duration-150"
+            className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-xl bg-teal-600 hover:bg-teal-700 active:bg-teal-800 text-white text-sm font-bold shadow-sm hover:shadow hover:-translate-y-0.5 active:scale-[0.98] transition-all duration-150 cursor-pointer"
           >
             <span>Check</span>
-            <ArrowRight className="h-3.5 w-3.5" />
+            <ArrowRight className="h-4 w-4" />
           </button>
         </div>
       </div>
 
-      {/* Popular Fast-Lookup Chips: Single-Row Kinetic Clean Bar */}
-      <div className="mt-3.5 flex items-center justify-center gap-2 text-xs overflow-x-auto no-scrollbar py-1 px-1">
+      {/* Popular Fast-Lookup Chips: Flex-wrap Natural Flow (Zero Scrollbars Ever) */}
+      <div className="mt-3.5 flex flex-wrap items-center justify-center gap-2 text-xs py-1">
         <span className="text-[11px] font-semibold text-slate-400 uppercase tracking-wider shrink-0 mr-1 hidden sm:inline-flex items-center gap-1 font-mono">
           <Sparkles className="h-3 w-3 text-teal-600" />
           <span>Quick Radar:</span>
         </span>
-        <div className="flex items-center gap-2 flex-nowrap shrink-0">
-          {POPULAR_SEARCHES.map(({ term, status, badge }) => (
-            <button
-              key={term}
-              type="button"
-              onClick={() => handleSelectPopular(term)}
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/80 hover:bg-white text-slate-700 hover:text-teal-900 border border-slate-200/80 hover:border-teal-300 shadow-2xs hover:shadow-sm hover:-translate-y-0.5 active:scale-[0.97] transition-all duration-150 cursor-pointer text-xs font-medium shrink-0 whitespace-nowrap backdrop-blur-md group"
-            >
-              <span
-                className={`h-1.5 w-1.5 rounded-full shrink-0 ${
-                  status === 'RED'
-                    ? 'bg-rose-500 group-hover:animate-ping'
-                    : status === 'YELLOW'
-                    ? 'bg-amber-400'
-                    : 'bg-emerald-500'
-                }`}
-              />
-              <span>{term}</span>
-              <span className="text-[10px] text-slate-400 font-normal hidden md:inline">
-                ({badge})
-              </span>
-            </button>
-          ))}
-        </div>
+        {POPULAR_SEARCHES.map(({ term, status, badge }) => (
+          <button
+            key={term}
+            type="button"
+            onClick={() => handleSelectPopular(term)}
+            className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white hover:bg-teal-50 text-slate-700 hover:text-teal-900 border border-slate-200 hover:border-teal-400 shadow-2xs hover:shadow-xs hover:-translate-y-0.5 active:scale-[0.97] transition-all duration-150 cursor-pointer text-xs font-medium shrink-0 whitespace-nowrap"
+          >
+            <span
+              className={`h-2 w-2 rounded-full shrink-0 ${
+                status === 'RED'
+                  ? 'bg-rose-500'
+                  : status === 'YELLOW'
+                  ? 'bg-amber-400'
+                  : 'bg-emerald-500'
+              }`}
+            />
+            <span>{term}</span>
+            <span className="text-[10px] text-slate-400 font-normal">
+              ({badge})
+            </span>
+          </button>
+        ))}
       </div>
 
       {/* Autocomplete & Results Dropdown (Stitch V4 Elevated Frosted Surface) */}

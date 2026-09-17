@@ -126,30 +126,30 @@ export default function HomePage() {
 
       {/* Hero Section: Focused Single Visual Anchor (Stitch V4 Kinetic Elevation) */}
       <section className="relative pt-12 pb-16 md:pt-20 md:pb-24 border-b border-slate-200/60 overflow-hidden">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-7 relative z-10">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-7 relative z-10">
           
           {/* Trust Pill */}
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/90 backdrop-blur-md border border-teal-200/80 text-teal-950 text-xs font-semibold tracking-wide shadow-2xs shrink-0 whitespace-nowrap">
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/95 backdrop-blur-md border border-teal-200/90 text-teal-950 text-xs font-semibold tracking-wide shadow-2xs shrink-0 whitespace-nowrap">
             <span className="h-2 w-2 rounded-full bg-emerald-500 animate-pulse" />
             <span>Official GACC Notice 43 & Decree 442 Clearance Radar</span>
           </div>
 
-          {/* Main H1 Title */}
-          <div className="space-y-3">
-            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight max-w-3xl mx-auto leading-[1.14]">
+          {/* Main H1 Title: 自然流畅的两行排版，彻底消除单词折裂与孤字 */}
+          <div className="space-y-4">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[3.25rem] font-extrabold text-slate-900 tracking-tight max-w-4xl mx-auto leading-[1.2]">
               Bringing Medication to China? <br className="hidden sm:inline" />
               <span className="bg-gradient-to-r from-teal-700 via-teal-600 to-emerald-600 bg-clip-text text-transparent">
                 Check Customs Legality Instantly
               </span>
             </h1>
 
-            <p className="text-sm sm:text-base md:text-lg text-slate-500 max-w-xl mx-auto leading-relaxed font-normal">
+            <p className="text-sm sm:text-base md:text-lg text-slate-500 max-w-2xl mx-auto leading-relaxed font-normal">
               Instant verification for prescription drugs, carry limits, and Red Channel declaration requirements before your flight.
             </p>
           </div>
 
           {/* Primary Action Hero: Drug Search Widget */}
-          <div className="pt-1 max-w-2xl mx-auto">
+          <div className="pt-2 max-w-2xl mx-auto">
             <DrugSearchWidget />
           </div>
 
