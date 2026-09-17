@@ -493,7 +493,7 @@ export default function HomePage() {
       <section className="py-16 bg-slate-50/70 border-y border-slate-200/80">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
-            {/* Left Column: Fixed Context Header (4 cols) */}
+            {/* Left Column: Fixed Context Header & Customs Advisory Box (4 cols) */}
             <div className="lg:col-span-4 space-y-4 lg:sticky lg:top-24">
               <div className="inline-flex items-center gap-1.5 text-xs font-bold text-teal-700 uppercase tracking-wider font-mono bg-teal-50 px-3 py-1 rounded-full border border-teal-100">
                 <Sparkles className="h-3.5 w-3.5 text-teal-600" />
@@ -505,7 +505,9 @@ export default function HomePage() {
               <p className="text-sm text-slate-600 leading-relaxed">
                 Clear legal guidance on high-risk medications, doctor prescription proof requirements, and airport baggage inspections.
               </p>
-              <div className="pt-2">
+
+              <div className="pt-2 space-y-3">
+                {/* Hotlines Card */}
                 <div className="p-4 rounded-2xl bg-white border border-slate-200/80 shadow-2xs space-y-1.5">
                   <span className="text-[11px] font-mono font-bold text-teal-800 uppercase tracking-wide block">
                     GACC Hotline 12360
@@ -513,6 +515,27 @@ export default function HomePage() {
                   <p className="text-xs text-slate-500 leading-relaxed">
                     Have an unlisted substance? Call the 24/7 China Customs inquiry hotline at <strong className="text-slate-800 font-mono">12360</strong> upon border arrival.
                   </p>
+                </div>
+
+                {/* Pre-Flight Checklist Card (Perfect Height Balance) */}
+                <div className="p-4 rounded-2xl bg-teal-900 text-white shadow-sm space-y-2">
+                  <span className="text-[11px] font-mono font-bold text-teal-300 uppercase tracking-wider block">
+                    3-Point Border Rule
+                  </span>
+                  <ul className="text-xs text-teal-100/90 space-y-1.5 leading-relaxed">
+                    <li className="flex items-start gap-2">
+                      <span className="text-teal-400 font-bold">1.</span>
+                      <span>Always keep drugs in original pharmacy packaging with patient labels.</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-teal-400 font-bold">2.</span>
+                      <span>Carry physician prescription &amp; diagnosis notes in English or Chinese.</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-teal-400 font-bold">3.</span>
+                      <span>Declare controlled substances explicitly at Customs Red Channel.</span>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
