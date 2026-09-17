@@ -98,11 +98,14 @@ export default function HomePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      {/* Hero Section: Focused Single Visual Anchor */}
-      <section className="relative pt-12 pb-16 md:pt-16 md:pb-20 bg-gradient-to-b from-white via-slate-50/50 to-slate-50 border-b border-slate-200/80">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
+      {/* Hero Section: Focused Single Visual Anchor (Stitch Radar Grid Atmosphere) */}
+      <section className="relative pt-14 pb-16 md:pt-20 md:pb-24 bg-gradient-to-b from-white via-slate-50/70 to-slate-50 border-b border-slate-200/80 radar-grid-bg overflow-hidden">
+        {/* Subtle Ambient Radial Glows */}
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[350px] bg-blue-500/5 blur-[120px] rounded-full pointer-events-none" />
+
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6 relative z-10">
           {/* Trust Pill */}
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-200/80 text-blue-900 text-xs font-semibold tracking-wide shadow-xs shrink-0 whitespace-nowrap">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-50/90 border border-blue-200/80 text-blue-950 text-xs font-bold tracking-wide shadow-xs shrink-0 whitespace-nowrap">
             <span className="h-2 w-2 rounded-full bg-emerald-500 animate-pulse" />
             <span>2025/2026 GACC Notice 43 & Decree 442 Radar</span>
           </div>
@@ -113,19 +116,18 @@ export default function HomePage() {
           </h1>
 
           <p className="text-sm sm:text-base md:text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed">
-            Verify customs legality, entry allowance days, and mandatory Red Channel declaration rules before boarding your flight. Zero registration required.
+            Real-time customs allowance intelligence, precursor restrictions, and airport clearance walkthroughs under General Administration of Customs (GACC) law.
           </p>
 
-          {/* Core Interactive Search Radar Widget */}
-          <div className="pt-2">
+          <div className="pt-3">
             <DrugSearchWidget />
           </div>
         </div>
       </section>
 
-      {/* Bento Grid: 3 Core Workspaces (Clean & Crisp) */}
-      <section className="py-12 md:py-16 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center max-w-2xl mx-auto mb-10 space-y-2">
+      {/* Bento Grid: 3 Core Workspaces (Stitch Kinetic Tactility) */}
+      <section className="py-14 md:py-20 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center max-w-2xl mx-auto mb-12 space-y-2">
           <h2 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
             Border Clearance Tool Suite
           </h2>
@@ -135,85 +137,85 @@ export default function HomePage() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {/* Tool 1: Allowance Calculator (Blue Theme) */}
+          {/* Tool 1: Allowance Calculator (Blue Theme & Glow) */}
           <Link
             href="/calculator"
-            className="group p-6 sm:p-7 rounded-3xl bg-white border border-slate-200/80 hover:border-blue-400/80 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.04)] hover:shadow-lg hover:-translate-y-1 transition-all duration-200 flex flex-col justify-between"
+            className="group p-6 sm:p-8 rounded-3xl bg-white border border-slate-200/80 hover:border-blue-400/80 shadow-stitch hover:shadow-stitch-hover hover:shadow-glow-blue hover:-translate-y-1 active:scale-[0.98] transition-all duration-200 flex flex-col justify-between"
           >
-            <div className="space-y-4">
-              <div className="h-12 w-12 rounded-2xl bg-blue-50 text-blue-600 border border-blue-100 flex items-center justify-center group-hover:scale-105 group-hover:bg-blue-600 group-hover:text-white transition-all duration-200">
+            <div className="space-y-5">
+              <div className="h-12 w-12 rounded-2xl bg-blue-50 text-blue-600 border border-blue-100 flex items-center justify-center shadow-xs group-hover:scale-105 group-hover:bg-blue-600 group-hover:text-white transition-all duration-200">
                 <Calculator className="h-6 w-6" />
               </div>
               <div>
                 <span className="text-[11px] font-mono font-bold text-blue-700 uppercase tracking-wider block">
                   Algorithmic Assessment
                 </span>
-                <h3 className="text-lg font-bold text-slate-900 group-hover:text-blue-700 transition-colors mt-0.5">
+                <h3 className="text-lg font-bold text-slate-900 group-hover:text-blue-700 transition-colors mt-1">
                   Allowance Days Calculator
                 </h3>
-                <p className="text-xs text-slate-600 leading-relaxed mt-2">
+                <p className="text-xs text-slate-600 leading-relaxed mt-2.5">
                   Select your medication and trip length to calculate exact legal days allowed (7, 15, or 90 days) under China Customs rules.
                 </p>
               </div>
             </div>
 
-            <div className="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-blue-700">
+            <div className="mt-8 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-blue-700">
               <span>Launch Calculator</span>
               <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
             </div>
           </Link>
 
-          {/* Tool 2: Travel Bag Manifest (Emerald Theme) */}
+          {/* Tool 2: Travel Bag Manifest (Emerald Theme & Glow) */}
           <Link
             href="/manifest"
-            className="group p-6 sm:p-7 rounded-3xl bg-white border border-slate-200/80 hover:border-emerald-400/80 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.04)] hover:shadow-lg hover:-translate-y-1 transition-all duration-200 flex flex-col justify-between"
+            className="group p-6 sm:p-8 rounded-3xl bg-white border border-slate-200/80 hover:border-emerald-400/80 shadow-stitch hover:shadow-stitch-hover hover:shadow-glow-emerald hover:-translate-y-1 active:scale-[0.98] transition-all duration-200 flex flex-col justify-between"
           >
-            <div className="space-y-4">
-              <div className="h-12 w-12 rounded-2xl bg-emerald-50 text-emerald-600 border border-emerald-100 flex items-center justify-center group-hover:scale-105 group-hover:bg-emerald-600 group-hover:text-white transition-all duration-200">
+            <div className="space-y-5">
+              <div className="h-12 w-12 rounded-2xl bg-emerald-50 text-emerald-600 border border-emerald-100 flex items-center justify-center shadow-xs group-hover:scale-105 group-hover:bg-emerald-600 group-hover:text-white transition-all duration-200">
                 <Luggage className="h-6 w-6" />
               </div>
               <div>
                 <span className="text-[11px] font-mono font-bold text-emerald-700 uppercase tracking-wider block">
                   Multi-Drug Pre-Screening
                 </span>
-                <h3 className="text-lg font-bold text-slate-900 group-hover:text-emerald-700 transition-colors mt-0.5">
+                <h3 className="text-lg font-bold text-slate-900 group-hover:text-emerald-700 transition-colors mt-1">
                   Travel Bag Audit & Radar
                 </h3>
-                <p className="text-xs text-slate-600 leading-relaxed mt-2">
+                <p className="text-xs text-slate-600 leading-relaxed mt-2.5">
                   Check your luggage for cumulative pseudoephedrine limits, acetaminophen overdoses, and CAAC airline needle/ice security standards.
                 </p>
               </div>
             </div>
 
-            <div className="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-emerald-700">
+            <div className="mt-8 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-emerald-700">
               <span>Inspect Travel Bag</span>
               <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
             </div>
           </Link>
 
-          {/* Tool 3: Customs Declaration Slip (Indigo Theme) */}
+          {/* Tool 3: Customs Declaration Slip (Purple Theme & Glow) */}
           <Link
             href="/customs-card"
-            className="group p-6 sm:p-7 rounded-3xl bg-white border border-slate-200/80 hover:border-indigo-400/80 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.04)] hover:shadow-lg hover:-translate-y-1 transition-all duration-200 flex flex-col justify-between"
+            className="group p-6 sm:p-8 rounded-3xl bg-white border border-slate-200/80 hover:border-purple-400/80 shadow-stitch hover:shadow-stitch-hover hover:shadow-glow-purple hover:-translate-y-1 active:scale-[0.98] transition-all duration-200 flex flex-col justify-between"
           >
-            <div className="space-y-4">
-              <div className="h-12 w-12 rounded-2xl bg-indigo-50 text-indigo-600 border border-indigo-100 flex items-center justify-center group-hover:scale-105 group-hover:bg-indigo-600 group-hover:text-white transition-all duration-200">
+            <div className="space-y-5">
+              <div className="h-12 w-12 rounded-2xl bg-purple-50 text-purple-600 border border-purple-100 flex items-center justify-center shadow-xs group-hover:scale-105 group-hover:bg-purple-600 group-hover:text-white transition-all duration-200">
                 <FileText className="h-6 w-6" />
               </div>
               <div>
-                <span className="text-[11px] font-mono font-bold text-indigo-700 uppercase tracking-wider block">
+                <span className="text-[11px] font-mono font-bold text-purple-700 uppercase tracking-wider block">
                   Bilingual Document Tool
                 </span>
-                <h3 className="text-lg font-bold text-slate-900 group-hover:text-indigo-700 transition-colors mt-0.5">
+                <h3 className="text-lg font-bold text-slate-900 group-hover:text-purple-700 transition-colors mt-1">
                   Customs Declaration Slip
                 </h3>
-                <p className="text-xs text-slate-600 leading-relaxed mt-2">
+                <p className="text-xs text-slate-600 leading-relaxed mt-2.5">
                   Generate an official bilingual (English & Simplified Chinese) declaration dossier to present directly to airport customs inspectors.
                 </p>
               </div>
             </div>
 
-            <div className="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-indigo-700">
+            <div className="mt-8 pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-purple-700">
               <span>Generate Official Slip</span>
               <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
             </div>
@@ -222,7 +224,7 @@ export default function HomePage() {
       </section>
 
       {/* Benchmark Drugs Quick Radar: Parametric Cards */}
-      <section className="py-12 bg-white border-y border-slate-200/80">
+      <section className="py-14 bg-white border-y border-slate-200/80">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
           <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
             <div>
@@ -236,30 +238,30 @@ export default function HomePage() {
 
             <Link
               href="/drugs"
-              className="text-xs font-bold text-blue-700 hover:text-blue-800 flex items-center gap-1 shrink-0"
+              className="text-xs font-bold text-blue-700 hover:text-blue-800 flex items-center gap-1 shrink-0 group"
             >
-              <span>View full 31+ catalog</span>
-              <ArrowRight className="h-3.5 w-3.5" />
+              <span>View all 31+ evaluated drugs</span>
+              <ArrowRight className="h-3.5 w-3.5 group-hover:translate-x-0.5 transition-transform" />
             </Link>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4.5">
             {benchmarkMeds.map((med) => (
               <Link
                 key={med.slug}
                 href={`/drugs/${med.slug}`}
-                className="p-5 rounded-2xl bg-slate-50 hover:bg-white border border-slate-200/80 hover:border-slate-300 hover:shadow-sm transition-all duration-200 flex flex-col justify-between group"
+                className="p-5 sm:p-6 rounded-2xl bg-white hover:bg-slate-50/80 border border-slate-200/80 hover:border-slate-300 shadow-stitch hover:shadow-stitch-hover hover:-translate-y-0.5 active:scale-[0.98] transition-all duration-200 flex flex-col justify-between group"
               >
                 <div className="space-y-3">
                   <div className="flex items-center justify-between">
-                    <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-white border border-slate-200 text-slate-700">
+                    <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded-md bg-slate-100/90 border border-slate-200 text-slate-700">
                       CAS {med.casNumber}
                     </span>
                     <DrugStatusBadge status={med.status} size="sm" />
                   </div>
 
                   <div>
-                    <h3 className="font-extrabold text-sm text-slate-900 group-hover:text-blue-700 transition">
+                    <h3 className="font-extrabold text-sm text-slate-900 group-hover:text-blue-700 transition-colors">
                       {med.brandNames[0]}
                     </h3>
                     <p className="text-[11px] text-slate-500 font-mono mt-0.5 truncate">
@@ -271,9 +273,9 @@ export default function HomePage() {
                   </div>
                 </div>
 
-                <div className="mt-4 pt-3 border-t border-slate-200/60 flex items-center justify-between text-[11px] font-bold text-slate-900">
+                <div className="mt-5 pt-3.5 border-t border-slate-100 flex items-center justify-between text-[11px] font-bold text-slate-900">
                   <span>Allowance: {med.allowanceDaysMax > 0 ? `${med.allowanceDaysMax} Days` : '0 Days (Banned)'}</span>
-                  <ArrowRight className="h-3.5 w-3.5 text-slate-400 group-hover:text-blue-600 group-hover:translate-x-0.5 transition" />
+                  <ArrowRight className="h-3.5 w-3.5 text-slate-400 group-hover:text-blue-600 group-hover:translate-x-1 transition-transform" />
                 </div>
               </Link>
             ))}

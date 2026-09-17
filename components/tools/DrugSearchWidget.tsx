@@ -162,9 +162,9 @@ export default function DrugSearchWidget({
         onClose={() => setBlockedTerm(null)}
       />
 
-      {/* Search Bar Input Container */}
-      <div className="relative flex items-center bg-white rounded-xl border-2 border-slate-300 shadow-md focus-within:border-slate-800 focus-within:ring-4 focus-within:ring-slate-100 transition-all duration-150">
-        <div className="pl-4 text-slate-400">
+      {/* Search Bar Input Container (Stitch Grade Micro-Crafted) */}
+      <div className="relative flex items-center bg-white rounded-2xl border border-slate-200/90 shadow-[0_8px_30px_rgba(15,23,42,0.06)] hover:border-slate-300/90 focus-within:border-blue-500 focus-within:ring-4 focus-within:ring-blue-500/10 transition-all duration-200 group">
+        <div className="pl-4.5 pr-1 text-slate-400 group-focus-within:text-blue-600 transition-colors">
           <Search className="h-5 w-5" />
         </div>
         <input
@@ -176,13 +176,13 @@ export default function DrugSearchWidget({
           }}
           onFocus={() => setIsOpen(true)}
           placeholder={placeholder}
-          className="w-full px-3.5 py-4 text-base md:text-lg text-slate-900 bg-transparent placeholder-slate-400 focus:outline-none rounded-xl"
+          className="w-full px-3.5 py-4 text-base md:text-lg text-slate-900 bg-transparent placeholder-slate-400 focus:outline-none rounded-2xl"
           aria-label="Search medication legality in China"
         />
         {query && (
           <button
             onClick={handleClear}
-            className="p-2 mr-2 text-slate-400 hover:text-slate-600 rounded-md transition cursor-pointer"
+            className="p-2 mr-2 text-slate-400 hover:text-slate-700 hover:bg-slate-100 rounded-lg transition-all duration-150 cursor-pointer active:scale-95"
             title="Clear search"
           >
             <X className="h-5 w-5" />
@@ -190,27 +190,28 @@ export default function DrugSearchWidget({
         )}
       </div>
 
-      {/* Popular Fast-Lookup Chips */}
-      <div className="mt-3 flex flex-wrap items-center gap-1.5 text-xs text-slate-500 px-1">
-        <span className="font-medium text-slate-700 mr-1 flex items-center gap-1">
-          <HelpCircle className="h-3.5 w-3.5 text-slate-400" />
-          High-Anxiety Searches:
+      {/* Popular Fast-Lookup Chips (Kinetic Pills) */}
+      <div className="mt-3.5 flex flex-wrap items-center gap-2 text-xs text-slate-500 px-1">
+        <span className="font-semibold text-slate-700 mr-0.5 flex items-center gap-1.5 shrink-0">
+          <HelpCircle className="h-3.5 w-3.5 text-blue-600" />
+          <span>High-Anxiety Searches:</span>
         </span>
         {POPULAR_SEARCHES.map((term) => (
           <button
             key={term}
             type="button"
             onClick={() => handleSelectPopular(term)}
-            className="px-2.5 py-1 rounded-md bg-slate-100 hover:bg-slate-200 text-slate-700 border border-slate-200 transition-colors cursor-pointer"
+            className="px-3 py-1 rounded-full bg-white hover:bg-blue-50/80 text-slate-700 hover:text-blue-700 border border-slate-200/80 hover:border-blue-200 shadow-xs hover:shadow-sm hover:-translate-y-0.5 active:scale-[0.97] transition-all duration-150 cursor-pointer font-medium shrink-0 whitespace-nowrap"
           >
             {term}
           </button>
         ))}
       </div>
 
-      {/* Autocomplete & Results Dropdown */}
+      {/* Autocomplete & Results Dropdown (Stitch Elevated Glass Surface) */}
       {isOpen && query.trim() !== '' && (
-        <div className="absolute left-0 right-0 top-full mt-2 bg-white rounded-xl border border-slate-200 shadow-2xl overflow-hidden divide-y divide-slate-100 max-h-[480px] overflow-y-auto">
+        <div className="absolute left-0 right-0 top-full mt-2.5 bg-white/98 backdrop-blur-md rounded-2xl border border-slate-200/90 shadow-[0_20px_50px_rgba(15,23,42,0.12)] overflow-hidden divide-y divide-slate-100 max-h-[480px] overflow-y-auto z-50">
+
           {/* Local Matches */}
           {results.length > 0 ? (
             results.map((med) => {

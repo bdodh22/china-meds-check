@@ -66,7 +66,7 @@ export default function LocalizedDrugsDirectoryPage({
   };
 
   return (
-    <div className="bg-slate-50 min-h-screen py-10 md:py-14">
+    <div className="bg-slate-50 min-h-screen py-12 md:py-16 radar-grid-bg">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -75,12 +75,12 @@ export default function LocalizedDrugsDirectoryPage({
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
         {/* Header Block */}
         <div className="text-center max-w-3xl mx-auto space-y-3">
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-200 text-slate-800 text-xs font-mono font-bold uppercase tracking-wider">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-50/90 border border-blue-200/80 text-blue-950 text-xs font-bold uppercase tracking-wider shadow-xs shrink-0 whitespace-nowrap">
             <Database className="h-3.5 w-3.5 text-blue-600" />
-            <span>Port Control Console & Drug Database</span>
+            <span>{dict.meta.drugsTitle}</span>
           </div>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900 tracking-tight">
-            {dict.drugs.catalogTitle}
+            {dict.meta.drugsTitle}
           </h1>
           <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
             {dict.drugs.catalogSubtitle}
