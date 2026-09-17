@@ -35,7 +35,7 @@ export default function HomePage() {
     allMeds.find((m) => m.slug === 'adderall-in-china')!,
     allMeds.find((m) => m.slug === 'ritalin-concerta-in-china')!,
     allMeds.find((m) => m.slug === 'xanax-in-china')!,
-    allMeds.find((m) => m.slug === 'ozempic-in-china')!,
+    allMeds.find((m) => m.slug === 'ozempic-wegovy-in-china')!,
   ].filter(Boolean);
 
   const jsonLd = {
@@ -126,7 +126,7 @@ export default function HomePage() {
 
       {/* Hero Section: Focused Single Visual Anchor (Stitch V4 Kinetic Elevation) */}
       <section className="relative pt-12 pb-16 md:pt-20 md:pb-24 border-b border-slate-200/60 overflow-hidden">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-7 relative z-10">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-7 relative z-10">
           
           {/* Trust Pill */}
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/95 backdrop-blur-md border border-teal-200/90 text-teal-950 text-xs font-semibold tracking-wide shadow-2xs shrink-0 whitespace-nowrap">
@@ -134,9 +134,9 @@ export default function HomePage() {
             <span>Official GACC Notice 43 & Decree 442 Clearance Radar</span>
           </div>
 
-          {/* Main H1 Title: 自然流畅的两行排版，彻底消除单词折裂与孤字 */}
+          {/* Main H1 Title: 统一 6xl 黄金版心，完全展开，杜绝孤字与局促感 */}
           <div className="space-y-4">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[3.25rem] font-extrabold text-slate-900 tracking-tight max-w-4xl mx-auto leading-[1.2]">
+            <h1 className="text-3xl sm:text-5xl lg:text-[3.5rem] font-extrabold text-slate-900 tracking-tight max-w-4xl mx-auto leading-[1.18]">
               Bringing Medication to China? <br className="hidden sm:inline" />
               <span className="bg-gradient-to-r from-teal-700 via-teal-600 to-emerald-600 bg-clip-text text-transparent">
                 Check Customs Legality Instantly
@@ -149,7 +149,7 @@ export default function HomePage() {
           </div>
 
           {/* Primary Action Hero: Drug Search Widget */}
-          <div className="pt-2 max-w-2xl mx-auto">
+          <div className="pt-2 max-w-3xl mx-auto">
             <DrugSearchWidget />
           </div>
 
@@ -487,112 +487,127 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Section 4: Accordion FAQ (Stitch V4 Deep Advice) */}
-      <section className="py-14 bg-white/70 backdrop-blur-md border-y border-slate-200/80">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
-          <div className="text-center space-y-2">
-            <span className="text-xs font-mono font-bold text-teal-700 uppercase tracking-wider">
-              Traveler Q&A Intelligence
-            </span>
-            <h2 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
-              Essential Customs Compliance Advice
-            </h2>
-            <p className="text-xs sm:text-sm text-slate-600">
-              Clear legal guidance on high-risk substances, prescription proof, and airport inspections.
-            </p>
-          </div>
-
-          <div className="space-y-4">
-            {/* FAQ 1 */}
-            <details className="group p-5 sm:p-6 rounded-2xl bg-white border border-slate-200/80 shadow-xs hover:border-slate-300 transition-all [&_summary::-webkit-details-marker]:hidden">
-              <summary className="flex items-center justify-between cursor-pointer font-bold text-slate-900 text-sm sm:text-base select-none gap-4">
-                <div className="flex items-center gap-3">
-                  <span className="text-[11px] font-mono font-bold px-2 py-0.5 rounded-md bg-rose-50 text-rose-700 border border-rose-200 shrink-0">
-                    Legal Red Line
-                  </span>
-                  <span>Can I bring Adderall into China with an official doctor prescription?</span>
-                </div>
-                <ChevronRight className="h-4 w-4 text-slate-400 group-open:rotate-90 transition-transform shrink-0" />
-              </summary>
-              <div className="mt-3.5 pt-3 border-t border-slate-100 text-xs sm:text-sm text-slate-600 leading-relaxed pl-1">
-                No. Under Chinese Criminal Law, amphetamines are classified as illicit narcotic drugs. Foreign prescriptions hold zero legal weight at Chinese customs for prohibited substances. Carrying Adderall risks confiscation, administrative detention, or criminal smuggling prosecution.
+      {/* Section 4: Accordion FAQ (Stitch V4 Modern Split-Panel Layout - max-w-6xl) */}
+      <section className="py-16 bg-slate-50/70 border-y border-slate-200/80">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+            {/* Left Column: Fixed Context Header (4 cols) */}
+            <div className="lg:col-span-4 space-y-4 lg:sticky lg:top-24">
+              <div className="inline-flex items-center gap-1.5 text-xs font-bold text-teal-700 uppercase tracking-wider font-mono bg-teal-50 px-3 py-1 rounded-full border border-teal-100">
+                <Sparkles className="h-3.5 w-3.5 text-teal-600" />
+                <span>Customs FAQs</span>
               </div>
-            </details>
-
-            {/* FAQ 2 */}
-            <details className="group p-5 sm:p-6 rounded-2xl bg-white border border-slate-200/80 shadow-xs hover:border-slate-300 transition-all [&_summary::-webkit-details-marker]:hidden">
-              <summary className="flex items-center justify-between cursor-pointer font-bold text-slate-900 text-sm sm:text-base select-none gap-4">
-                <div className="flex items-center gap-3">
-                  <span className="text-[11px] font-mono font-bold px-2 py-0.5 rounded-md bg-amber-50 text-amber-800 border border-amber-200 shrink-0">
-                    Prescription Rules
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight leading-tight">
+                Essential Customs Compliance Advice
+              </h2>
+              <p className="text-sm text-slate-600 leading-relaxed">
+                Clear legal guidance on high-risk medications, doctor prescription proof requirements, and airport baggage inspections.
+              </p>
+              <div className="pt-2">
+                <div className="p-4 rounded-2xl bg-white border border-slate-200/80 shadow-2xs space-y-1.5">
+                  <span className="text-[11px] font-mono font-bold text-teal-800 uppercase tracking-wide block">
+                    GACC Hotline 12360
                   </span>
-                  <span>What is the maximum supply of medication I can legally carry?</span>
+                  <p className="text-xs text-slate-500 leading-relaxed">
+                    Have an unlisted substance? Call the 24/7 China Customs inquiry hotline at <strong className="text-slate-800 font-mono">12360</strong> upon border arrival.
+                  </p>
                 </div>
-                <ChevronRight className="h-4 w-4 text-slate-400 group-open:rotate-90 transition-transform shrink-0" />
-              </summary>
-              <div className="mt-3.5 pt-3 border-t border-slate-100 text-xs sm:text-sm text-slate-600 leading-relaxed pl-1">
-                Under GACC Notice 43, travelers may carry a reasonable quantity for personal use during their travel duration. For Category 1 psychotropics (like Concerta), maximum is a single travel course of 7 to 15 days. For chronic maintenance drugs, up to 90 days in original packaging is standard.
               </div>
-            </details>
+            </div>
 
-            {/* FAQ 3 */}
-            <details className="group p-5 sm:p-6 rounded-2xl bg-white border border-slate-200/80 shadow-xs hover:border-slate-300 transition-all [&_summary::-webkit-details-marker]:hidden">
-              <summary className="flex items-center justify-between cursor-pointer font-bold text-slate-900 text-sm sm:text-base select-none gap-4">
-                <div className="flex items-center gap-3">
-                  <span className="text-[11px] font-mono font-bold px-2 py-0.5 rounded-md bg-emerald-50 text-emerald-800 border border-emerald-200 shrink-0">
-                    Green Channel
-                  </span>
-                  <span>Do I need to declare ordinary blood pressure or diabetes medication?</span>
+            {/* Right Column: Interactive Accordion Stack (8 cols) */}
+            <div className="lg:col-span-8 space-y-3.5">
+              {/* FAQ 1 */}
+              <details className="group p-5 sm:p-6 rounded-2xl bg-white border border-slate-200/80 shadow-2xs hover:border-slate-300 transition-all [&_summary::-webkit-details-marker]:hidden">
+                <summary className="flex items-center justify-between cursor-pointer font-bold text-slate-900 text-sm sm:text-base select-none gap-4">
+                  <div className="flex items-center gap-3">
+                    <span className="text-[11px] font-mono font-bold px-2 py-0.5 rounded-md bg-rose-50 text-rose-700 border border-rose-200 shrink-0">
+                      Legal Red Line
+                    </span>
+                    <span>Can I bring Adderall into China with an official doctor prescription?</span>
+                  </div>
+                  <ChevronRight className="h-4 w-4 text-slate-400 group-open:rotate-90 transition-transform shrink-0" />
+                </summary>
+                <div className="mt-3.5 pt-3 border-t border-slate-100 text-xs sm:text-sm text-slate-600 leading-relaxed pl-1">
+                  No. Under Chinese Criminal Law, amphetamines are classified as illicit narcotic drugs. Foreign prescriptions hold zero legal weight at Chinese customs for prohibited substances. Carrying Adderall risks confiscation, administrative detention, or criminal smuggling prosecution.
                 </div>
-                <ChevronRight className="h-4 w-4 text-slate-400 group-open:rotate-90 transition-transform shrink-0" />
-              </summary>
-              <div className="mt-3.5 pt-3 border-t border-slate-100 text-xs sm:text-sm text-slate-600 leading-relaxed pl-1">
-                No. Standard non-controlled maintenance medications (hypertension, diabetes, cholesterol) within a reasonable 90-day personal supply can pass directly through the Green Channel without formal declaration. Keep medications in original packaging with doctor notes available upon request.
-              </div>
-            </details>
+              </details>
 
-            {/* FAQ 4 */}
-            <details className="group p-5 sm:p-6 rounded-2xl bg-white border border-slate-200/80 shadow-xs hover:border-slate-300 transition-all [&_summary::-webkit-details-marker]:hidden">
-              <summary className="flex items-center justify-between cursor-pointer font-bold text-slate-900 text-sm sm:text-base select-none gap-4">
-                <div className="flex items-center gap-3">
-                  <span className="text-[11px] font-mono font-bold px-2 py-0.5 rounded-md bg-teal-50 text-teal-800 border border-teal-200 shrink-0">
-                    Aviation & Needles
-                  </span>
-                  <span>Can I bring Ozempic or Wegovy pens on flights into China?</span>
+              {/* FAQ 2 */}
+              <details className="group p-5 sm:p-6 rounded-2xl bg-white border border-slate-200/80 shadow-2xs hover:border-slate-300 transition-all [&_summary::-webkit-details-marker]:hidden">
+                <summary className="flex items-center justify-between cursor-pointer font-bold text-slate-900 text-sm sm:text-base select-none gap-4">
+                  <div className="flex items-center gap-3">
+                    <span className="text-[11px] font-mono font-bold px-2 py-0.5 rounded-md bg-amber-50 text-amber-800 border border-amber-200 shrink-0">
+                      Prescription Rules
+                    </span>
+                    <span>What is the maximum supply of medication I can legally carry?</span>
+                  </div>
+                  <ChevronRight className="h-4 w-4 text-slate-400 group-open:rotate-90 transition-transform shrink-0" />
+                </summary>
+                <div className="mt-3.5 pt-3 border-t border-slate-100 text-xs sm:text-sm text-slate-600 leading-relaxed pl-1">
+                  Under GACC Notice 43, travelers may carry a reasonable quantity for personal use during their travel duration. For Category 1 psychotropics (like Concerta), maximum is a single travel course of 7 to 15 days. For chronic maintenance drugs, up to 90 days in original packaging is standard.
                 </div>
-                <ChevronRight className="h-4 w-4 text-slate-400 group-open:rotate-90 transition-transform shrink-0" />
-              </summary>
-              <div className="mt-3.5 pt-3 border-t border-slate-100 text-xs sm:text-sm text-slate-600 leading-relaxed pl-1">
-                Yes. GLP-1 medications are legal for personal use in China. Keep pens in carry-on baggage with compliant ice packs (never checked baggage where they may freeze). Always carry the original prescription to prove medical necessity for the disposable needles at airport security.
-              </div>
-            </details>
+              </details>
 
-            {/* FAQ 5 */}
-            <details className="group p-5 sm:p-6 rounded-2xl bg-white border border-slate-200/80 shadow-xs hover:border-slate-300 transition-all [&_summary::-webkit-details-marker]:hidden">
-              <summary className="flex items-center justify-between cursor-pointer font-bold text-slate-900 text-sm sm:text-base select-none gap-4">
-                <div className="flex items-center gap-3">
-                  <span className="text-[11px] font-mono font-bold px-2 py-0.5 rounded-md bg-slate-100 text-slate-800 border border-slate-200 shrink-0">
-                    In-Country Refills
-                  </span>
-                  <span>What should I do if I run out of prescription medication while in China?</span>
+              {/* FAQ 3 */}
+              <details className="group p-5 sm:p-6 rounded-2xl bg-white border border-slate-200/80 shadow-2xs hover:border-slate-300 transition-all [&_summary::-webkit-details-marker]:hidden">
+                <summary className="flex items-center justify-between cursor-pointer font-bold text-slate-900 text-sm sm:text-base select-none gap-4">
+                  <div className="flex items-center gap-3">
+                    <span className="text-[11px] font-mono font-bold px-2 py-0.5 rounded-md bg-emerald-50 text-emerald-800 border border-emerald-200 shrink-0">
+                      Green Channel
+                    </span>
+                    <span>Do I need to declare ordinary blood pressure or diabetes medication?</span>
+                  </div>
+                  <ChevronRight className="h-4 w-4 text-slate-400 group-open:rotate-90 transition-transform shrink-0" />
+                </summary>
+                <div className="mt-3.5 pt-3 border-t border-slate-100 text-xs sm:text-sm text-slate-600 leading-relaxed pl-1">
+                  No. Standard non-controlled maintenance medications (hypertension, diabetes, cholesterol) within a reasonable 90-day personal supply can pass directly through the Green Channel without formal declaration. Keep medications in original packaging with doctor notes available upon request.
                 </div>
-                <ChevronRight className="h-4 w-4 text-slate-400 group-open:rotate-90 transition-transform shrink-0" />
-              </summary>
-              <div className="mt-3.5 pt-3 border-t border-slate-100 text-xs sm:text-sm text-slate-600 leading-relaxed pl-1">
-                Prescription medications cannot be shipped to you via international courier (customs will detain them). Instead, visit an international clinic (e.g., United Family, Jiahui Health) or the VIP / International department of a licensed Tier-3 public hospital with your passport and home medical summary to receive an official domestic prescription.
-              </div>
-            </details>
+              </details>
+
+              {/* FAQ 4 */}
+              <details className="group p-5 sm:p-6 rounded-2xl bg-white border border-slate-200/80 shadow-2xs hover:border-slate-300 transition-all [&_summary::-webkit-details-marker]:hidden">
+                <summary className="flex items-center justify-between cursor-pointer font-bold text-slate-900 text-sm sm:text-base select-none gap-4">
+                  <div className="flex items-center gap-3">
+                    <span className="text-[11px] font-mono font-bold px-2 py-0.5 rounded-md bg-teal-50 text-teal-800 border border-teal-200 shrink-0">
+                      Aviation &amp; Needles
+                    </span>
+                    <span>Can I bring Ozempic or Wegovy pens on flights into China?</span>
+                  </div>
+                  <ChevronRight className="h-4 w-4 text-slate-400 group-open:rotate-90 transition-transform shrink-0" />
+                </summary>
+                <div className="mt-3.5 pt-3 border-t border-slate-100 text-xs sm:text-sm text-slate-600 leading-relaxed pl-1">
+                  Yes. GLP-1 medications are legal for personal use in China. Keep pens in carry-on baggage with compliant ice packs (never checked baggage where they may freeze). Always carry the original prescription to prove medical necessity for the disposable needles at airport security.
+                </div>
+              </details>
+
+              {/* FAQ 5 */}
+              <details className="group p-5 sm:p-6 rounded-2xl bg-white border border-slate-200/80 shadow-2xs hover:border-slate-300 transition-all [&_summary::-webkit-details-marker]:hidden">
+                <summary className="flex items-center justify-between cursor-pointer font-bold text-slate-900 text-sm sm:text-base select-none gap-4">
+                  <div className="flex items-center gap-3">
+                    <span className="text-[11px] font-mono font-bold px-2 py-0.5 rounded-md bg-slate-100 text-slate-800 border border-slate-200 shrink-0">
+                      In-Country Refills
+                    </span>
+                    <span>What should I do if I run out of prescription medication while in China?</span>
+                  </div>
+                  <ChevronRight className="h-4 w-4 text-slate-400 group-open:rotate-90 transition-transform shrink-0" />
+                </summary>
+                <div className="mt-3.5 pt-3 border-t border-slate-100 text-xs sm:text-sm text-slate-600 leading-relaxed pl-1">
+                  Prescription medications cannot be shipped to you via international courier (customs will detain them). Instead, visit an international clinic (e.g., United Family, Jiahui Health) or the VIP / International department of a licensed Tier-3 public hospital with your passport and home medical summary to receive an official domestic prescription.
+                </div>
+              </details>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* High-Converting Lead Capture: Offline PDF Checklist */}
-      <section className="py-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      {/* High-Converting Lead Capture: Offline PDF Checklist (max-w-6xl) */}
+      <section className="py-12 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <LeadCaptureEmailCard locale="en" />
       </section>
 
-      {/* Commercial Traveler Protection Banner */}
-      <section className="py-8 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      {/* Commercial Traveler Protection Banner (max-w-6xl) */}
+      <section className="py-6 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <TravelInsuranceCTA locale="en" />
       </section>
     </div>
