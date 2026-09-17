@@ -173,15 +173,15 @@ export default function HomePage() {
 
       {/* Section 1: Three Regulatory Clearance Tiers (Stitch V4 Bento Grid) */}
       <section className="py-14 md:py-20 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center max-w-2xl mx-auto mb-12 space-y-2">
-          <div className="inline-flex items-center gap-1.5 text-xs font-bold text-teal-700 uppercase tracking-wider font-mono">
+        <div className="text-center max-w-4xl mx-auto mb-12 space-y-3">
+          <div className="inline-flex items-center gap-1.5 text-xs font-bold text-teal-700 uppercase tracking-wider font-mono bg-teal-50 px-3 py-1 rounded-full border border-teal-100">
             <Sparkles className="h-3.5 w-3.5 text-teal-600" />
             <span>Official Customs Protocols</span>
           </div>
-          <h2 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight">
             Three Border Clearance Tiers for Inbound Travelers
           </h2>
-          <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+          <p className="text-sm sm:text-base text-slate-600 max-w-2xl mx-auto leading-relaxed">
             Inspection procedures and carry limits strictly depend on your medication active chemical classification under GACC Notice 43.
           </p>
         </div>
