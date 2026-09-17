@@ -211,34 +211,33 @@ export default function DrugSearchWidget({
         </div>
       </div>
 
-      {/* Popular Fast-Lookup Chips: Flex-wrap Natural Flow (Zero Scrollbars Ever) */}
-      <div className="mt-3.5 flex flex-wrap items-center justify-center gap-2 text-xs py-1">
-        <span className="text-[11px] font-semibold text-slate-400 uppercase tracking-wider shrink-0 mr-1 hidden sm:inline-flex items-center gap-1 font-mono">
+      {/* Popular Fast-Lookup Chips: Single Unified Row (Zero Awkward Wraps) */}
+      <div className="mt-4 flex items-center justify-center gap-2.5 text-xs py-1">
+        <span className="text-[11px] font-semibold text-slate-400 uppercase tracking-wider shrink-0 mr-1 hidden sm:inline-flex items-center gap-1.5 font-mono">
           <Sparkles className="h-3 w-3 text-teal-600" />
           <span>Quick Radar:</span>
         </span>
-        {POPULAR_SEARCHES.map(({ term, status, badge }) => (
-          <button
-            key={term}
-            type="button"
-            onClick={() => handleSelectPopular(term)}
-            className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white hover:bg-teal-50 text-slate-700 hover:text-teal-900 border border-slate-200 hover:border-teal-400 shadow-2xs hover:shadow-xs hover:-translate-y-0.5 active:scale-[0.97] transition-all duration-150 cursor-pointer text-xs font-medium shrink-0 whitespace-nowrap"
-          >
-            <span
-              className={`h-2 w-2 rounded-full shrink-0 ${
-                status === 'RED'
-                  ? 'bg-rose-500'
-                  : status === 'YELLOW'
-                  ? 'bg-amber-400'
-                  : 'bg-emerald-500'
-              }`}
-            />
-            <span>{term}</span>
-            <span className="text-[10px] text-slate-400 font-normal">
-              ({badge})
-            </span>
-          </button>
-        ))}
+        <div className="flex flex-wrap sm:flex-nowrap items-center justify-center gap-2">
+          {POPULAR_SEARCHES.map(({ term, status }) => (
+            <button
+              key={term}
+              type="button"
+              onClick={() => handleSelectPopular(term)}
+              className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white hover:bg-slate-50 text-slate-700 hover:text-teal-900 border border-slate-200/90 hover:border-teal-400 shadow-2xs hover:shadow-xs hover:-translate-y-0.5 active:scale-[0.97] transition-all duration-150 cursor-pointer text-xs font-semibold shrink-0 whitespace-nowrap"
+            >
+              <span
+                className={`h-2 w-2 rounded-full shrink-0 ${
+                  status === 'RED'
+                    ? 'bg-rose-500 ring-2 ring-rose-100'
+                    : status === 'YELLOW'
+                    ? 'bg-amber-400 ring-2 ring-amber-100'
+                    : 'bg-emerald-500 ring-2 ring-emerald-100'
+                }`}
+              />
+              <span>{term}</span>
+            </button>
+          ))}
+        </div>
       </div>
 
       {/* Autocomplete & Results Dropdown (Stitch V4 Elevated Frosted Surface) */}

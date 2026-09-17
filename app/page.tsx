@@ -125,18 +125,20 @@ export default function HomePage() {
       <div className="absolute top-[880px] -left-28 w-96 h-96 bg-teal-100/30 blur-3xl rounded-full pointer-events-none -z-10" />
 
       {/* Hero Section: Focused Single Visual Anchor (Stitch V4 Kinetic Elevation) */}
-      <section className="relative pt-12 pb-16 md:pt-20 md:pb-24 border-b border-slate-200/60 overflow-hidden">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-7 relative z-10">
+      <section className="relative pt-16 pb-20 md:pt-24 md:pb-28 border-b border-slate-200/60 overflow-hidden">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-9 relative z-10">
           
           {/* Trust Pill */}
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/95 backdrop-blur-md border border-teal-200/90 text-teal-950 text-xs font-semibold tracking-wide shadow-2xs shrink-0 whitespace-nowrap">
-            <span className="h-2 w-2 rounded-full bg-emerald-500 animate-pulse" />
-            <span>Official GACC Notice 43 & Decree 442 Clearance Radar</span>
+          <div>
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/95 backdrop-blur-md border border-teal-200/90 text-teal-950 text-xs font-semibold tracking-wide shadow-2xs shrink-0 whitespace-nowrap">
+              <span className="h-2 w-2 rounded-full bg-emerald-500 animate-pulse" />
+              <span>Official GACC Notice 43 & Decree 442 Clearance Radar</span>
+            </div>
           </div>
 
-          {/* Main H1 Title: 统一 6xl 黄金版心，完全展开，杜绝孤字与局促感 */}
-          <div className="space-y-4">
-            <h1 className="text-3xl sm:text-5xl lg:text-[3.5rem] font-extrabold text-slate-900 tracking-tight max-w-4xl mx-auto leading-[1.18]">
+          {/* Main H1 Title: 呼吸舒展，层次从容 */}
+          <div className="space-y-4 max-w-4xl mx-auto">
+            <h1 className="text-3xl sm:text-5xl lg:text-[3.5rem] font-extrabold text-slate-900 tracking-tight leading-[1.18]">
               Bringing Medication to China? <br className="hidden sm:inline" />
               <span className="bg-gradient-to-r from-teal-700 via-teal-600 to-emerald-600 bg-clip-text text-transparent">
                 Check Customs Legality Instantly
@@ -148,13 +150,13 @@ export default function HomePage() {
             </p>
           </div>
 
-          {/* Primary Action Hero: Drug Search Widget */}
-          <div className="pt-2 max-w-3xl mx-auto">
+          {/* Primary Action Hero: Drug Search Widget (充足呼吸留白) */}
+          <div className="pt-2 pb-1 max-w-3xl mx-auto">
             <DrugSearchWidget />
           </div>
 
           {/* Quick Metrics Bar: Lightweight Clean Trust Chips */}
-          <div className="pt-2 flex flex-wrap items-center justify-center gap-5 sm:gap-8 text-xs text-slate-400 font-medium">
+          <div className="pt-3 flex flex-wrap items-center justify-center gap-6 sm:gap-10 text-xs text-slate-400 font-medium">
             <div className="flex items-center gap-1.5">
               <span className="h-1.5 w-1.5 rounded-full bg-teal-500" />
               <span>31+ Controlled Drugs</span>
