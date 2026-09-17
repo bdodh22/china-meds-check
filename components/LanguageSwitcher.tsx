@@ -125,12 +125,12 @@ export default function LanguageSwitcher({ variant = 'navbar' }: LanguageSwitche
         onClick={() => setIsOpen(!isOpen)}
         aria-expanded={isOpen}
         aria-haspopup="true"
-        className="inline-flex items-center gap-1.5 px-2.5 py-1.5 text-xs font-semibold text-slate-700 bg-slate-50 hover:bg-slate-100 border border-slate-200 rounded-lg transition shadow-xs focus:outline-none focus:ring-2 focus:ring-blue-500/20"
+        className="inline-flex items-center gap-1 px-2.5 py-1.5 text-xs font-bold text-slate-700 bg-slate-50 hover:bg-teal-50 hover:text-teal-800 border border-slate-200 hover:border-teal-200 rounded-lg transition-all shadow-xs focus:outline-none focus:ring-2 focus:ring-teal-500/20"
         title="Change Language"
       >
-        <Globe className="h-3.5 w-3.5 text-slate-500" />
+        <Globe className="h-3.5 w-3.5 text-slate-400" />
         <span className="hidden sm:inline">{currentMeta.flag}</span>
-        <span className="font-medium text-slate-800">{currentMeta.nativeName}</span>
+        <span className="font-bold text-slate-700 tracking-wide">{currentLocale.toUpperCase()}</span>
         <ChevronDown
           className={`h-3 w-3 text-slate-400 transition-transform duration-200 ${
             isOpen ? 'rotate-180' : ''
