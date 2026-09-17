@@ -124,45 +124,48 @@ export default function HomePage() {
       <div className="absolute top-96 -right-28 w-96 h-96 bg-amber-100/30 blur-3xl rounded-full pointer-events-none -z-10" />
       <div className="absolute top-[880px] -left-28 w-96 h-96 bg-teal-100/30 blur-3xl rounded-full pointer-events-none -z-10" />
 
-      {/* Hero Section: Focused Single Visual Anchor */}
-      <section className="relative pt-12 pb-16 md:pt-18 md:pb-24 border-b border-slate-200/70 overflow-hidden">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6 relative z-10">
+      {/* Hero Section: Focused Single Visual Anchor (Stitch V4 Kinetic Elevation) */}
+      <section className="relative pt-12 pb-16 md:pt-20 md:pb-24 border-b border-slate-200/60 overflow-hidden">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-7 relative z-10">
           
           {/* Trust Pill */}
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/90 backdrop-blur-md border border-teal-200/90 text-teal-950 text-xs font-semibold tracking-wide shadow-xs shrink-0 whitespace-nowrap">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/90 backdrop-blur-md border border-teal-200/80 text-teal-950 text-xs font-semibold tracking-wide shadow-2xs shrink-0 whitespace-nowrap">
             <span className="h-2 w-2 rounded-full bg-emerald-500 animate-pulse" />
-            <span>2025/2026 GACC Notice 43 & Decree 442 Clearance Radar</span>
+            <span>Official GACC Notice 43 & Decree 442 Clearance Radar</span>
           </div>
 
           {/* Main H1 Title */}
-          <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black text-slate-900 tracking-tight max-w-4xl mx-auto leading-[1.12]">
-            Bringing Medication to China? <br className="hidden sm:inline" />
-            <span className="bg-gradient-to-r from-teal-700 via-teal-600 to-emerald-600 bg-clip-text text-transparent">
-              Check Legality in 3 Seconds
-            </span>
-          </h1>
+          <div className="space-y-3">
+            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight max-w-3xl mx-auto leading-[1.14]">
+              Bringing Medication to China? <br className="hidden sm:inline" />
+              <span className="bg-gradient-to-r from-teal-700 via-teal-600 to-emerald-600 bg-clip-text text-transparent">
+                Check Customs Legality Instantly
+              </span>
+            </h1>
 
-          <p className="text-sm sm:text-base md:text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed">
-            China enforces strict zero-tolerance drug laws. Foreign doctor prescriptions do NOT grant immunity for banned narcotics. Verify your medication, calculate legal carry days, and clear customs with confidence.
-          </p>
+            <p className="text-sm sm:text-base md:text-lg text-slate-500 max-w-xl mx-auto leading-relaxed font-normal">
+              Instant verification for prescription drugs, carry limits, and Red Channel declaration requirements before your flight.
+            </p>
+          </div>
 
-          <div className="pt-2 max-w-2xl mx-auto">
+          {/* Primary Action Hero: Drug Search Widget */}
+          <div className="pt-1 max-w-2xl mx-auto">
             <DrugSearchWidget />
           </div>
 
-          {/* Quick Metrics Bar */}
-          <div className="pt-4 flex flex-wrap items-center justify-center gap-6 sm:gap-10 text-xs text-slate-500 font-medium">
-            <div className="flex items-center gap-2">
+          {/* Quick Metrics Bar: Lightweight Clean Trust Chips */}
+          <div className="pt-2 flex flex-wrap items-center justify-center gap-5 sm:gap-8 text-xs text-slate-400 font-medium">
+            <div className="flex items-center gap-1.5">
               <span className="h-1.5 w-1.5 rounded-full bg-teal-500" />
-              <span>31+ Regulated Drugs Evaluated</span>
+              <span>31+ Controlled Drugs</span>
             </div>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-1.5">
               <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" />
-              <span>Red & Green Channel Mapped</span>
+              <span>Red/Green Channels Mapped</span>
             </div>
-            <div className="flex items-center gap-2">
-              <span className="h-1.5 w-1.5 rounded-full bg-blue-500" />
-              <span>PVG · PEK · PKX · CAN Hubs</span>
+            <div className="flex items-center gap-1.5">
+              <span className="h-1.5 w-1.5 rounded-full bg-sky-500" />
+              <span>PVG · PEK · CAN Hubs</span>
             </div>
           </div>
         </div>

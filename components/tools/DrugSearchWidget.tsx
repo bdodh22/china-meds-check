@@ -24,17 +24,18 @@ import { resolveBrandViaRxNorm, RxNormResolution } from '@/lib/rxnorm';
 import RedLineBlocker, { checkIsBannedTerm } from './RedLineBlocker';
 import { Locale, getLocalizedPath } from '@/lib/i18n/config';
 
-const POPULAR_SEARCHES = [
-  'Adderall',
-  'Concerta',
-  'Xanax',
-  'Klonopin',
-  'CBD Oil',
-  'Ozempic',
-  'Ambien',
-  'Sudafed',
-  'Fentanyl Patch',
-  'Ibuprofen',
+interface PopularSearchItem {
+  term: string;
+  status: 'RED' | 'YELLOW' | 'GREEN';
+  badge: string;
+}
+
+const POPULAR_SEARCHES: PopularSearchItem[] = [
+  { term: 'Adderall', status: 'RED', badge: 'Banned' },
+  { term: 'Concerta', status: 'YELLOW', badge: 'Controlled' },
+  { term: 'Xanax', status: 'YELLOW', badge: 'Rx Required' },
+  { term: 'CBD Oil', status: 'RED', badge: 'Prohibited' },
+  { term: 'Ozempic', status: 'GREEN', badge: 'Allowed' },
 ];
 
 const STORAGE_KEY = 'chinameds_travel_bag';
@@ -210,22 +211,36 @@ export default function DrugSearchWidget({
         </div>
       </div>
 
-      {/* Popular Fast-Lookup Chips (Stitch V4 Frosted Kinetic Pills) */}
-      <div className="mt-3.5 flex flex-wrap items-center gap-2 text-xs text-slate-500 px-1">
-        <span className="font-semibold text-slate-700 mr-0.5 flex items-center gap-1.5 shrink-0">
-          <HelpCircle className="h-3.5 w-3.5 text-teal-600" />
-          <span>High-Anxiety Searches:</span>
+      {/* Popular Fast-Lookup Chips: Single-Row Kinetic Clean Bar */}
+      <div className="mt-3.5 flex items-center justify-center gap-2 text-xs overflow-x-auto no-scrollbar py-1 px-1">
+        <span className="text-[11px] font-semibold text-slate-400 uppercase tracking-wider shrink-0 mr-1 hidden sm:inline-flex items-center gap-1 font-mono">
+          <Sparkles className="h-3 w-3 text-teal-600" />
+          <span>Quick Radar:</span>
         </span>
-        {POPULAR_SEARCHES.map((term) => (
-          <button
-            key={term}
-            type="button"
-            onClick={() => handleSelectPopular(term)}
-            className="px-3 py-1.5 rounded-full bg-white/80 hover:bg-teal-50 text-slate-700 hover:text-teal-800 border border-white/90 hover:border-teal-200 shadow-xs hover:shadow-sm hover:-translate-y-0.5 active:scale-[0.97] transition-all duration-150 cursor-pointer font-medium shrink-0 whitespace-nowrap backdrop-blur-md"
-          >
-            {term}
-          </button>
-        ))}
+        <div className="flex items-center gap-2 flex-nowrap shrink-0">
+          {POPULAR_SEARCHES.map(({ term, status, badge }) => (
+            <button
+              key={term}
+              type="button"
+              onClick={() => handleSelectPopular(term)}
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/80 hover:bg-white text-slate-700 hover:text-teal-900 border border-slate-200/80 hover:border-teal-300 shadow-2xs hover:shadow-sm hover:-translate-y-0.5 active:scale-[0.97] transition-all duration-150 cursor-pointer text-xs font-medium shrink-0 whitespace-nowrap backdrop-blur-md group"
+            >
+              <span
+                className={`h-1.5 w-1.5 rounded-full shrink-0 ${
+                  status === 'RED'
+                    ? 'bg-rose-500 group-hover:animate-ping'
+                    : status === 'YELLOW'
+                    ? 'bg-amber-400'
+                    : 'bg-emerald-500'
+                }`}
+              />
+              <span>{term}</span>
+              <span className="text-[10px] text-slate-400 font-normal hidden md:inline">
+                ({badge})
+              </span>
+            </button>
+          ))}
+        </div>
       </div>
 
       {/* Autocomplete & Results Dropdown (Stitch V4 Elevated Frosted Surface) */}
