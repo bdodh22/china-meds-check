@@ -191,8 +191,8 @@ export default function LocalizedHomePage({
       </section>
 
       {/* Section 1: Three Regulatory Clearance Tiers (Stitch V4 Bento Grid) */}
-      <section className="py-14 md:py-20 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center max-w-4xl mx-auto mb-12 space-y-3">
+      <section className="py-10 md:py-14 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center max-w-4xl mx-auto mb-8 space-y-2.5">
           <div className="inline-flex items-center gap-1.5 text-xs font-bold text-teal-700 uppercase tracking-wider font-mono bg-teal-50 px-3 py-1 rounded-full border border-teal-100">
             <Sparkles className="h-3.5 w-3.5 text-teal-600" />
             <span>{dict.badges.allowed} · {dict.badges.controlled} · {dict.badges.banned}</span>
@@ -200,7 +200,7 @@ export default function LocalizedHomePage({
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight">
             {dict.home.statusGridTitle}
           </h2>
-          <p className="text-sm sm:text-base text-slate-600 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-xs sm:text-sm text-slate-600 max-w-2xl mx-auto leading-relaxed">
             {dict.home.statusGridDesc}
           </p>
         </div>
@@ -437,7 +437,7 @@ export default function LocalizedHomePage({
       </section>
 
       {/* Section 3: Benchmark High-Anxiety Drugs Quick Radar */}
-      <section className="py-14 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+      <section className="py-10 md:py-12 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
           <div>
             <span className="text-xs font-mono font-bold text-teal-700 uppercase tracking-wider">
@@ -494,27 +494,27 @@ export default function LocalizedHomePage({
         </div>
       </section>
 
-      {/* Section 4: Accordion FAQ (Stitch V4 Modern Centered Symmetric Layout - max-w-6xl) */}
-      <section className="py-20 bg-slate-50/70 border-y border-slate-200/80">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+      {/* Section 4: Accordion FAQ (Compact, High-Precision Native Stitch Design) */}
+      <section className="py-12 md:py-16 bg-slate-50/70 border-y border-slate-200/80">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 space-y-8">
           
           {/* Centered Symmetrical Header */}
-          <div className="text-center max-w-3xl mx-auto space-y-3">
-            <div className="inline-flex items-center gap-1.5 text-xs font-bold text-teal-700 uppercase tracking-wider font-mono bg-teal-50 px-3.5 py-1.5 rounded-full border border-teal-100">
+          <div className="text-center space-y-2">
+            <div className="inline-flex items-center gap-1.5 text-xs font-bold text-teal-700 uppercase tracking-wider font-mono bg-teal-50 px-3 py-1 rounded-full border border-teal-100">
               <Sparkles className="h-3.5 w-3.5 text-teal-600" />
               <span>FAQ</span>
             </div>
-            <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
               {dict.home.faqSectionTitle}
             </h2>
           </div>
 
           {/* Symmetrical Accordion Stack */}
-          <div className="space-y-4">
+          <div className="space-y-3">
             {/* FAQ 1 */}
-            <details className="group p-5 sm:p-6 rounded-2xl bg-white border border-slate-200/80 shadow-2xs hover:border-slate-300 transition-all [&_summary::-webkit-details-marker]:hidden">
+            <details className="group p-4 sm:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-2xs hover:border-slate-300 transition-all [&_summary::-webkit-details-marker]:hidden">
               <summary className="flex items-center justify-between cursor-pointer font-bold text-slate-900 text-sm sm:text-base select-none gap-4">
-                <div className="flex items-center gap-3">
+                <div className="flex items-center gap-2.5">
                   <span className="text-[11px] font-mono font-bold px-2 py-0.5 rounded-md bg-rose-50 text-rose-700 border border-rose-200 shrink-0">
                     {dict.badges.banned}
                   </span>
@@ -522,15 +522,15 @@ export default function LocalizedHomePage({
                 </div>
                 <ChevronRight className="h-4 w-4 text-slate-400 group-open:rotate-90 transition-transform shrink-0" />
               </summary>
-              <div className="mt-3.5 pt-3 border-t border-slate-100 text-xs sm:text-sm text-slate-600 leading-relaxed pl-1">
+              <div className="mt-3 pt-3 border-t border-slate-100 text-xs sm:text-sm text-slate-600 leading-relaxed pl-1">
                 {dict.home.faq1A}
               </div>
             </details>
 
             {/* FAQ 2 */}
-            <details className="group p-5 sm:p-6 rounded-2xl bg-white border border-slate-200/80 shadow-2xs hover:border-slate-300 transition-all [&_summary::-webkit-details-marker]:hidden">
+            <details className="group p-4 sm:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-2xs hover:border-slate-300 transition-all [&_summary::-webkit-details-marker]:hidden">
               <summary className="flex items-center justify-between cursor-pointer font-bold text-slate-900 text-sm sm:text-base select-none gap-4">
-                <div className="flex items-center gap-3">
+                <div className="flex items-center gap-2.5">
                   <span className="text-[11px] font-mono font-bold px-2 py-0.5 rounded-md bg-amber-50 text-amber-800 border border-amber-200 shrink-0">
                     {dict.badges.controlled}
                   </span>
@@ -538,15 +538,15 @@ export default function LocalizedHomePage({
                 </div>
                 <ChevronRight className="h-4 w-4 text-slate-400 group-open:rotate-90 transition-transform shrink-0" />
               </summary>
-              <div className="mt-3.5 pt-3 border-t border-slate-100 text-xs sm:text-sm text-slate-600 leading-relaxed pl-1">
+              <div className="mt-3 pt-3 border-t border-slate-100 text-xs sm:text-sm text-slate-600 leading-relaxed pl-1">
                 {dict.home.faq2A}
               </div>
             </details>
 
             {/* FAQ 3 */}
-            <details className="group p-5 sm:p-6 rounded-2xl bg-white border border-slate-200/80 shadow-2xs hover:border-slate-300 transition-all [&_summary::-webkit-details-marker]:hidden">
+            <details className="group p-4 sm:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-2xs hover:border-slate-300 transition-all [&_summary::-webkit-details-marker]:hidden">
               <summary className="flex items-center justify-between cursor-pointer font-bold text-slate-900 text-sm sm:text-base select-none gap-4">
-                <div className="flex items-center gap-3">
+                <div className="flex items-center gap-2.5">
                   <span className="text-[11px] font-mono font-bold px-2 py-0.5 rounded-md bg-emerald-50 text-emerald-800 border border-emerald-200 shrink-0">
                     {dict.badges.allowed}
                   </span>
@@ -554,15 +554,15 @@ export default function LocalizedHomePage({
                 </div>
                 <ChevronRight className="h-4 w-4 text-slate-400 group-open:rotate-90 transition-transform shrink-0" />
               </summary>
-              <div className="mt-3.5 pt-3 border-t border-slate-100 text-xs sm:text-sm text-slate-600 leading-relaxed pl-1">
+              <div className="mt-3 pt-3 border-t border-slate-100 text-xs sm:text-sm text-slate-600 leading-relaxed pl-1">
                 {dict.home.faq3A}
               </div>
             </details>
 
             {/* FAQ 4 */}
-            <details className="group p-5 sm:p-6 rounded-2xl bg-white border border-slate-200/80 shadow-2xs hover:border-slate-300 transition-all [&_summary::-webkit-details-marker]:hidden">
+            <details className="group p-4 sm:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-2xs hover:border-slate-300 transition-all [&_summary::-webkit-details-marker]:hidden">
               <summary className="flex items-center justify-between cursor-pointer font-bold text-slate-900 text-sm sm:text-base select-none gap-4">
-                <div className="flex items-center gap-3">
+                <div className="flex items-center gap-2.5">
                   <span className="text-[11px] font-mono font-bold px-2 py-0.5 rounded-md bg-teal-50 text-teal-800 border border-teal-200 shrink-0">
                     CAAC
                   </span>
@@ -570,15 +570,15 @@ export default function LocalizedHomePage({
                 </div>
                 <ChevronRight className="h-4 w-4 text-slate-400 group-open:rotate-90 transition-transform shrink-0" />
               </summary>
-              <div className="mt-3.5 pt-3 border-t border-slate-100 text-xs sm:text-sm text-slate-600 leading-relaxed pl-1">
+              <div className="mt-3 pt-3 border-t border-slate-100 text-xs sm:text-sm text-slate-600 leading-relaxed pl-1">
                 {dict.home.faq4A}
               </div>
             </details>
 
             {/* FAQ 5 */}
-            <details className="group p-5 sm:p-6 rounded-2xl bg-white border border-slate-200/80 shadow-2xs hover:border-slate-300 transition-all [&_summary::-webkit-details-marker]:hidden">
+            <details className="group p-4 sm:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-2xs hover:border-slate-300 transition-all [&_summary::-webkit-details-marker]:hidden">
               <summary className="flex items-center justify-between cursor-pointer font-bold text-slate-900 text-sm sm:text-base select-none gap-4">
-                <div className="flex items-center gap-3">
+                <div className="flex items-center gap-2.5">
                   <span className="text-[11px] font-mono font-bold px-2 py-0.5 rounded-md bg-slate-100 text-slate-800 border border-slate-200 shrink-0">
                     12360
                   </span>
@@ -586,71 +586,17 @@ export default function LocalizedHomePage({
                 </div>
                 <ChevronRight className="h-4 w-4 text-slate-400 group-open:rotate-90 transition-transform shrink-0" />
               </summary>
-              <div className="mt-3.5 pt-3 border-t border-slate-100 text-xs sm:text-sm text-slate-600 leading-relaxed pl-1">
+              <div className="mt-3 pt-3 border-t border-slate-100 text-xs sm:text-sm text-slate-600 leading-relaxed pl-1">
                 {dict.home.faq5A}
               </div>
             </details>
-          </div>
-
-          {/* Symmetrical Dual Support Dock: 2 Balanced Pillars */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 pt-2">
-            {/* Pillar 1: Official GACC Hotline */}
-            <div className="p-6 rounded-2xl bg-white border border-slate-200/90 shadow-2xs flex flex-col justify-between space-y-4">
-              <div>
-                <div className="flex items-center gap-2 text-teal-800 font-bold text-xs uppercase tracking-wider font-mono">
-                  <span className="h-2 w-2 rounded-full bg-teal-500" />
-                  <span>GACC 12360</span>
-                </div>
-                <h3 className="text-base font-bold text-slate-900 mt-2">
-                  24/7 Hotline: 12360
-                </h3>
-                <p className="text-xs text-slate-600 leading-relaxed mt-1">
-                  PRC Customs official passenger guidance and clearance consultation hotline.
-                </p>
-              </div>
-              <div className="pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500 font-mono">
-                <span>Direct Dial</span>
-                <strong className="text-teal-700 font-bold text-sm">12360</strong>
-              </div>
-            </div>
-
-            {/* Pillar 2: 3-Point Border Rule */}
-            <div className="p-6 rounded-2xl bg-teal-900 text-white shadow-sm flex flex-col justify-between space-y-4">
-              <div>
-                <div className="flex items-center gap-2 text-teal-300 font-bold text-xs uppercase tracking-wider font-mono">
-                  <span className="h-2 w-2 rounded-full bg-emerald-400" />
-                  <span>GACC Entry Rules</span>
-                </div>
-                <h3 className="text-base font-bold text-white mt-2">
-                  Border Protocol
-                </h3>
-                <ul className="text-xs text-teal-100/90 space-y-1.5 leading-relaxed mt-2 font-sans">
-                  <li className="flex items-start gap-2">
-                    <span className="text-teal-400 font-bold">1.</span>
-                    <span>{dict.specSheet.carryOnOnly}</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-teal-400 font-bold">2.</span>
-                    <span>{dict.specSheet.personalCarry}</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-teal-400 font-bold">3.</span>
-                    <span>{dict.specSheet.redChannelMust}</span>
-                  </li>
-                </ul>
-              </div>
-              <div className="pt-3 border-t border-teal-800/80 flex items-center justify-between text-xs text-teal-300 font-mono">
-                <span>Decree 442</span>
-                <span>Inbound Clearance</span>
-              </div>
-            </div>
           </div>
 
         </div>
       </section>
 
       {/* High-Converting Lead Capture: Offline PDF Checklist (max-w-6xl) */}
-      <section className="py-12 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-8 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <LeadCaptureEmailCard locale={locale} />
       </section>
 
