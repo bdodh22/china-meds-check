@@ -494,102 +494,126 @@ export default function LocalizedHomePage({
         </div>
       </section>
 
-      {/* Section 4: Accordion FAQ (Compact, High-Precision Native Stitch Design) */}
+      {/* Section 4: Accordion FAQ (Symmetrical 2-Column Balanced Grid - max-w-6xl) */}
       <section className="py-12 md:py-16 bg-slate-50/70 border-y border-slate-200/80">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 space-y-8">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
           
           {/* Centered Symmetrical Header */}
-          <div className="text-center space-y-2">
-            <div className="inline-flex items-center gap-1.5 text-xs font-bold text-teal-700 uppercase tracking-wider font-mono bg-teal-50 px-3 py-1 rounded-full border border-teal-100">
+          <div className="text-center max-w-3xl mx-auto space-y-2.5">
+            <div className="inline-flex items-center gap-1.5 text-xs font-bold text-teal-700 uppercase tracking-wider font-mono bg-teal-50 px-3.5 py-1.5 rounded-full border border-teal-100">
               <Sparkles className="h-3.5 w-3.5 text-teal-600" />
               <span>FAQ</span>
             </div>
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight">
               {dict.home.faqSectionTitle}
             </h2>
           </div>
 
-          {/* Symmetrical Accordion Stack */}
-          <div className="space-y-3">
-            {/* FAQ 1 */}
-            <details className="group p-4 sm:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-2xs hover:border-slate-300 transition-all [&_summary::-webkit-details-marker]:hidden">
-              <summary className="flex items-center justify-between cursor-pointer font-bold text-slate-900 text-sm sm:text-base select-none gap-4">
-                <div className="flex items-center gap-2.5">
-                  <span className="text-[11px] font-mono font-bold px-2 py-0.5 rounded-md bg-rose-50 text-rose-700 border border-rose-200 shrink-0">
-                    {dict.badges.banned}
-                  </span>
-                  <span>{dict.home.faq1Q}</span>
+          {/* Symmetrical 2-Column Balanced FAQ Grid (3 vs 3) */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-5 items-start">
+            
+            {/* Left Column (3 Items) */}
+            <div className="space-y-4">
+              {/* FAQ 1 */}
+              <details className="group p-4 sm:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-2xs hover:border-slate-300 transition-all [&_summary::-webkit-details-marker]:hidden">
+                <summary className="flex items-center justify-between cursor-pointer font-bold text-slate-900 text-sm sm:text-base select-none gap-2.5">
+                  <div className="flex items-center gap-2.5">
+                    <span className="text-[11px] font-mono font-bold px-2 py-0.5 rounded-md bg-rose-50 text-rose-700 border border-rose-200 shrink-0">
+                      {dict.badges.banned}
+                    </span>
+                    <span>{dict.home.faq1Q}</span>
+                  </div>
+                  <ChevronRight className="h-4 w-4 text-slate-400 group-open:rotate-90 transition-transform shrink-0" />
+                </summary>
+                <div className="mt-3 pt-3 border-t border-slate-100 text-xs sm:text-sm text-slate-600 leading-relaxed pl-1">
+                  {dict.home.faq1A}
                 </div>
-                <ChevronRight className="h-4 w-4 text-slate-400 group-open:rotate-90 transition-transform shrink-0" />
-              </summary>
-              <div className="mt-3 pt-3 border-t border-slate-100 text-xs sm:text-sm text-slate-600 leading-relaxed pl-1">
-                {dict.home.faq1A}
-              </div>
-            </details>
+              </details>
 
-            {/* FAQ 2 */}
-            <details className="group p-4 sm:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-2xs hover:border-slate-300 transition-all [&_summary::-webkit-details-marker]:hidden">
-              <summary className="flex items-center justify-between cursor-pointer font-bold text-slate-900 text-sm sm:text-base select-none gap-4">
-                <div className="flex items-center gap-2.5">
-                  <span className="text-[11px] font-mono font-bold px-2 py-0.5 rounded-md bg-amber-50 text-amber-800 border border-amber-200 shrink-0">
-                    {dict.badges.controlled}
-                  </span>
-                  <span>{dict.home.faq2Q}</span>
+              {/* FAQ 2 */}
+              <details className="group p-4 sm:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-2xs hover:border-slate-300 transition-all [&_summary::-webkit-details-marker]:hidden">
+                <summary className="flex items-center justify-between cursor-pointer font-bold text-slate-900 text-sm sm:text-base select-none gap-2.5">
+                  <div className="flex items-center gap-2.5">
+                    <span className="text-[11px] font-mono font-bold px-2 py-0.5 rounded-md bg-amber-50 text-amber-800 border border-amber-200 shrink-0">
+                      {dict.badges.controlled}
+                    </span>
+                    <span>{dict.home.faq2Q}</span>
+                  </div>
+                  <ChevronRight className="h-4 w-4 text-slate-400 group-open:rotate-90 transition-transform shrink-0" />
+                </summary>
+                <div className="mt-3 pt-3 border-t border-slate-100 text-xs sm:text-sm text-slate-600 leading-relaxed pl-1">
+                  {dict.home.faq2A}
                 </div>
-                <ChevronRight className="h-4 w-4 text-slate-400 group-open:rotate-90 transition-transform shrink-0" />
-              </summary>
-              <div className="mt-3 pt-3 border-t border-slate-100 text-xs sm:text-sm text-slate-600 leading-relaxed pl-1">
-                {dict.home.faq2A}
-              </div>
-            </details>
+              </details>
 
-            {/* FAQ 3 */}
-            <details className="group p-4 sm:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-2xs hover:border-slate-300 transition-all [&_summary::-webkit-details-marker]:hidden">
-              <summary className="flex items-center justify-between cursor-pointer font-bold text-slate-900 text-sm sm:text-base select-none gap-4">
-                <div className="flex items-center gap-2.5">
-                  <span className="text-[11px] font-mono font-bold px-2 py-0.5 rounded-md bg-emerald-50 text-emerald-800 border border-emerald-200 shrink-0">
-                    {dict.badges.allowed}
-                  </span>
-                  <span>{dict.home.faq3Q}</span>
+              {/* FAQ 3 */}
+              <details className="group p-4 sm:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-2xs hover:border-slate-300 transition-all [&_summary::-webkit-details-marker]:hidden">
+                <summary className="flex items-center justify-between cursor-pointer font-bold text-slate-900 text-sm sm:text-base select-none gap-2.5">
+                  <div className="flex items-center gap-2.5">
+                    <span className="text-[11px] font-mono font-bold px-2 py-0.5 rounded-md bg-emerald-50 text-emerald-800 border border-emerald-200 shrink-0">
+                      {dict.badges.allowed}
+                    </span>
+                    <span>{dict.home.faq3Q}</span>
+                  </div>
+                  <ChevronRight className="h-4 w-4 text-slate-400 group-open:rotate-90 transition-transform shrink-0" />
+                </summary>
+                <div className="mt-3 pt-3 border-t border-slate-100 text-xs sm:text-sm text-slate-600 leading-relaxed pl-1">
+                  {dict.home.faq3A}
                 </div>
-                <ChevronRight className="h-4 w-4 text-slate-400 group-open:rotate-90 transition-transform shrink-0" />
-              </summary>
-              <div className="mt-3 pt-3 border-t border-slate-100 text-xs sm:text-sm text-slate-600 leading-relaxed pl-1">
-                {dict.home.faq3A}
-              </div>
-            </details>
+              </details>
+            </div>
 
-            {/* FAQ 4 */}
-            <details className="group p-4 sm:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-2xs hover:border-slate-300 transition-all [&_summary::-webkit-details-marker]:hidden">
-              <summary className="flex items-center justify-between cursor-pointer font-bold text-slate-900 text-sm sm:text-base select-none gap-4">
-                <div className="flex items-center gap-2.5">
-                  <span className="text-[11px] font-mono font-bold px-2 py-0.5 rounded-md bg-teal-50 text-teal-800 border border-teal-200 shrink-0">
-                    CAAC
-                  </span>
-                  <span>{dict.home.faq4Q}</span>
+            {/* Right Column (3 Items) */}
+            <div className="space-y-4">
+              {/* FAQ 4 */}
+              <details className="group p-4 sm:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-2xs hover:border-slate-300 transition-all [&_summary::-webkit-details-marker]:hidden">
+                <summary className="flex items-center justify-between cursor-pointer font-bold text-slate-900 text-sm sm:text-base select-none gap-2.5">
+                  <div className="flex items-center gap-2.5">
+                    <span className="text-[11px] font-mono font-bold px-2 py-0.5 rounded-md bg-teal-50 text-teal-800 border border-teal-200 shrink-0">
+                      CAAC
+                    </span>
+                    <span>{dict.home.faq4Q}</span>
+                  </div>
+                  <ChevronRight className="h-4 w-4 text-slate-400 group-open:rotate-90 transition-transform shrink-0" />
+                </summary>
+                <div className="mt-3 pt-3 border-t border-slate-100 text-xs sm:text-sm text-slate-600 leading-relaxed pl-1">
+                  {dict.home.faq4A}
                 </div>
-                <ChevronRight className="h-4 w-4 text-slate-400 group-open:rotate-90 transition-transform shrink-0" />
-              </summary>
-              <div className="mt-3 pt-3 border-t border-slate-100 text-xs sm:text-sm text-slate-600 leading-relaxed pl-1">
-                {dict.home.faq4A}
-              </div>
-            </details>
+              </details>
 
-            {/* FAQ 5 */}
-            <details className="group p-4 sm:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-2xs hover:border-slate-300 transition-all [&_summary::-webkit-details-marker]:hidden">
-              <summary className="flex items-center justify-between cursor-pointer font-bold text-slate-900 text-sm sm:text-base select-none gap-4">
-                <div className="flex items-center gap-2.5">
-                  <span className="text-[11px] font-mono font-bold px-2 py-0.5 rounded-md bg-slate-100 text-slate-800 border border-slate-200 shrink-0">
-                    12360
-                  </span>
-                  <span>{dict.home.faq5Q}</span>
+              {/* FAQ 5 */}
+              <details className="group p-4 sm:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-2xs hover:border-slate-300 transition-all [&_summary::-webkit-details-marker]:hidden">
+                <summary className="flex items-center justify-between cursor-pointer font-bold text-slate-900 text-sm sm:text-base select-none gap-2.5">
+                  <div className="flex items-center gap-2.5">
+                    <span className="text-[11px] font-mono font-bold px-2 py-0.5 rounded-md bg-slate-100 text-slate-800 border border-slate-200 shrink-0">
+                      12360
+                    </span>
+                    <span>{dict.home.faq5Q}</span>
+                  </div>
+                  <ChevronRight className="h-4 w-4 text-slate-400 group-open:rotate-90 transition-transform shrink-0" />
+                </summary>
+                <div className="mt-3 pt-3 border-t border-slate-100 text-xs sm:text-sm text-slate-600 leading-relaxed pl-1">
+                  {dict.home.faq5A}
                 </div>
-                <ChevronRight className="h-4 w-4 text-slate-400 group-open:rotate-90 transition-transform shrink-0" />
-              </summary>
-              <div className="mt-3 pt-3 border-t border-slate-100 text-xs sm:text-sm text-slate-600 leading-relaxed pl-1">
-                {dict.home.faq5A}
-              </div>
-            </details>
+              </details>
+
+              {/* FAQ 6 */}
+              <details className="group p-4 sm:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-2xs hover:border-slate-300 transition-all [&_summary::-webkit-details-marker]:hidden">
+                <summary className="flex items-center justify-between cursor-pointer font-bold text-slate-900 text-sm sm:text-base select-none gap-2.5">
+                  <div className="flex items-center gap-2.5">
+                    <span className="text-[11px] font-mono font-bold px-2 py-0.5 rounded-md bg-sky-50 text-sky-800 border border-sky-200 shrink-0">
+                      GACC
+                    </span>
+                    <span>{dict.home.faq6Q}</span>
+                  </div>
+                  <ChevronRight className="h-4 w-4 text-slate-400 group-open:rotate-90 transition-transform shrink-0" />
+                </summary>
+                <div className="mt-3 pt-3 border-t border-slate-100 text-xs sm:text-sm text-slate-600 leading-relaxed pl-1">
+                  {dict.home.faq6A}
+                </div>
+              </details>
+            </div>
+
           </div>
 
         </div>
