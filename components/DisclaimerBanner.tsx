@@ -37,7 +37,7 @@ export default function DisclaimerBanner({ variant = 'top' }: DisclaimerBannerPr
         </div>
         <div className="flex items-center gap-1.5 text-slate-500 text-[11px] whitespace-nowrap">
           <ShieldCheck className="h-3.5 w-3.5 text-slate-500" />
-          <span>Updated for 2025/2026 Entry Regulations</span>
+          <span>Updated for 2026/2027 Entry Regulations</span>
         </div>
       </div>
     </aside>

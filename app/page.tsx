@@ -21,7 +21,7 @@ import { getAllMedications } from '@/lib/medications';
 import { getHreflangAlternates } from '@/lib/i18n/config';
 
 export const metadata: Metadata = {
-  title: 'Bringing Medication to China: 2025 Customs Rules',
+  title: 'Bringing Medication to China: 2026 Customs Rules',
   description:
     'Can you bring prescription drugs to China? Instant legality radar for Adderall, Concerta & Ozempic. Check GACC carry limits & airport declarations.',
   alternates: getHreflangAlternates('/'),

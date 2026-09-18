@@ -57,7 +57,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!med) return { title: 'Medication Not Found | ChinaMedsCheck' };
 
   const primaryBrand = med.brandNames[0];
-  let title = `Can I Bring ${primaryBrand} to China? 2025 Rules`;
+  let title = `Can I Bring ${primaryBrand} to China? 2026 Rules`;
   let description = `Is ${primaryBrand} legal in China? Customs carry limits, Red Channel rules, penalty risks, and approved in-country prescription alternatives.`;
 
   if (locale === 'ja') {
@@ -67,7 +67,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title = `중국 입국 시 ${primaryBrand} 반입 규정 및 허용 일수`;
     description = `중국 세관의 ${primaryBrand}（${med.chineseName}） 반입 규정, 적색통로 세관신고 기준 및 합리적 휴대 일수를 완벽 정리했습니다.`;
   } else if (locale === 'ru') {
-    title = `Ввоз ${primaryBrand} в Китай: правила таможни 2025`;
+    title = `Ввоз ${primaryBrand} в Китай: правила таможни 2026`;
     description = `Можно ли ввозить ${primaryBrand} в Китай? Правила таможни, допустимые лимиты, декларирование в Красном коридоре и аналоги в больницах КНР.`;
   } else if (locale === 'vi') {
     title = `Mang ${primaryBrand} vào Trung Quốc: Quy định hải quan`;

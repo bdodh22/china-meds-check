@@ -1,6 +1,6 @@
 {
   "meta": {
-    "homeTitle": "Quy định mang thuốc vào Trung Quốc: Hải quan 2025",
+    "homeTitle": "Quy định mang thuốc vào Trung Quốc: Hải quan 2026",
     "homeDesc": "Kiểm tra tính hợp pháp của thuốc khi nhập cảnh Trung Quốc. Định mức mang theo, thuốc bị cấm, quy định 7-15 ngày và thủ tục khai báo Luồng Đỏ tại hải quan.",
     "calculatorTitle": "Công cụ tính ngày mang thuốc vào Trung Quốc",
     "calculatorDesc": "Tính toán số ngày thuốc được phép mang vào Trung Quốc theo luật hải quan. Giới hạn 7-15 ngày cho thuốc hướng thần và 90 ngày cho thuốc mãn tính.",
@@ -44,7 +44,7 @@
     "ssg": "Phân phối siêu tốc qua Edge SSG"
   },
   "home": {
-    "heroTag": "RADAR CHÍNH THỨC THEO QUY ĐỊNH HẢI QUAN TRUNG QUỐC (GACC 2025)",
+    "heroTag": "RADAR CHÍNH THỨC THEO QUY ĐỊNH HẢI QUAN TRUNG QUỐC (GACC 2026)",
     "heroTitle": "Mang thuốc sang Trung Quốc? Kiểm tra tính hợp pháp trong 3 giây",
     "heroDesc": "Trung Quốc áp dụng luật phòng chống ma túy không khoan nhượng. Đơn thuốc của bác sĩ nước ngoài KHÔNG được miễn trừ nếu thuốc chứa chất cấm. Kiểm tra tính hợp pháp, số ngày được phép mang và thủ tục khai báo hải quan ngay.",
     "searchPlaceholder": "Nhập tên thuốc, hoạt chất hoặc mã CAS (VD: Adderall, Xanax, Ozempic, 300-62-9)...",
@@ -420,7 +420,7 @@
     "officialProtocol": "Quy định xử lý thuốc vượt định mức tại {iata}:"
   },
   "leadCapture": {
-    "badge": "CẨM NANG XUẤT CẢNH MIỄN PHÍ 2025-2026",
+    "badge": "CẨM NANG XUẤT CẢNH MIỄN PHÍ 2026-2027",
     "title": "Tải bảng kiểm tra hải quan thuốc vào Trung Quốc (PDF)",
     "subtitle": "Tài liệu tóm tắt 1 trang xem ngoại tuyến: sơ đồ chọn Cửa Đỏ/Cửa Xanh, mẫu đơn thuốc song ngữ và đường dây nóng hỗ trợ khẩn cấp.",
     "bullet1": "Bảng kiểm tra PDF 1 trang tiện lợi in mang theo khi lên máy bay",
@@ -430,7 +430,7 @@
     "button": "Nhận cẩm nang PDF miễn phí",
     "submitting": "Đang gửi...",
     "successTitle": "Bảng kiểm tra đã được gửi đi!",
-    "successDesc": "Chúng tôi đã gửi cẩm nang PDF hải quan Trung Quốc 2025-2026 đến hòm thư của bạn.",
+    "successDesc": "Chúng tôi đã gửi cẩm nang PDF hải quan Trung Quốc 2026-2027 đến hòm thư của bạn.",
     "privacy": "Cam kết không spam. Hủy đăng ký chỉ với 1 cú nhấp. Bảo mật tuyệt đối.",
     "invalidEmail": "Vui lòng nhập địa chỉ email hợp lệ.",
     "printChecklist": "In bảng kiểm tra ngay",

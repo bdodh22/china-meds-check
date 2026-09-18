@@ -50,7 +50,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   const primaryBrand = med.brandNames[0];
-  const title = `Can I Bring ${primaryBrand} to China? 2025 Rules`;
+  const title = `Can I Bring ${primaryBrand} to China? 2026 Rules`;
   const description = `Is ${primaryBrand} legal in China? Customs carry limits, Red Channel rules, penalty risks, and approved in-country prescription alternatives.`;
 
   return {
@@ -94,7 +94,7 @@ export default function DrugDetailPage({ params }: PageProps) {
         '@type': 'MedicalWebPage',
         '@id': `https://chinamedscheck.com/drugs/${med.slug}#webpage`,
         url: `https://chinamedscheck.com/drugs/${med.slug}`,
-        name: `Can I Bring ${primaryBrand} to China? 2025 Rules`,
+        name: `Can I Bring ${primaryBrand} to China? 2026 Rules`,
         description: med.summary,
         about: {
           '@type': 'Drug',

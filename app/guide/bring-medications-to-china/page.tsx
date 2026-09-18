@@ -27,7 +27,7 @@ import LeadCaptureEmailCard from '@/components/conversion/LeadCaptureEmailCard';
 import { getHreflangAlternates } from '@/lib/i18n/config';
 
 export const metadata: Metadata = {
-  title: 'Bringing Medications to China Guide: 2025 Customs Rules',
+  title: 'Bringing Medications to China Guide: 2026 Customs Rules',
   description:
     'Official China Customs medication entry guide. Learn GACC Decree 43 rules, 7-15 day psychotropic limits, Red Channel declaration & doctor note standards.',
   alternates: getHreflangAlternates('/guide/bring-medications-to-china'),
@@ -45,7 +45,7 @@ export default function BringMedicationsGuidePage() {
           </div>
 
           <h1 className="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight leading-tight">
-            How to Bring Medications to China: Complete Customs, Legal & INCB Guide (2025/2026)
+            How to Bring Medications to China: Complete Customs, Legal & INCB Guide (2026/2027)
           </h1>
 
           <p className="text-base text-slate-600 leading-relaxed">
@@ -53,7 +53,7 @@ export default function BringMedicationsGuidePage() {
           </p>
 
           <div className="flex items-center gap-4 text-xs text-slate-500 pt-2 border-t border-slate-200 flex-wrap">
-            <span>Reviewed: January 2025</span>
+            <span>Reviewed: September 2026</span>
             <span>•</span>
             <span>Based on GACC Decree No. 43 & NMPA Catalogues</span>
             <span>•</span>
