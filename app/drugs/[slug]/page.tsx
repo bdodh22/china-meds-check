@@ -51,16 +51,20 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   const primaryBrand = med.brandNames[0];
   const title = `Can I Bring ${primaryBrand} to China? 2026 Rules`;
-  const description = `Is ${primaryBrand} legal in China? Customs carry limits, Red Channel rules, penalty risks, and approved in-country prescription alternatives.`;
+  const cnPart = med.chineseName ? ` (${med.chineseName})` : '';
+  const description = `Can you bring ${primaryBrand}${cnPart} to China? Official customs limits, Red Channel declaration, Chinese pharmacy name, and in-country rules.`;
 
   return {
     title,
     description,
     keywords: [
       `bring ${primaryBrand} to china`,
+      `${primaryBrand} in china`,
+      `${primaryBrand} in chinese`,
+      `${primaryBrand} chinese name`,
       `can i bring ${med.genericName} to china`,
       `${primaryBrand} china customs`,
-      `${primaryBrand} illegal in china`,
+      `how to buy ${primaryBrand} in china`,
       `china customs medication ${med.slug}`,
     ],
     alternates: getHreflangAlternates(`/drugs/${med.slug}`),
@@ -86,6 +90,13 @@ export default function DrugDetailPage({ params }: PageProps) {
   const caac = med.clearanceProfiles?.caacAviation;
   const refill = med.clearanceProfiles?.localRefill;
 
+  // Dynamic bilingual FAQ item capturing "What is X called in Chinese" (4,000+/mo search intent)
+  const bilingualFaq = {
+    question: `What is ${primaryBrand} called in Chinese and can I buy it in China?`,
+    answer: `${primaryBrand} (${med.genericName}) is officially known in Chinese as ${med.chineseName}${med.pinyin ? ` (Pinyin: ${med.pinyin})` : ''}. ${med.localAlternative || ''}`,
+  };
+  const allFaqs = [bilingualFaq, ...med.faqItems];
+
   // Structured Data (Schema.org)
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -107,7 +118,7 @@ export default function DrugDetailPage({ params }: PageProps) {
       {
         '@type': 'FAQPage',
         '@id': `https://chinamedscheck.com/drugs/${med.slug}#faq`,
-        mainEntity: med.faqItems.map((faq) => ({
+        mainEntity: allFaqs.map((faq) => ({
           '@type': 'Question',
           name: faq.question,
           acceptedAnswer: {
@@ -271,7 +282,7 @@ export default function DrugDetailPage({ params }: PageProps) {
                 <ChevronDown className="h-4 w-4 text-slate-400 group-open:rotate-180 transition-transform" />
               </summary>
               <div className="p-5 pt-1 border-t border-slate-100 space-y-3 text-xs">
-                {med.faqItems.map((faq, idx) => (
+                {allFaqs.map((faq, idx) => (
                   <div key={idx} className="p-3.5 rounded-xl bg-slate-50 border border-slate-200 space-y-1.5">
                     <h3 className="font-bold text-slate-900 text-xs sm:text-sm">
                       {faq.question}

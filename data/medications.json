@@ -164,7 +164,14 @@
         ],
         "warningNotes": "General Practitioners (GPs) and ER doctors cannot prescribe Concerta. Maximum local refill per visit is capped at 15 days (up to 30 days for controlled-release tablets)."
       }
-    }
+    },
+    "pinyin": "Pài jiǎ zhǐ (Lì tā lín / Zhuān zhù dá)",
+    "pharmacyShowName": "哌甲酯（利他林 / 专注达）",
+    "chinaOtcBrands": [
+      "专注达（盐酸哌甲酯缓释片）"
+    ],
+    "chinesePharmacyNote": "您好，我持有合法处方，需要哌甲酯（专注达/利他林）用于ADHD。请问中国三甲医院精神科门诊配药需要哪些证明？",
+    "pharmacyInstruction": "Methylphenidate (Concerta/Ritalin / 哌甲酯) is a strictly controlled Schedule I psychotropic in China. It is prescribable ONLY at licensed Tier-3 public hospital psychiatric clinics with passport and diagnosis records."
   },
   {
     "slug": "vyvanse-in-china",
@@ -238,7 +245,12 @@
         "requiredDocs": [],
         "warningNotes": "Not registered or prescribable in China. Must transition to Concerta or Strattera."
       }
-    }
+    },
+    "pinyin": "Lài ān suān ān fēi tā mìng (Wèi wán sī)",
+    "pharmacyShowName": "赖氨酸安非他命（Vyvanse / 专注达替代）",
+    "chinaOtcBrands": [],
+    "chinesePharmacyNote": "【重要提醒】赖氨酸安非他命在中国属于一类管制药品，无法在普通药房或门诊直接配药。建议前往三甲医院评估转换至专注达（哌甲酯）或择思达。",
+    "pharmacyInstruction": "Lisdexamfetamine (Vyvanse) is strictly controlled in China. In-country refill is not available; patients must transition to China-approved Methylphenidate (Concerta) via Tier-3 hospital psychiatry."
   },
   {
     "slug": "modafinil-in-china",
@@ -312,7 +324,12 @@
         ],
         "warningNotes": "Extremely difficult to obtain at international clinics; primary supply is through public Tier-3 specialist departments."
       }
-    }
+    },
+    "pinyin": "Mò dá fēi ní",
+    "pharmacyShowName": "莫达非尼",
+    "chinaOtcBrands": [],
+    "chinesePharmacyNote": "您好，我需要莫达非尼用于发作性睡病治疗。在中国属于第一类精神药品，需专科医生处方。",
+    "pharmacyInstruction": "Modafinil (莫达非尼) is a Class I Psychotropic Substance in China. It cannot be purchased over the counter; strict hospital psychiatric evaluation is required."
   },
   {
     "slug": "armodafinil-in-china",
@@ -377,7 +394,12 @@
         ],
         "warningNotes": "Usually substituted with generic Modafinil in Chinese domestic pharmacies."
       }
-    }
+    },
+    "pinyin": "Ā mò dá fēi ní",
+    "pharmacyShowName": "阿莫达非尼",
+    "chinaOtcBrands": [],
+    "chinesePharmacyNote": "阿莫达非尼在中国严格管制，需携带原处方由三甲医院专科医生评估后方可处理。",
+    "pharmacyInstruction": "Armodafinil (Nuvigil / 阿莫达非尼) is tightly controlled. Refills inside China require specialized neurological or psychiatric consultation."
   },
   {
     "slug": "strattera-in-china",
@@ -440,7 +462,14 @@
         ],
         "warningNotes": "Readily available in China under brand name 择思达 (Strattera) or approved domestic bioequivalents."
       }
-    }
+    },
+    "pinyin": "Tuō mò xī tīng (Zé sī dá)",
+    "pharmacyShowName": "盐酸托莫西汀（择思达）",
+    "chinaOtcBrands": [
+      "择思达（盐酸托莫西汀胶囊）"
+    ],
+    "chinesePharmacyNote": "您好，请问有择思达（盐酸托莫西汀胶囊）吗？用于成人/儿童ADHD非兴奋剂治疗。",
+    "pharmacyInstruction": "Atomoxetine (Strattera / 择思达) is an approved, non-controlled ADHD medication in China, readily prescribable at expat clinics and public hospitals."
   },
   {
     "slug": "cbd-oil-in-china",
@@ -516,7 +545,12 @@
         "requiredDocs": [],
         "warningNotes": "CBD has zero approved medical formulations in mainland China. Do not seek locally."
       }
-    }
+    },
+    "pinyin": "Dà má èr fēn (CBD)",
+    "pharmacyShowName": "大麻二酚（CBD）— 严禁在中国境内购买或持有",
+    "chinaOtcBrands": [],
+    "chinesePharmacyNote": "【严重警告】大麻二酚（CBD）在中国属于毒品管制范畴，严禁携带、邮寄或境内销售。",
+    "pharmacyInstruction": "CBD products are strictly classified as illegal narcotics under PRC Criminal Law. Do NOT attempt to purchase or possess CBD in China."
   },
   {
     "slug": "medical-marijuana-thc-in-china",
@@ -582,7 +616,12 @@
         "requiredDocs": [],
         "warningNotes": "Strictly banned."
       }
-    }
+    },
+    "pinyin": "Yī yòng dà má / Sì qīng dà má fēn (THC)",
+    "pharmacyShowName": "四氢大麻酚（THC）— 绝密零容忍违禁品",
+    "chinaOtcBrands": [],
+    "chinesePharmacyNote": "【严重警告】四氢大麻酚（THC）在大中华区属于严厉打击的非法毒品，入境最高可判重刑。",
+    "pharmacyInstruction": "Medical cannabis and THC products carry zero legal exception in China. Possession triggers severe criminal penalties."
   },
   {
     "slug": "xanax-in-china",
@@ -730,7 +769,14 @@
         ],
         "warningNotes": "Commonly used for epilepsy and panic disorder in Chinese hospitals."
       }
-    }
+    },
+    "pinyin": "Lǜ xiāo xī pàn (Lǜ xiāo ān dìng)",
+    "pharmacyShowName": "氯硝西泮（氯硝安定）",
+    "chinaOtcBrands": [
+      "氯硝西泮片"
+    ],
+    "chinesePharmacyNote": "您好，我持有合法癫痫/焦虑处方，需要氯硝西泮。在中国属于二类精神药品，请问三甲医院如何开具？",
+    "pharmacyInstruction": "Clonazepam (Klonopin / 氯硝西泮) is a Schedule II Psychotropic. Maximum 7-day refill limit per outpatient prescription at Chinese public hospitals."
   },
   {
     "slug": "valium-in-china",
@@ -797,7 +843,14 @@
         ],
         "warningNotes": "Readily available across China under name 地西泮 (安定)."
       }
-    }
+    },
+    "pinyin": "Dì xī pàn (Ān dìng)",
+    "pharmacyShowName": "地西泮（安定片）",
+    "chinaOtcBrands": [
+      "地西泮片"
+    ],
+    "chinesePharmacyNote": "您好，请问在医院精神科开具地西泮（安定片）需要哪些身份证明文件？",
+    "pharmacyInstruction": "Diazepam (Valium / 地西泮 / 安定) is a Schedule II controlled drug. In-China refills require presenting passport and previous diagnosis at a psychiatric department."
   },
   {
     "slug": "ativan-in-china",
@@ -862,7 +915,14 @@
         ],
         "warningNotes": "Prescribed as 劳拉西泮 (罗拉)."
       }
-    }
+    },
+    "pinyin": "Láo lā xī pàn",
+    "pharmacyShowName": "劳拉西泮（罗拉）",
+    "chinaOtcBrands": [
+      "罗拉（劳拉西泮片）"
+    ],
+    "chinesePharmacyNote": "您好，我需要劳拉西泮（罗拉片）用于抗焦虑治疗，属于中国第二类精神药品。",
+    "pharmacyInstruction": "Lorazepam (Ativan / 劳拉西泮) is available at Tier-3 hospital psychiatric departments with a valid clinical record."
   },
   {
     "slug": "ambien-in-china",
@@ -1002,7 +1062,14 @@
         ],
         "warningNotes": "Available as 右佐匹克隆 in Chinese pharmacies with Rx."
       }
-    }
+    },
+    "pinyin": "Yòu zuǒ pǐ kè lóng",
+    "pharmacyShowName": "右佐匹克隆",
+    "chinaOtcBrands": [
+      "右佐匹克隆片"
+    ],
+    "chinesePharmacyNote": "您好，请问医院可以开具右佐匹克隆片吗？用于失眠改善。",
+    "pharmacyInstruction": "Eszopiclone (Lunesta / 右佐匹克隆) is a regulated sleep medication prescribable at hospital outpatient clinics in China."
   },
   {
     "slug": "fentanyl-patch-in-china",
@@ -1075,7 +1142,14 @@
         ],
         "warningNotes": "Extremely restricted. Outpatients cannot obtain fentanyl patches without rigorous in-person hospital registration and photo record."
       }
-    }
+    },
+    "pinyin": "Fēn tài ní tòu pí tiē jì",
+    "pharmacyShowName": "芬太尼透皮贴剂",
+    "chinaOtcBrands": [
+      "多瑞吉（芬太尼透皮贴剂）"
+    ],
+    "chinesePharmacyNote": "【麻醉管制】芬太尼属于中国严格管制的麻醉药品，仅限晚期重度癌痛患者由三甲肿瘤专科医生凭借红处方限量开具。",
+    "pharmacyInstruction": "Fentanyl transdermal patches are strictly controlled Schedule I narcotics. Refills are restricted exclusively to specialized oncology hospital departments."
   },
   {
     "slug": "oxycodone-in-china",
@@ -1144,7 +1218,14 @@
         ],
         "warningNotes": "Controlled release tablets (OxyContin/奥施康定) strictly monitored by national tracking code."
       }
-    }
+    },
+    "pinyin": "Qiǎng kǎo tóng (Ào shī kāng dìng)",
+    "pharmacyShowName": "盐酸羟考酮（奥施康定）",
+    "chinaOtcBrands": [
+      "奥施康定（盐酸羟考酮缓释片）"
+    ],
+    "chinesePharmacyNote": "【麻醉管制】羟考酮属于麻醉药品管制目录，须三甲医院肿瘤科或疼痛科持专科红处方开具。",
+    "pharmacyInstruction": "Oxycodone (OxyContin / 羟考酮) is a controlled narcotic analgesic. Inpatient or specialized pain clinic evaluation is mandatory in China."
   },
   {
     "slug": "tramadol-in-china",
@@ -1360,7 +1441,15 @@
         ],
         "warningNotes": "Over-the-counter sales in China require presenting physical passport/ID due to precursor tracking regulations (新康泰克)."
       }
-    }
+    },
+    "pinyin": "Wěi má huáng jiǎn",
+    "pharmacyShowName": "伪麻黄碱（含伪麻黄碱复方感冒药）",
+    "chinaOtcBrands": [
+      "白加黑",
+      "新康泰克（黄色胶囊）"
+    ],
+    "chinesePharmacyNote": "您好，请问有含伪麻黄碱的感冒鼻塞药吗？比如新康泰克或白加黑。药店购买需登记身份证/护照。",
+    "pharmacyInstruction": "Pseudoephedrine products in China are restricted OTC drugs. Real-name passport/ID registration is mandatory at retail pharmacies due to precursor chemical controls."
   },
   {
     "slug": "pregabalin-lyrica-in-china",
@@ -1429,7 +1518,14 @@
         ],
         "warningNotes": "Available as 普瑞巴林 in Chinese hospitals."
       }
-    }
+    },
+    "pinyin": "Pǔ ruì bā lín (Lè ruì kǎ)",
+    "pharmacyShowName": "普瑞巴林（乐瑞卡）",
+    "chinaOtcBrands": [
+      "乐瑞卡（普瑞巴林胶囊）"
+    ],
+    "chinesePharmacyNote": "您好，我需要普瑞巴林（乐瑞卡）用于神经病理性疼痛治疗。在中国属于二类精神药品。",
+    "pharmacyInstruction": "Pregabalin (Lyrica / 普瑞巴林) is regulated as a Schedule II psychotropic in China. Hospital prescription required."
   },
   {
     "slug": "gabapentin-in-china",
@@ -1493,7 +1589,14 @@
         ],
         "warningNotes": "Easily accessible under name 加巴喷丁."
       }
-    }
+    },
+    "pinyin": "Jiā bā pēn dīng",
+    "pharmacyShowName": "加巴喷丁",
+    "chinaOtcBrands": [
+      "加巴喷丁胶囊"
+    ],
+    "chinesePharmacyNote": "您好，我需要加巴喷丁胶囊用于带状疱疹神经痛治疗。请问中国医院或药店可以购买吗？",
+    "pharmacyInstruction": "Gabapentin (Neurontin / 加巴喷丁) is a regular prescription drug in China, available at general hospital neurology clinics."
   },
   {
     "slug": "ozempic-wegovy-in-china",
@@ -1638,7 +1741,14 @@
         ],
         "warningNotes": "Approved by NMPA in May 2024 (穆峰达). Available in major tier-1 city hospitals."
       }
-    }
+    },
+    "pinyin": "Tì ěr bó tài (Mù fēng dá)",
+    "pharmacyShowName": "替尔泊肽（穆峰达）",
+    "chinaOtcBrands": [
+      "穆峰达（替尔泊肽注射液）"
+    ],
+    "chinesePharmacyNote": "您好，请问医院有替尔泊肽注射液（穆峰达）吗？用于2型糖尿病或代谢管理。",
+    "pharmacyInstruction": "Tirzepatide (Mounjaro / Zepbound / 替尔泊肽) is approved for Type 2 diabetes in China. Requires endocrinologist prescription and cold-chain handling."
   },
   {
     "slug": "metformin-in-china",
@@ -1702,7 +1812,15 @@
         ],
         "warningNotes": "Universally available nationwide under name 二甲双胍 (Glucophage/格华止)."
       }
-    }
+    },
+    "pinyin": "Èr jiǎ shuāng guā (Gé huà zhǐ)",
+    "pharmacyShowName": "二甲双胍（格华止）",
+    "chinaOtcBrands": [
+      "格华止（盐酸二甲双胍片）",
+      "二甲双胍缓释片"
+    ],
+    "chinesePharmacyNote": "您好，请问有二甲双胍（格华止）吗？用于2型糖尿病日常血糖控制。",
+    "pharmacyInstruction": "Metformin (二甲双胍 / 格华止) is widely available across Chinese community pharmacies and public hospitals as a standard maintenance drug."
   },
   {
     "slug": "prozac-in-china",
@@ -1767,7 +1885,14 @@
         ],
         "warningNotes": "Widely available nationwide (百优解 / 盐酸氟西汀)."
       }
-    }
+    },
+    "pinyin": "Fú xī tīng (Bǎi yōu jiě)",
+    "pharmacyShowName": "盐酸氟西汀（百优解）",
+    "chinaOtcBrands": [
+      "百优解（盐酸氟西汀分散片）"
+    ],
+    "chinesePharmacyNote": "您好，我需要百优解（盐酸氟西汀），用于抗抑郁维持治疗。属于处方药，请问门诊如何配药？",
+    "pharmacyInstruction": "Fluoxetine (Prozac / 百优解) is an approved SSRI in China. Available at public hospital psychiatric clinics and international expat medical centers."
   },
   {
     "slug": "zoloft-in-china",
@@ -1832,7 +1957,14 @@
         ],
         "warningNotes": "Widely available nationwide (左洛复 / 盐酸舍曲林)."
       }
-    }
+    },
+    "pinyin": "Shě qǔ lín (Zuǒ luò fù)",
+    "pharmacyShowName": "盐酸舍曲林（左洛复）",
+    "chinaOtcBrands": [
+      "左洛复（盐酸舍曲林片）"
+    ],
+    "chinesePharmacyNote": "您好，我需要左洛复（盐酸舍曲林片）用于抗抑郁和抗焦虑。",
+    "pharmacyInstruction": "Sertraline (Zoloft / 左洛复) is readily prescribable by hospital psychiatrists and international medical clinics across China."
   },
   {
     "slug": "lexapro-in-china",
@@ -1896,7 +2028,14 @@
         ],
         "warningNotes": "Widely available (来士普 / 草酸艾司西酞普兰)."
       }
-    }
+    },
+    "pinyin": "Ài sī xī tài pǔ lán (Lái shì pǔ)",
+    "pharmacyShowName": "草酸艾司西酞普兰（来士普）",
+    "chinaOtcBrands": [
+      "来士普（草酸艾司西酞普兰片）"
+    ],
+    "chinesePharmacyNote": "您好，我需要来士普（草酸艾司西酞普兰片）用于日常抗焦虑/抑郁治疗。",
+    "pharmacyInstruction": "Escitalopram (Lexapro / 来士普) is standard first-line SSRI in China, prescribable at psychiatric clinics."
   },
   {
     "slug": "wellbutrin-in-china",
@@ -1962,7 +2101,14 @@
         ],
         "warningNotes": "Available in Tier-3 hospitals as 盐酸安非他酮缓释片."
       }
-    }
+    },
+    "pinyin": "Ān fēi tā tóng (Yuè tíng)",
+    "pharmacyShowName": "盐酸安非他酮（悦亭）",
+    "chinaOtcBrands": [
+      "悦亭（盐酸安非他酮缓释片）"
+    ],
+    "chinesePharmacyNote": "您好，请问医院有安非他酮缓释片（悦亭）吗？用于抑郁症治疗。",
+    "pharmacyInstruction": "Bupropion (Wellbutrin / Zyban / 安非他酮) is an approved prescription antidepressant in China available at psychiatric departments."
   },
   {
     "slug": "ibuprofen-in-china",
@@ -2182,5 +2328,100 @@
     ],
     "chinesePharmacyNote": "您好，请问有褪黑素吗？我需要用于调节睡眠和倒时差。",
     "pharmacyInstruction": "I need Melatonin (褪黑素, Tuì hēi sù) for jet lag and sleep regulation. It is an OTC supplement."
+  },
+  {
+    "slug": "birth-control-pills-in-china",
+    "brandNames": [
+      "Birth Control Pills",
+      "Yasmin",
+      "Yaz",
+      "Marvelon",
+      "Diane-35",
+      "Oral Contraceptive"
+    ],
+    "genericName": "Drospirenone & Ethinylestradiol / Desogestrel",
+    "chineseName": "口服避孕药（短效避孕药 / 优思明）",
+    "category": "ALLOWED",
+    "status": "GREEN",
+    "summary": "Standard oral contraceptive pills (daily combined birth control) are fully legal for personal travel into China. Walk through Green Channel with reasonable personal supply (typically 3 to 6 months).",
+    "customsRule": "Green Channel (Nothing to Declare) is applicable for personal travel supplies. Keeping original pharmacy blister packs with labels is recommended. Commercial volumes require import documentation.",
+    "allowance": "Up to 3-6 months personal supply (3-6 blister packs)",
+    "allowanceDaysMax": 180,
+    "channel": "GREEN_CHANNEL",
+    "legalBasis": "General Administration of Customs (GACC) Announcement No. 43 on Inbound Baggage Limits; PRC Drug Administration Law.",
+    "declarationRequirement": "No customs declaration needed for reasonable personal traveler supply (under 6 packs). Walk directly through the Green Channel.",
+    "localAlternative": "Oral contraceptive pills are widely available over-the-counter or via basic consultation at pharmacies and hospital gynecology clinics across China. Major domestic brands: Yasmin (优思明), Yaz (优思悦), and Marvelon (妈富隆).",
+    "affiliateCategory": "insurance",
+    "indications": [
+      "Contraception",
+      "Hormonal Regulation",
+      "PCOS",
+      "Dysmenorrhea"
+    ],
+    "casNumber": "67392-87-4",
+    "rxnormCui": "748856",
+    "authorityNotes": "Foreign daily birth control pills carry zero narcotic or psychotropic substance restrictions in China. Emergency contraception (Plan B / 毓婷) is also widely sold OTC in Chinese drugstores without prescription.",
+    "beforePackingTips": [
+      "Pack enough blister packs in your carry-on bag to cover your entire travel itinerary plus a 1-week buffer for travel delays.",
+      "Keep pills in original packaging so blister foil dates and English brand names remain identifiable.",
+      "If staying longer than 6 months, verify local brand availability (Yasmin is sold at nearly every major pharmacy in Chinese Tier-1 and Tier-2 cities)."
+    ],
+    "faqItems": [
+      {
+        "question": "Can I bring birth control pills to China?",
+        "answer": "Yes. Oral contraceptive pills (including Yasmin, Yaz, and Marvelon) are fully permitted for personal travel in China. They do not contain any controlled substances, so you can walk through the Green Channel at customs."
+      },
+      {
+        "question": "How many months of birth control can I bring into China?",
+        "answer": "China Customs allows a reasonable personal quantity matching your travel itinerary, typically up to a 3-to-6 month supply (3-6 blister packs). Bringing dozens of boxes may trigger commercial suspicion."
+      },
+      {
+        "question": "Can I buy birth control pills at pharmacies in China?",
+        "answer": "Yes. Major international brands like Yasmin (优思明) and Marvelon (妈富隆) are widely stocked at Chinese retail drugstores and available on delivery apps (Meituan, Ele.me). Emergency morning-after pills (毓婷 / Levonorgestrel) are also available over the counter."
+      }
+    ],
+    "activeIngredients": [
+      "drospirenone",
+      "ethinylestradiol",
+      "desogestrel",
+      "levonorgestrel"
+    ],
+    "redLineWarning": false,
+    "pinyin": "Kǒu fú bì yùn yào (Yōu sī míng)",
+    "pharmacyShowName": "短效口服避孕药（优思明 / 优思悦）",
+    "chinaOtcBrands": [
+      "优思明（屈螺酮炔雌醇片）",
+      "优思悦（屈螺酮炔雌醇片II）",
+      "妈富隆（去氧孕烯炔雌醇片）",
+      "毓婷（左炔诺孕酮紧急避孕药）"
+    ],
+    "chinesePharmacyNote": "您好，请问有短效口服避孕药吗？比如优思明或妈富隆。",
+    "pharmacyInstruction": "I need regular oral contraceptive pills (短效避孕药, Yasmin / 优思明 or Marvelon / 妈富隆). These are standard non-controlled daily birth control tablets in China.",
+    "clearanceProfiles": {
+      "gaccCustoms": {
+        "status": "ALLOWED",
+        "declarationRequired": false,
+        "maxDays": 180,
+        "channel": "GREEN_CHANNEL",
+        "legalBasis": "GACC Notice 43; PRC Drug Administration Law.",
+        "advice": "Daily contraceptive pills are unrestricted personal medicine. Walk through the Green Channel with original packaging."
+      },
+      "caacAviation": {
+        "carryOn": "ALLOWED",
+        "sharpsInvolved": false,
+        "coldChain": false,
+        "securityAdvisory": "Standard solid oral tablets permitted in carry-on cabin baggage or checked luggage."
+      },
+      "localRefill": {
+        "refillableInChina": true,
+        "hospitalTier": "Retail Pharmacy & General Hospital",
+        "specialistRequired": "Pharmacist or General Outpatient",
+        "maxRefillDays": 90,
+        "requiredDocs": [
+          "Passport / ID for pharmacy real-name logging"
+        ],
+        "warningNotes": "Yasmin and Marvelon are widely sold at community drugstores. Emergency morning-after pills (毓婷) are sold OTC."
+      }
+    }
   }
 ]
