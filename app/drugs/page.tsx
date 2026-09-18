@@ -87,29 +87,6 @@ export default function DrugsDirectoryPage() {
 
         {/* The Core High-Density Interactive Filter Console */}
         <DrugFilterConsole initialMedications={allMeds} />
-
-        {/* Noscript Semantic Fallback for Crawlers & Pure HTML */}
-        <noscript>
-          <div className="mt-8 bg-white p-6 rounded-2xl border border-slate-200">
-            <h2 className="text-lg font-bold mb-4">Complete Static Medication Index (31 Items)</h2>
-            <ul className="divide-y divide-slate-200 text-sm">
-              {allMeds.map((med) => (
-                <li key={med.slug} className="py-3 flex items-center justify-between">
-                  <div>
-                    <Link href={`/drugs/${med.slug}`} className="font-bold text-blue-600 hover:underline">
-                      {med.brandNames.join(' / ')} ({med.genericName})
-                    </Link>
-                    <div className="text-xs text-slate-500">{med.chineseName} • CAS: {med.casNumber || 'N/A'}</div>
-                  </div>
-                  <div className="text-right text-xs">
-                    <span className="font-bold">{med.allowance}</span>
-                    <span className="block text-slate-500">{med.channel}</span>
-                  </div>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </noscript>
       </div>
     </div>
   );

@@ -21,9 +21,9 @@ import { getAllMedications } from '@/lib/medications';
 import { getHreflangAlternates } from '@/lib/i18n/config';
 
 export const metadata: Metadata = {
-  title: 'Bringing Medication to China: 2025 Customs Rules & Legality',
+  title: 'Bringing Medication to China: 2025 Customs Rules',
   description:
-    'Can you bring prescription drugs to China? Instant customs legality radar for Adderall, Concerta, Xanax and Ozempic. Check GACC rules, carry limits and declarations.',
+    'Can you bring prescription drugs to China? Instant legality radar for Adderall, Concerta & Ozempic. Check GACC carry limits & airport declarations.',
   alternates: getHreflangAlternates('/'),
 };
 
@@ -207,7 +207,7 @@ export default function HomePage() {
                   Allowed Maintenance &amp; OTC
                 </h3>
                 <p className="text-xs text-slate-600 leading-relaxed mt-2">
-                  Permitted for personal use up to reasonable travel duration (typically up to 90 days for maintenance prescriptions in original packaging). Walk directly through the Green Channel without declaration.
+                  Permitted for personal medical use within reasonable travel duration under GACC Notice 43 Article 1. Chronic maintenance prescriptions (hypertension, diabetes, cholesterol) may be carried up to a 90-day standard supply in original packaging. Walk directly through the Green Channel without formal declaration.
                 </p>
               </div>
 
@@ -252,7 +252,7 @@ export default function HomePage() {
                   Controlled Psychotropics
                 </h3>
                 <p className="text-xs text-slate-600 leading-relaxed mt-2">
-                  Category 1 &amp; 2 psychotropics are permitted solely with official physician prescription and medical records. You must declare at the Red Channel upon arrival and stay strictly within single travel course limits.
+                  Category 1 &amp; 2 psychotropics are strictly governed under State Council Decree 442. Permitted solely with official physician prescriptions and diagnosis proof. You must declare at the Red Channel upon arrival and stay strictly within a single treatment course limit (7–15 days).
                 </p>
               </div>
 
@@ -297,7 +297,7 @@ export default function HomePage() {
                   Banned Narcotics &amp; Precursors
                 </h3>
                 <p className="text-xs text-slate-600 leading-relaxed mt-2">
-                  Zero tolerance. Under Chinese Criminal Law Article 347, carrying these illicit substances constitutes criminal drug smuggling. Foreign prescriptions provide zero legal immunity at the border.
+                  Zero tolerance. Under Chinese Criminal Law Article 347 and the National Narcotic Drugs Catalogue, carrying amphetamines, THC oils, or unapproved narcotics constitutes criminal smuggling. Foreign doctor notes or overseas medical cards provide zero legal immunity at the border.
                 </p>
               </div>
 
@@ -386,7 +386,7 @@ export default function HomePage() {
                     Baggage Audit
                   </span>
                   <h3 className="text-base font-bold text-slate-900 group-hover:text-emerald-700 transition-colors mt-1">
-                    Travel Bag Audit & Radar
+                    Travel Bag Audit &amp; Radar
                   </h3>
                   <p className="text-xs text-slate-600 leading-relaxed mt-2">
                     Audit your complete baggage for cumulative pseudoephedrine limits, acetaminophen overdoses, and CAAC airline needle compliance.
@@ -417,7 +417,7 @@ export default function HomePage() {
                     Customs Declaration Slip
                   </h3>
                   <p className="text-xs text-slate-600 leading-relaxed mt-2">
-                    Generate an official bilingual (English & Chinese) declaration dossier to present directly to airport customs inspectors.
+                    Generate an official bilingual (English &amp; Chinese) declaration dossier to present directly to airport customs inspectors.
                   </p>
                 </div>
               </div>
@@ -495,7 +495,7 @@ export default function HomePage() {
           
           {/* Centered Symmetrical Header */}
           <div className="text-center max-w-3xl mx-auto space-y-2.5">
-            <div className="inline-flex items-center gap-1.5 text-xs font-bold text-teal-700 uppercase tracking-wider font-mono bg-teal-50 px-3 py-1 rounded-full border border-teal-100">
+            <div className="inline-flex items-center gap-1.5 text-xs font-bold text-teal-700 uppercase tracking-wider font-mono bg-teal-50 px-3.5 py-1.5 rounded-full border border-teal-100">
               <Sparkles className="h-3.5 w-3.5 text-teal-600" />
               <span>Customs Intelligence FAQ</span>
             </div>
@@ -524,7 +524,7 @@ export default function HomePage() {
                   <ChevronRight className="h-4 w-4 text-slate-400 group-open:rotate-90 transition-transform shrink-0" />
                 </summary>
                 <div className="mt-3 pt-3 border-t border-slate-100 text-xs sm:text-sm text-slate-600 leading-relaxed pl-1">
-                  No. Under Chinese Criminal Law, amphetamines are classified as illicit narcotic drugs. Foreign prescriptions hold zero legal weight at Chinese customs for prohibited substances. Carrying Adderall risks confiscation, detention, or criminal smuggling prosecution.
+                  No. Under PRC Criminal Law Article 347 and the National Narcotic Drugs Catalogue, amphetamines are classified as illicit narcotic drugs with zero permitted personal allowance. Foreign prescriptions, state medical cannabis cards, or overseas pharmacy receipts hold zero legal immunity at Chinese customs. Attempting to bring Adderall into mainland China risks immediate confiscation, administrative detention, or criminal smuggling prosecution.
                 </div>
               </details>
 
@@ -540,7 +540,7 @@ export default function HomePage() {
                   <ChevronRight className="h-4 w-4 text-slate-400 group-open:rotate-90 transition-transform shrink-0" />
                 </summary>
                 <div className="mt-3 pt-3 border-t border-slate-100 text-xs sm:text-sm text-slate-600 leading-relaxed pl-1">
-                  Under GACC Notice 43, travelers may carry a reasonable quantity for personal use during travel. For Category 1 psychotropics, maximum is 7 to 15 days. For chronic maintenance drugs, up to 90 days in original packaging is standard.
+                  Under GACC Notice 43 (2007) and State Council Decree 442, travelers are restricted to carrying reasonable quantities for personal use during their actual travel duration. For Category 1 psychotropics (like Concerta or Ritalin), the maximum allowance is strictly capped at a single travel course of 7 to 15 days. For non-controlled maintenance drugs, up to 90 days in original packaging with matching passenger names is permitted.
                 </div>
               </details>
 
@@ -556,7 +556,7 @@ export default function HomePage() {
                   <ChevronRight className="h-4 w-4 text-slate-400 group-open:rotate-90 transition-transform shrink-0" />
                 </summary>
                 <div className="mt-3 pt-3 border-t border-slate-100 text-xs sm:text-sm text-slate-600 leading-relaxed pl-1">
-                  No. Standard non-controlled maintenance medications within a reasonable 90-day personal supply pass directly through the Green Channel without formal declaration. Keep medications in original packaging.
+                  No. Routine, non-controlled maintenance medications (hypertension, diabetes, cholesterol) within a reasonable 90-day personal supply pass directly through the Green Channel without formal declaration. Keep medications sealed in original pharmacy packaging with dosage labels visible, and retain a copy of your doctor prescription in carry-on baggage for random customs inspections.
                 </div>
               </details>
             </div>
@@ -575,7 +575,7 @@ export default function HomePage() {
                   <ChevronRight className="h-4 w-4 text-slate-400 group-open:rotate-90 transition-transform shrink-0" />
                 </summary>
                 <div className="mt-3 pt-3 border-t border-slate-100 text-xs sm:text-sm text-slate-600 leading-relaxed pl-1">
-                  Yes. GLP-1 medications are legal for personal use. Keep pens in carry-on baggage with portable cold packs (never checked). Always carry the original prescription to prove medical necessity for disposable needles.
+                  Yes. GLP-1 medications like Ozempic and Wegovy are legal for personal use in China. Under CAAC aviation rules, never pack pre-filled pens in checked baggage where cargo hold freezing temperatures can destroy peptide integrity. Keep pens in carry-on bags inside an insulated cooling pack with ice gels, and carry your physician prescription to prove medical necessity for disposable needles at security checkpoints.
                 </div>
               </details>
 
@@ -591,7 +591,7 @@ export default function HomePage() {
                   <ChevronRight className="h-4 w-4 text-slate-400 group-open:rotate-90 transition-transform shrink-0" />
                 </summary>
                 <div className="mt-3 pt-3 border-t border-slate-100 text-xs sm:text-sm text-slate-600 leading-relaxed pl-1">
-                  Prescription medicines cannot be shipped via international courier. Visit an international clinic (e.g., United Family, Jiahui Health) or a Tier-3 public hospital VIP department with your passport and home summary for an in-person refill.
+                  Prescription medicines cannot be shipped into China via international postal courier (customs will detain foreign medical packages). If your supply runs out, schedule an in-person consultation at an international medical clinic (such as United Family Healthcare or Jiahui Health) or the VIP department of a Tier-3 public hospital. Bring your passport and home medical summary to receive an official domestic prescription.
                 </div>
               </details>
 
@@ -607,7 +607,7 @@ export default function HomePage() {
                   <ChevronRight className="h-4 w-4 text-slate-400 group-open:rotate-90 transition-transform shrink-0" />
                 </summary>
                 <div className="mt-3 pt-3 border-t border-slate-100 text-xs sm:text-sm text-slate-600 leading-relaxed pl-1">
-                  Upon arrival in China, you can dial the official 24/7 China Customs inquiry hotline at 12360 directly, or consult the inspection officers at the airport Red Channel service desk before exiting luggage baggage claim.
+                  Upon arrival in China, you can dial the official 24/7 China Customs inquiry helpline at 12360 directly from any telephone, or consult on-duty inspection officers at the airport Red Channel consultation counter before exiting the baggage claim area (available at Shanghai Pudong PVG, Beijing Capital PEK, and Guangzhou Baiyun CAN).
                 </div>
               </details>
             </div>
