@@ -17,6 +17,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/guide/bring-medications-to-china', priority: 0.8, changeFrequency: 'monthly' as const },
   ];
 
+  // 4 Deep Thematic Topical Authority Guides (English Master Content)
+  const thematicGuidePaths = [
+    { path: '/guide/adhd-medication-in-china', priority: 0.88, changeFrequency: 'weekly' as const },
+    { path: '/guide/buy-otc-medicine-in-china', priority: 0.88, changeFrequency: 'weekly' as const },
+    { path: '/guide/birth-control-pills-in-china', priority: 0.88, changeFrequency: 'weekly' as const },
+    { path: '/guide/insulin-injectables-china-customs', priority: 0.88, changeFrequency: 'weekly' as const },
+  ];
+
   const localizedStaticRoutes: MetadataRoute.Sitemap = [];
 
   for (const item of baseStaticSubpaths) {
@@ -29,6 +37,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: locale === 'en' ? item.priority : Math.max(0.7, item.priority - 0.05),
       });
     }
+  }
+
+  // Register verified English master thematic guides
+  for (const guide of thematicGuidePaths) {
+    localizedStaticRoutes.push({
+      url: `${BASE_URL}${guide.path}`,
+      lastModified: currentDate,
+      changeFrequency: guide.changeFrequency,
+      priority: guide.priority,
+    });
   }
 
   // Dynamic Drug Dossier Routes across all 5 languages (31 meds * 5 = 155 URLs)

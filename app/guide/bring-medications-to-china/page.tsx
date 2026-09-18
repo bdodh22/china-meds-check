@@ -91,6 +91,58 @@ export default function BringMedicationsGuidePage() {
           </div>
         </div>
 
+        {/* Thematic Topic Guides Matrix */}
+        <div className="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm space-y-3">
+          <h2 className="text-xs font-bold text-slate-400 uppercase tracking-wider font-mono">
+            Specialized Thematic Guides & In-Country Manuals
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+            <Link
+              href="/guide/adhd-medication-in-china"
+              className="p-3.5 rounded-xl border border-slate-200 hover:border-rose-300 bg-slate-50 hover:bg-white transition flex items-center justify-between group"
+            >
+              <div>
+                <span className="font-bold text-slate-900 block group-hover:text-rose-700">ADHD Medication in China</span>
+                <span className="text-slate-500 text-[11px]">Adderall, Vyvanse, Concerta &amp; alternatives</span>
+              </div>
+              <ArrowRight className="h-4 w-4 text-slate-400 group-hover:text-rose-600" />
+            </Link>
+
+            <Link
+              href="/guide/buy-otc-medicine-in-china"
+              className="p-3.5 rounded-xl border border-slate-200 hover:border-teal-300 bg-slate-50 hover:bg-white transition flex items-center justify-between group"
+            >
+              <div>
+                <span className="font-bold text-slate-900 block group-hover:text-teal-700">Buying Medicine in China</span>
+                <span className="text-slate-500 text-[11px]">Bilingual pharmacy show-cards &amp; OTC labels</span>
+              </div>
+              <ArrowRight className="h-4 w-4 text-slate-400 group-hover:text-teal-600" />
+            </Link>
+
+            <Link
+              href="/guide/birth-control-pills-in-china"
+              className="p-3.5 rounded-xl border border-slate-200 hover:border-purple-300 bg-slate-50 hover:bg-white transition flex items-center justify-between group"
+            >
+              <div>
+                <span className="font-bold text-slate-900 block group-hover:text-purple-700">Birth Control in China</span>
+                <span className="text-slate-500 text-[11px]">Yasmin, Yaz allowances &amp; emergency contraception</span>
+              </div>
+              <ArrowRight className="h-4 w-4 text-slate-400 group-hover:text-purple-600" />
+            </Link>
+
+            <Link
+              href="/guide/insulin-injectables-china-customs"
+              className="p-3.5 rounded-xl border border-slate-200 hover:border-blue-300 bg-slate-50 hover:bg-white transition flex items-center justify-between group"
+            >
+              <div>
+                <span className="font-bold text-slate-900 block group-hover:text-blue-700">Insulin &amp; Injectables in China</span>
+                <span className="text-slate-500 text-[11px]">CAAC syringe security &amp; cold-chain rules</span>
+              </div>
+              <ArrowRight className="h-4 w-4 text-slate-400 group-hover:text-blue-600" />
+            </Link>
+          </div>
+        </div>
+
         {/* Official Foreign Diplomatic Advisories Callout */}
         <div className="bg-white rounded-2xl border border-slate-200 p-6 sm:p-8 shadow-sm space-y-4">
           <div className="flex items-center gap-2 text-xs font-bold text-slate-900 uppercase tracking-wider">
