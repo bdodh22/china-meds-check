@@ -14,6 +14,7 @@ import {
 } from 'lucide-react';
 import { Medication, TravelBagItem } from '@/lib/types';
 import DrugStatusBadge from './DrugStatusBadge';
+import BilingualPharmacyCard from './BilingualPharmacyCard';
 import { Locale } from '@/lib/i18n/config';
 import { getDictionary } from '@/lib/i18n/dictionaries';
 
@@ -268,6 +269,12 @@ export default function DrugSpecSheet({ med, asH1 = true, locale = 'en', titleOv
             </p>
           </div>
         </div>
+      </div>
+
+      {/* ── BILINGUAL PHARMACY SHOW CARD ── */}
+      {/* Targets: "ibuprofen chinese" (480/mo), "melatonin chinese" (1,760/mo), etc. */}
+      <div className="px-6 sm:px-7 pb-6">
+        <BilingualPharmacyCard med={med} />
       </div>
 
       {/* 3. STATUTORY E-E-A-T AUDIT FOOTNOTE (规范第24条时效性标识) */}

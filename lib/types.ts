@@ -67,6 +67,12 @@ export interface Medication {
   // Dual-jurisdiction & Multi-med bag metadata
   activeIngredients?: string[];
   redLineWarning?: boolean;
+  // Bilingual in-China pharmacy show card fields
+  pinyin?: string;              // 拼音发音（如 Bù luò fēn）
+  pharmacyShowName?: string;    // 给药剂师出示的中文药名（标准汉字）
+  chinaOtcBrands?: string[];    // 中国境内OTC常见品牌
+  pharmacyInstruction?: string; // 药房出示说明（英文）
+  chinesePharmacyNote?: string; // 药房出示的中文说明（简体）
   clearanceProfiles?: ClearanceProfiles;
 }
 

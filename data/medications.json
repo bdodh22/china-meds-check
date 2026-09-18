@@ -76,7 +76,12 @@
         "requiredDocs": [],
         "warningNotes": "Amphetamine is completely unapproved in China. Patients must consult a psychiatrist before travel to transition to Methylphenidate (Concerta) or Atomoxetine."
       }
-    }
+    },
+    "pinyin": "Ān fēi tā mìng / Běn bǐng àn",
+    "pharmacyShowName": "安非他命（苯丙胺）— 中国境内严禁持有",
+    "chinaOtcBrands": [],
+    "chinesePharmacyNote": "【重要提示】安非他命（苯丙胺）在中国属于一类管制毒品，严禁持有或携带入境。请勿尝试在中国任何渠道购买或配药。",
+    "pharmacyInstruction": "IMPORTANT: Amphetamine (Adderall) is classified as a Schedule I narcotic in China. It is absolutely prohibited. Do NOT attempt to obtain this medication inside China. Seek legal alternatives such as Methylphenidate (Concerta/利他林) or Atomoxetine (Strattera/择思达) via a licensed Tier-3 hospital psychiatrist."
   },
   {
     "slug": "ritalin-concerta-in-china",
@@ -654,7 +659,12 @@
         ],
         "warningNotes": "Single outpatient prescription usually limited to 7 to 14 days supply."
       }
-    }
+    },
+    "pinyin": "Ā pǔ zuò lún",
+    "pharmacyShowName": "阿普唑仑（苯二氮䓬类）",
+    "chinaOtcBrands": [],
+    "chinesePharmacyNote": "您好，我持有合法处方，需要阿普唑仑（苯二氮䓬类镇静药）。请问需要哪些文件才能在华配药？",
+    "pharmacyInstruction": "I have a valid foreign prescription for Alprazolam (Xanax / 阿普唑仑). This is a controlled Schedule II psychotropic in China — a hospital prescription is required for refill."
   },
   {
     "slug": "klonopin-in-china",
@@ -923,7 +933,14 @@
         ],
         "warningNotes": "Single outpatient prescription is strictly capped at 7 to 14 days maximum (思诺思)."
       }
-    }
+    },
+    "pinyin": "Zuò bǐ tǎn",
+    "pharmacyShowName": "唑吡坦（思诺思）",
+    "chinaOtcBrands": [
+      "思诺思（酒石酸唑吡坦片）"
+    ],
+    "chinesePharmacyNote": "您好，我需要唑吡坦（思诺思），用于失眠。请问需要处方吗？",
+    "pharmacyInstruction": "I need Zolpidem (Ambien / 唑吡坦 / 思诺思) for insomnia. This is a controlled psychotropic in China — a local hospital prescription is required."
   },
   {
     "slug": "lunesta-in-china",
@@ -1194,7 +1211,14 @@
         ],
         "warningNotes": "Widely available domestically under generic name 曲马多."
       }
-    }
+    },
+    "pinyin": "Qū mǎ duō",
+    "pharmacyShowName": "曲马多",
+    "chinaOtcBrands": [
+      "奇曼丁（盐酸曲马多缓释片）"
+    ],
+    "chinesePharmacyNote": "您好，我需要曲马多用于镇痛。请问在中国购买是否需要处方？",
+    "pharmacyInstruction": "I need Tramadol (曲马多, Qū mǎ duō) for pain management. This requires a hospital prescription in China."
   },
   {
     "slug": "codeine-cough-syrup-in-china",
@@ -1258,7 +1282,12 @@
         "requiredDocs": [],
         "warningNotes": "Retail pharmacies banned from selling codeine liquids. Solid tablets tightly tracked."
       }
-    }
+    },
+    "pinyin": "Kě dài yīn",
+    "pharmacyShowName": "可待因",
+    "chinaOtcBrands": [],
+    "chinesePharmacyNote": "您好，我需要含可待因的止咳药。请问在中国这类药物是否可以购买？需要哪些文件？",
+    "pharmacyInstruction": "I need Codeine-containing cough syrup (可待因, Kě dài yīn). Note: Codeine is a controlled narcotic in China — a hospital prescription is mandatory."
   },
   {
     "slug": "pseudoephedrine-sudafed-in-china",
@@ -1537,7 +1566,15 @@
         ],
         "warningNotes": "Approved in China under brand 诺和泰 (Ozempic). High demand; check stock in advance at international clinic pharmacies."
       }
-    }
+    },
+    "pinyin": "Sī měi gé lǔ tài",
+    "pharmacyShowName": "司美格鲁肽（诺和泰 / 诺和盈）",
+    "chinaOtcBrands": [
+      "诺和泰（Ozempic 1mg）",
+      "诺和盈（Wegovy）"
+    ],
+    "chinesePharmacyNote": "您好，我需要司美格鲁肽注射液（诺和泰），用于2型糖尿病或体重管理。请问需要处方吗？",
+    "pharmacyInstruction": "I need Semaglutide (Ozempic / Wegovy / 司美格鲁肽 / 诺和泰) for Type 2 diabetes or weight management. Cold chain storage required — please advise on local availability."
   },
   {
     "slug": "mounjaro-zepbound-in-china",
@@ -1990,7 +2027,17 @@
         "requiredDocs": [],
         "warningNotes": "Universally available OTC under brand 芬必得 (Fenbid) or generic 布洛芬."
       }
-    }
+    },
+    "pinyin": "Bù luò fēn",
+    "pharmacyShowName": "布洛芬",
+    "chinaOtcBrands": [
+      "芬必得（布洛芬缓释胶囊）",
+      "美林（儿童布洛芬混悬液）",
+      "托恩（布洛芬片）",
+      "中美史克布洛芬"
+    ],
+    "chinesePharmacyNote": "您好，请问有布洛芬吗？用于退烧、止痛、或痛经。",
+    "pharmacyInstruction": "I need Ibuprofen (布洛芬, Bù luò fēn) for fever, pain relief, or dysmenorrhea. This is an OTC anti-inflammatory."
   },
   {
     "slug": "paracetamol-tylenol-in-china",
@@ -2052,7 +2099,17 @@
         "requiredDocs": [],
         "warningNotes": "Universally available OTC under 泰诺林 (Tylenol) or generic 对乙酰氨基酚 / 扑热息痛."
       }
-    }
+    },
+    "pinyin": "Duì yǐ xiān jī bèn fēn / Pū rè xī tòng",
+    "pharmacyShowName": "对乙酰氨基酚（扑热息痛）",
+    "chinaOtcBrands": [
+      "泰诺林（对乙酰氨基酚片）",
+      "必理痛（Panadol）",
+      "感康",
+      "百服宁"
+    ],
+    "chinesePharmacyNote": "您好，请问有对乙酰氨基酚或扑热息痛吗？用于退烧和止痛，即Paracetamol或Tylenol。",
+    "pharmacyInstruction": "I need Paracetamol / Acetaminophen (对乙酰氨基酚 / 扑热息痛) for fever or pain relief. Brand names: Tylenol, Panadol."
   },
   {
     "slug": "melatonin-in-china",
@@ -2114,6 +2171,16 @@
         "requiredDocs": [],
         "warningNotes": "Widely sold OTC across China under name 褪黑素."
       }
-    }
+    },
+    "pinyin": "Tuì hēi sù",
+    "pharmacyShowName": "褪黑素",
+    "chinaOtcBrands": [
+      "脑白金片",
+      "汤臣倍健褪黑素",
+      "仁和褪黑素软胶囊",
+      "舒莱威褪黑素"
+    ],
+    "chinesePharmacyNote": "您好，请问有褪黑素吗？我需要用于调节睡眠和倒时差。",
+    "pharmacyInstruction": "I need Melatonin (褪黑素, Tuì hēi sù) for jet lag and sleep regulation. It is an OTC supplement."
   }
 ]
